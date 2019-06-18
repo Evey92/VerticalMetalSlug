@@ -13,7 +13,10 @@ public class PrisonerWalk : State<Prisoner>
 
   public override void OnStatePreUpdate(Prisoner prisoner)
   {
-
+    if (!prisoner.IsGrounded)
+    {
+      m_StateMachine.ToState(prisoner.prisonerFalling, prisoner);
+    }
   }
 
   public override void OnStateUpdate(Prisoner prisoner)

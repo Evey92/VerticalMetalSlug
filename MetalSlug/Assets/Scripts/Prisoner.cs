@@ -54,7 +54,7 @@ public class Prisoner : MonoBehaviour
     prisonerRescued = new PrisonerRescued(m_StateMachine);
     prisonerWalk = new PrisonerWalk(m_StateMachine);
 
-    m_StateMachine.Init(prisonerCaptured, this);
+    m_StateMachine.Init(prisonerWalk, this);
   }
 #endregion
 
@@ -89,10 +89,11 @@ public class Prisoner : MonoBehaviour
 #region Private Members
   private float m_startPosition;
   private float m_endPosition;
+  private float m_fallSpeed;
   private bool m_isPathSet = false;
-  private bool m_isGrounded;
   [SerializeField]
-  private bool m_walkRight;
+  private bool m_isGrounded;
+  private bool m_walkRight = true;
 #endregion
 
 #region Public Members
@@ -108,6 +109,11 @@ public class Prisoner : MonoBehaviour
 #region Properties
   public float StartPosition { get { return m_startPosition; } }
   public float EndPosition { get { return m_endPosition; } }
+  public float FallSpeed
+  {
+    set { m_fallSpeed = value; }
+    get { return m_fallSpeed; }
+  }
   public bool WalkRight
   {
     set { m_walkRight = value; }
