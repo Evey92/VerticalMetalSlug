@@ -10,23 +10,20 @@ public class TIMER : MonoBehaviour
     float nTiempo = 0;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         nTiempo = TiempoLimite;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (TiempoLimite == 0)//si se acaba el tiempo
-        {
+    void Update() {
+        if (TiempoLimite == 0) {//si se acaba el tiempo
+        
             Debug.Log("Fin");
-            tiempo.text = "Fin";
+            tiempo.text = "00";
             //detener partida, ver quien es ganador ,volver al menu etc...
             Application.Quit();
         }
-        else
-        {
+        else {
             nTiempo -= Time.deltaTime;
             TiempoLimite = (int)nTiempo;
             tiempo.text = TiempoLimite.ToString();
