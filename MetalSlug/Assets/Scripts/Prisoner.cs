@@ -2,18 +2,45 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace PrisonerState
+{
+  public enum E
+  {
+    kSitting = 0,
+    kStanding,
+    kHanging
+  };
+}
+
 public class Prisoner : MonoBehaviour
 {
+#region Unity
   private void Awake()
   {
     InitStateMachine();
+
+    m_startPosition = transform.position.x;
+    m_endPosition = m_startPosition + m_walkingRange;
+
+    m_isPathSet = true;
+
+    if (m_prisonerState == PrisonerState.E.kHanging)
+    {
+      m_isGrounded = false;
+    }
+    else
+    {
+      m_isGrounded = true;
+    }
   }
 
   private void FixedUpdate()
   {
     m_StateMachine.OnState(this);
   }
+#endregion
 
+#region Methods
   /// <summary>
   /// 
   /// </summary>
@@ -27,8 +54,68 @@ public class Prisoner : MonoBehaviour
     prisonerRescued = new PrisonerRescued(m_StateMachine);
     prisonerWalk = new PrisonerWalk(m_StateMachine);
 
-    m_StateMachine.Init(prisonerCaptured);
+    m_StateMachine.Init(prisonerCaptured, this);
   }
+#endregion
+
+#region Gizmos
+  private void OnDrawGizmos()
+  {
+    Vector3 startPosition;
+    Vector3 endPosition;
+    if (IsPathSet)
+    {
+      startPosition = new Vector3(StartPosition,
+        transform.position.y,
+        transform.position.z);
+      endPosition = new Vector3(EndPosition,
+        transform.position.y,
+        transform.position.z);
+    }
+    else
+    {
+      startPosition = new Vector3(transform.position.x,
+        transform.position.y,
+        transform.position.z);
+      endPosition = new Vector3(transform.position.x + m_walkingRange,
+        transform.position.y,
+        transform.position.z);
+    }
+    Gizmos.color = Color.blue;
+    Gizmos.DrawLine(startPosition, endPosition);
+  }
+#endregion
+
+#region Private Members
+  private float m_startPosition;
+  private float m_endPosition;
+  private bool m_isPathSet = false;
+  private bool m_isGrounded;
+  [SerializeField]
+  private bool m_walkRight;
+#endregion
+
+#region Public Members
+  public PrisonerState.E m_prisonerState;
+  [Range(10, 1000)]
+  public float m_walkingRange = 10;
+  [Range(5, 10)]
+  public float m_walkingSpeed = 5;
+  [Range(10, 20)]
+  public float m_fleeingSpeed = 10;
+#endregion
+
+#region Properties
+  public float StartPosition { get { return m_startPosition; } }
+  public float EndPosition { get { return m_endPosition; } }
+  public bool WalkRight
+  {
+    set { m_walkRight = value; }
+    get { return m_walkRight; }
+  }
+  public bool IsPathSet { get { return m_isPathSet; } }
+  public bool IsGrounded { get { return m_isGrounded; } }
+#endregion
 
 #region State Machine
   /// <summary>

@@ -10,6 +10,7 @@ public class PrisonerCaptured : State<Prisoner>
   public override void OnStateEnter(Prisoner prisoner)
   {
     Debug.Log("Prisoner enter Captured");
+    Debug.Log(prisoner.m_prisonerState.ToString());
   }
 
   public override void OnStatePreUpdate(Prisoner prisoner)

@@ -18,7 +18,26 @@ public class PrisonerWalk : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-
+    if (prisoner.WalkRight)
+    {
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x + Time.fixedDeltaTime * prisoner.m_walkingSpeed,
+        prisoner.transform.position.y,
+        prisoner.transform.position.z);
+      if (prisoner.transform.position.x > prisoner.EndPosition)
+      {
+        prisoner.WalkRight = false;
+      }
+    }
+    else
+    {
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.m_walkingSpeed,
+        prisoner.transform.position.y,
+        prisoner.transform.position.z);
+      if (prisoner.transform.position.x < prisoner.StartPosition)
+      {
+        prisoner.WalkRight = true;
+      }
+    }
   }
 
   public override void OnStateExit(Prisoner prisoner)
