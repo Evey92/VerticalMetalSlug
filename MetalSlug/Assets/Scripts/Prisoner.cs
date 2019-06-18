@@ -20,7 +20,16 @@ public class Prisoner : MonoBehaviour
     InitStateMachine();
 
     m_startPosition = transform.position.x;
-    m_endPosition = m_startPosition + m_walkingRange;
+    if (m_startRight)
+    {
+      m_endPosition = m_startPosition + m_walkingRange;
+      m_walkRight = true;
+    }
+    else
+    {
+      m_endPosition = m_startPosition - m_walkingRange;
+      m_walkRight = false;
+    }
 
     m_isPathSet = true;
 
@@ -54,7 +63,7 @@ public class Prisoner : MonoBehaviour
     prisonerRescued = new PrisonerRescued(m_StateMachine);
     prisonerWalk = new PrisonerWalk(m_StateMachine);
 
-    m_StateMachine.Init(prisonerWalk, this);
+    m_StateMachine.Init(prisonerCaptured, this);
   }
 #endregion
 
@@ -63,23 +72,35 @@ public class Prisoner : MonoBehaviour
   {
     Vector3 startPosition;
     Vector3 endPosition;
-    if (IsPathSet)
+    if (m_isPathSet)
     {
-      startPosition = new Vector3(StartPosition,
+      startPosition = new Vector3(m_startPosition,
         transform.position.y,
         transform.position.z);
-      endPosition = new Vector3(EndPosition,
+      endPosition = new Vector3(m_endPosition,
         transform.position.y,
         transform.position.z);
     }
     else
     {
-      startPosition = new Vector3(transform.position.x,
-        transform.position.y,
-        transform.position.z);
-      endPosition = new Vector3(transform.position.x + m_walkingRange,
-        transform.position.y,
-        transform.position.z);
+      if (m_startRight)
+      {
+        startPosition = new Vector3(transform.position.x,
+          transform.position.y,
+          transform.position.z);
+        endPosition = new Vector3(transform.position.x + m_walkingRange,
+          transform.position.y,
+          transform.position.z);
+      }
+      else
+      {
+        startPosition = new Vector3(transform.position.x,
+          transform.position.y,
+          transform.position.z);
+        endPosition = new Vector3(transform.position.x - m_walkingRange,
+          transform.position.y,
+          transform.position.z);
+      }
     }
     Gizmos.color = Color.blue;
     Gizmos.DrawLine(startPosition, endPosition);
@@ -93,17 +114,27 @@ public class Prisoner : MonoBehaviour
   private bool m_isPathSet = false;
   [SerializeField]
   private bool m_isGrounded;
-  private bool m_walkRight = true;
+  private bool m_walkRight;
+  [SerializeField]
+  private bool m_isFree = false;
+  [SerializeField]
+  private bool m_droppedItem = false;
 #endregion
 
-#region Public Members
-  public PrisonerState.E m_prisonerState;
-  [Range(10, 1000)]
-  public float m_walkingRange = 10;
+#region Editor Members
+  [SerializeField]
+  private PrisonerState.E m_prisonerState;
+  [SerializeField]
+  [Range(5, 20)]
+  private float m_walkingRange = 10;
+  [SerializeField]
   [Range(5, 10)]
-  public float m_walkingSpeed = 5;
+  private float m_walkingSpeed = 5;
+  [SerializeField]
   [Range(10, 20)]
-  public float m_fleeingSpeed = 10;
+  private float m_fleeingSpeed = 10;
+  [SerializeField]
+  private bool m_startRight;
 #endregion
 
 #region Properties
@@ -114,13 +145,21 @@ public class Prisoner : MonoBehaviour
     set { m_fallSpeed = value; }
     get { return m_fallSpeed; }
   }
+  public bool IsPathSet { get { return m_isPathSet; } }
+  public bool IsGrounded { get { return m_isGrounded; } }
   public bool WalkRight
   {
     set { m_walkRight = value; }
     get { return m_walkRight; }
   }
-  public bool IsPathSet { get { return m_isPathSet; } }
-  public bool IsGrounded { get { return m_isGrounded; } }
+  public bool IsFree { get { return m_isFree; } }
+  public bool DroppedItem { get { return m_droppedItem; } }
+
+  public PrisonerState.E CapturedState { get { return m_prisonerState; } }
+  public float WalkingRange { get { return m_walkingRange; } }
+  public float WalkingSpeed { get { return m_walkingSpeed; } }
+  public float FleeingSpeed { get { return m_fleeingSpeed; } }
+  public bool StartRight { get { return m_startRight; } }
 #endregion
 
 #region State Machine

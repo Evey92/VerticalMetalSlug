@@ -23,7 +23,7 @@ public class PrisonerFalling : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-    prisoner.FallSpeed += 9.8f * 9.8f * Time.fixedDeltaTime;
+    prisoner.FallSpeed += 9.8f * 9.8f * Time.fixedDeltaTime; // TODO: Specify a gravity value
     prisoner.transform.position = new Vector3(prisoner.transform.position.x,
       prisoner.transform.position.y - (prisoner.FallSpeed * Time.fixedDeltaTime),
       prisoner.transform.position.z);

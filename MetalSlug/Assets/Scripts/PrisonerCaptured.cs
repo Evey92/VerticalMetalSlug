@@ -10,19 +10,21 @@ public class PrisonerCaptured : State<Prisoner>
   public override void OnStateEnter(Prisoner prisoner)
   {
     Debug.Log("Prisoner enter Captured");
-    Debug.Log(prisoner.m_prisonerState.ToString());
+    Debug.Log(prisoner.CapturedState.ToString());
   }
 
   public override void OnStatePreUpdate(Prisoner prisoner)
   {
-    // TODO: If prisoner is freed, go respective tag
-    if (prisoner.IsGrounded)
+    if (prisoner.IsFree)
     {
-
-    }
-    else
-    {
-
+      if (prisoner.IsGrounded)
+      {
+        m_StateMachine.ToState(prisoner.prisonerWalk, prisoner);
+      }
+      else
+      {
+        m_StateMachine.ToState(prisoner.prisonerFalling, prisoner);
+      }
     }
   }
 

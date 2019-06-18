@@ -17,28 +17,52 @@ public class PrisonerWalk : State<Prisoner>
     {
       m_StateMachine.ToState(prisoner.prisonerFalling, prisoner);
     }
+    if (prisoner.DroppedItem)
+    {
+      m_StateMachine.ToState(prisoner.prisonerFleeing, prisoner);
+    }
   }
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
     if (prisoner.WalkRight)
     {
-      prisoner.transform.position = new Vector3(prisoner.transform.position.x + Time.fixedDeltaTime * prisoner.m_walkingSpeed,
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x + Time.fixedDeltaTime * prisoner.WalkingSpeed,
         prisoner.transform.position.y,
         prisoner.transform.position.z);
-      if (prisoner.transform.position.x > prisoner.EndPosition)
+      if (prisoner.StartRight)
       {
-        prisoner.WalkRight = false;
+        if (prisoner.transform.position.x > prisoner.EndPosition)
+        {
+          prisoner.WalkRight = false;
+        }
+      }
+      else
+      {
+        if (prisoner.transform.position.x > prisoner.StartPosition)
+        {
+          prisoner.WalkRight = false;
+        }
       }
     }
     else
     {
-      prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.m_walkingSpeed,
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.WalkingSpeed,
         prisoner.transform.position.y,
         prisoner.transform.position.z);
-      if (prisoner.transform.position.x < prisoner.StartPosition)
+      if (prisoner.StartRight)
       {
-        prisoner.WalkRight = true;
+        if (prisoner.transform.position.x < prisoner.StartPosition)
+        {
+          prisoner.WalkRight = true;
+        }
+      }
+      else
+      {
+        if (prisoner.transform.position.x < prisoner.EndPosition)
+        {
+          prisoner.WalkRight = true;
+        }
       }
     }
   }
