@@ -1,7 +1,269 @@
 fileFormatVersion: 2
 guid: 18699da76ad66154f971ae7ceadf5066
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: metal_slug_idle_0
+    21300002: metal_slug_idle_1
+    21300004: metal_slug_idle_2
+    21300006: metal_slug_idle_3
+    21300008: metal_slug_idle_4
+    21300010: metal_slug_idle_5
+    21300012: metal_slug_idle_6
+    21300014: metal_slug_idle_7
+    21300016: metal_slug_idle_8
+    21300018: metal_slug_idle_9
+    21300020: metal_slug_idle_10
+    21300022: metal_slug_idle_11
+    21300024: metal_slug_idle_12
+    21300026: metal_slug_idle_13
+    21300028: metal_slug_idle_14
+    21300030: metal_slug_idle_15
+    21300032: metal_slug_idle_16
+    21300034: metal_slug_idle_17
+    21300036: metal_slug_idle_18
+    21300038: metal_slug_idle_19
+    21300040: metal_slug_idle_20
+    21300042: metal_slug_idle_21
+    21300044: metal_slug_idle_22
+    21300046: metal_slug_idle_23
+    21300048: metal_slug_idle_24
+    21300050: metal_slug_idle_25
+    21300052: metal_slug_idle_26
+    21300054: metal_slug_idle_27
+    21300056: metal_slug_idle_28
+    21300058: metal_slug_idle_29
+    21300060: metal_slug_idle_30
+    21300062: metal_slug_idle_31
+    21300064: metal_slug_idle_32
+    21300066: metal_slug_idle_33
+    21300068: metal_slug_idle_34
+    21300070: metal_slug_idle_35
+    21300072: metal_slug_idle_36
+    21300074: metal_slug_idle_37
+    21300076: metal_slug_idle_38
+    21300078: metal_slug_idle_39
+    21300080: metal_slug_idle_40
+    21300082: metal_slug_idle_41
+    21300084: metal_slug_idle_42
+    21300086: metal_slug_idle_43
+    21300088: metal_slug_idle_44
+    21300090: metal_slug_idle_45
+    21300092: metal_slug_idle_46
+    21300094: metal_slug_idle_47
+    21300096: metal_slug_idle_48
+    21300098: metal_slug_idle_49
+    21300100: metal_slug_idle_50
+    21300102: metal_slug_idle_51
+    21300104: metal_slug_idle_52
+    21300106: metal_slug_idle_53
+    21300108: metal_slug_idle_54
+    21300110: metal_slug_idle_55
+    21300112: metal_slug_idle_56
+    21300114: metal_slug_idle_57
+    21300116: metal_slug_idle_58
+    21300118: metal_slug_idle_59
+    21300120: metal_slug_idle_60
+    21300122: metal_slug_idle_61
+    21300124: metal_slug_idle_62
+    21300126: metal_slug_idle_63
+    21300128: metal_slug_idle_64
+    21300130: metal_slug_idle_65
+    21300132: metal_slug_idle_66
+    21300134: metal_slug_idle_67
+    21300136: metal_slug_idle_68
+    21300138: metal_slug_idle_69
+    21300140: metal_slug_idle_70
+    21300142: metal_slug_idle_71
+    21300144: metal_slug_idle_72
+    21300146: metal_slug_idle_73
+    21300148: metal_slug_idle_74
+    21300150: metal_slug_idle_75
+    21300152: metal_slug_idle_76
+    21300154: metal_slug_idle_77
+    21300156: metal_slug_idle_78
+    21300158: metal_slug_idle_79
+    21300160: metal_slug_idle_80
+    21300162: metal_slug_idle_81
+    21300164: metal_slug_idle_82
+    21300166: metal_slug_idle_83
+    21300168: metal_slug_idle_84
+    21300170: metal_slug_idle_85
+    21300172: metal_slug_idle_86
+    21300174: metal_slug_idle_87
+    21300176: metal_slug_idle_88
+    21300178: metal_slug_idle_89
+    21300180: metal_slug_idle_90
+    21300182: metal_slug_idle_91
+    21300184: metal_slug_idle_92
+    21300186: metal_slug_idle_93
+    21300188: metal_slug_idle_94
+    21300190: metal_slug_idle_95
+    21300192: metal_slug_idle_96
+    21300194: metal_slug_idle_97
+    21300196: metal_slug_idle_98
+    21300198: metal_slug_idle_99
+    21300200: metal_slug_idle_100
+    21300202: metal_slug_idle_101
+    21300204: metal_slug_idle_102
+    21300206: metal_slug_idle_103
+    21300208: metal_slug_idle_104
+    21300210: metal_slug_idle_105
+    21300212: metal_slug_idle_106
+    21300214: metal_slug_idle_107
+    21300216: metal_slug_idle_108
+    21300218: metal_slug_idle_109
+    21300220: metal_slug_idle_110
+    21300222: metal_slug_idle_111
+    21300224: metal_slug_idle_112
+    21300226: metal_slug_idle_113
+    21300228: metal_slug_idle_114
+    21300230: metal_slug_idle_115
+    21300232: metal_slug_idle_116
+    21300234: metal_slug_idle_117
+    21300236: metal_slug_idle_118
+    21300238: metal_slug_idle_119
+    21300240: metal_slug_idle_120
+    21300242: metal_slug_idle_121
+    21300244: metal_slug_idle_122
+    21300246: metal_slug_idle_123
+    21300248: metal_slug_idle_124
+    21300250: metal_slug_idle_125
+    21300252: metal_slug_idle_126
+    21300254: metal_slug_idle_127
+    21300256: metal_slug_idle_128
+    21300258: metal_slug_idle_129
+    21300260: metal_slug_idle_130
+    21300262: metal_slug_idle_131
+    21300264: metal_slug_idle_132
+    21300266: metal_slug_idle_133
+    21300268: metal_slug_idle_134
+    21300270: metal_slug_idle_135
+    21300272: metal_slug_idle_136
+    21300274: metal_slug_idle_137
+    21300276: metal_slug_idle_138
+    21300278: metal_slug_idle_139
+    21300280: metal_slug_idle_140
+    21300282: metal_slug_idle_141
+    21300284: metal_slug_idle_142
+    21300286: metal_slug_idle_143
+    21300288: metal_slug_idle_144
+    21300290: metal_slug_idle_145
+    21300292: metal_slug_idle_146
+    21300294: metal_slug_idle_147
+    21300296: metal_slug_idle_148
+    21300298: metal_slug_idle_149
+    21300300: metal_slug_idle_150
+    21300302: metal_slug_idle_151
+    21300304: metal_slug_idle_152
+    21300306: metal_slug_idle_153
+    21300308: metal_slug_idle_154
+    21300310: metal_slug_idle_155
+    21300312: metal_slug_idle_156
+    21300314: metal_slug_idle_157
+    21300316: metal_slug_idle_158
+    21300318: metal_slug_idle_159
+    21300320: metal_slug_idle_160
+    21300322: metal_slug_idle_161
+    21300324: metal_slug_idle_162
+    21300326: metal_slug_idle_163
+    21300328: metal_slug_idle_164
+    21300330: metal_slug_idle_165
+    21300332: metal_slug_idle_166
+    21300334: metal_slug_idle_167
+    21300336: metal_slug_idle_168
+    21300338: metal_slug_idle_169
+    21300340: metal_slug_idle_170
+    21300342: metal_slug_idle_171
+    21300344: metal_slug_idle_172
+    21300346: metal_slug_idle_173
+    21300348: metal_slug_idle_174
+    21300350: metal_slug_idle_175
+    21300352: metal_slug_idle_176
+    21300354: metal_slug_idle_177
+    21300356: metal_slug_idle_178
+    21300358: metal_slug_idle_179
+    21300360: metal_slug_idle_180
+    21300362: metal_slug_idle_181
+    21300364: metal_slug_idle_182
+    21300366: metal_slug_idle_183
+    21300368: metal_slug_idle_184
+    21300370: metal_slug_idle_185
+    21300372: metal_slug_idle_186
+    21300374: metal_slug_idle_187
+    21300376: metal_slug_idle_188
+    21300378: metal_slug_idle_189
+    21300380: metal_slug_idle_190
+    21300382: metal_slug_idle_191
+    21300384: metal_slug_idle_192
+    21300386: metal_slug_idle_193
+    21300388: metal_slug_idle_194
+    21300390: metal_slug_idle_195
+    21300392: metal_slug_idle_196
+    21300394: metal_slug_idle_197
+    21300396: metal_slug_idle_198
+    21300398: metal_slug_idle_199
+    21300400: metal_slug_idle_200
+    21300402: metal_slug_idle_201
+    21300404: metal_slug_idle_202
+    21300406: metal_slug_idle_203
+    21300408: metal_slug_idle_204
+    21300410: metal_slug_idle_205
+    21300412: metal_slug_idle_206
+    21300414: metal_slug_idle_207
+    21300416: metal_slug_idle_208
+    21300418: metal_slug_idle_209
+    21300420: metal_slug_idle_210
+    21300422: metal_slug_idle_211
+    21300424: metal_slug_idle_212
+    21300426: metal_slug_idle_213
+    21300428: metal_slug_idle_214
+    21300430: metal_slug_idle_215
+    21300432: metal_slug_idle_216
+    21300434: metal_slug_idle_217
+    21300436: metal_slug_idle_218
+    21300438: metal_slug_idle_219
+    21300440: metal_slug_idle_220
+    21300442: metal_slug_idle_221
+    21300444: metal_slug_idle_222
+    21300446: metal_slug_idle_223
+    21300448: metal_slug_idle_224
+    21300450: metal_slug_idle_225
+    21300452: metal_slug_idle_226
+    21300454: metal_slug_idle_227
+    21300456: metal_slug_idle_228
+    21300458: metal_slug_idle_229
+    21300460: metal_slug_idle_230
+    21300462: metal_slug_idle_231
+    21300464: metal_slug_idle_232
+    21300466: metal_slug_idle_233
+    21300468: metal_slug_idle_234
+    21300470: metal_slug_idle_235
+    21300472: metal_slug_idle_236
+    21300474: metal_slug_idle_237
+    21300476: metal_slug_idle_238
+    21300478: metal_slug_idle_239
+    21300480: metal_slug_idle_240
+    21300482: metal_slug_idle_241
+    21300484: metal_slug_idle_242
+    21300486: metal_slug_idle_243
+    21300488: metal_slug_idle_244
+    21300490: metal_slug_idle_245
+    21300492: metal_slug_idle_246
+    21300494: metal_slug_idle_247
+    21300496: metal_slug_idle_248
+    21300498: metal_slug_idle_249
+    21300500: metal_slug_idle_250
+    21300502: metal_slug_idle_251
+    21300504: metal_slug_idle_252
+    21300506: metal_slug_idle_253
+    21300508: metal_slug_idle_254
+    21300510: metal_slug_idle_255
+    21300512: metal_slug_idle_256
+    21300514: metal_slug_idle_257
+    21300516: metal_slug_idle_258
+    21300518: metal_slug_idle_259
+    21300520: metal_slug_idle_260
+    21300522: metal_slug_idle_261
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +302,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,10 +322,21 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +344,5247 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: metal_slug_idle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 838
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68245f1f50bc7914c847cb2690d28ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 838
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c40a56cbe4f749ad32e04c5082346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 838
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf588aafe6f8f429297cb0272e7d44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 838
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4f662d4abd6d0468a083ee1f36ffed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 838
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc31a1c563c1374e8c542b5a660bc44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 838
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3eb4ebe92af546b046a31466c04bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 838
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4ee6bb3e7b7424a952f6a21c92b6eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 838
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da37881c6d682f14aa31da67d07ad8be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 838
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49e98f30360f04381154bfbc7eabb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_9
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 838
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed800c292668aea4fbdb3c859b222a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 838
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca16790f4c73de4392ba08f6dec1355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 838
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bffe99f4e614924d913f558f0831c99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_12
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 838
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c283e5800df0b448e9f113b77eb89d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_13
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 838
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cd14426098e0a44b4248e3d6c2c544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 838
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8adeebaa9dcc549acc3cbb8a02dde4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 838
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ef0cf744ca4cf45ba11927d3b0849c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 838
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db29a791cd8724e9ad459ac920e580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 838
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06583156216af246b52d65bf159e057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 838
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c9c1d7daf996e45925ed48b03647fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 838
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7508b51a2a171b841afbed127c8524b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 770
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dac67eebe149d4f976ee303a6b8419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 770
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1428dbabc3427704c9fe926cc3e911ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 770
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028584d8d38ee74493a6889675ae6ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 770
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc6cbf781ff49846b339cadc0fdd592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 770
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb5d5eb2a46aa4daab314c3a37a89b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 770
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43c38dc19b52e4bbe64debc9ab5575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_26
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 770
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7627a605d019f469521b3034e009c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 770
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861cf1e8092ea046b2ae9f7cf771d93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 770
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96b64116438154ab9f0695d67103d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_29
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 770
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2e72deca802ad41975e2dd0d28842d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_30
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 770
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6184eeb7c39f37479c9fa123a0c8eef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_31
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 770
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3904d63f651f0b48beec576e116f250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_32
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 770
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8067a12c09b8f8f459803b937292ee44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_33
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 770
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932097e020bd0d34ba3288bd08865962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_34
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 770
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ed68aa20f44d498b6a4d5393629a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_35
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 770
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d7e1fd72dadd4f8ba5f8b341aca0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_36
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 770
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0cabb414ccce6499465777d35aa60a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_37
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 770
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4d7245991a19b42975f07e57192ad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_38
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 770
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcf58a969e164244b3a72e6fe3098e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 711
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc62da05167018408160a21572f250c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 711
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3618e0cade75d4691fff846f68b595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 711
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c3a769efb474b459b4fbff4123d73a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 711
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c5511e96c03e44aa554054eb17aff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 711
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d23e0ff03f72f24a9a66d481e0b97b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_44
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 711
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd0733dad8105498227c69bf77a903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_45
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 711
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4090831a34d4d4880f2d2362488c3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 711
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ffde837699004a8583414ceda7f67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_47
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 711
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0726fa7163863434abc883e59da81799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_48
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 711
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4115d923d02aa40a3d5b73a28be584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_49
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 711
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03006ba0935a44b8df49d226538ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_50
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 711
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba747e81bc37f544490e66073ba9e72d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_51
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 711
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee7191b0b6802b47a558ceb987030ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_52
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 711
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc01bdb88b01a441b8d2f7125f9479c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_53
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 711
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9451d51dcd99d004c8873ff86dc4f751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_54
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 711
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cf8bf6aaf253e44b2a92b25010cadd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_55
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 711
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a07e50cccab7ef41b863cb798ba0ffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_56
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 711
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0bcf8cbcc1f12499f53e0de0e11a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 652
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034b40b4db7677a4b9a2cc1c96e39b3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_58
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 652
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cda3e283a3d484fab4ab5eb1d48761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_59
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 652
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31845c03b2dc6e1439ba0870f1969fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_60
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 652
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae85fd20498b40e459ce876c2e7f946f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_61
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 652
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb7e16023cf514da43ba1c59623168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_62
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 652
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802f70a07b3c39845b97832bf623767b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_63
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 652
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bf08e272f63e74abc333ca5c089f07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_64
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 652
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb11a6a41425f4bab6a60563cb20d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_65
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 652
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528ccc308f0568e48827fba092cb8171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_66
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 652
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a9a3c348142344d98160bc71d56beb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_67
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 652
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42fdc3a82051441b0821198ffd9128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_68
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 652
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a20c9d4cc5980a46ae95f5f03028049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_69
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 652
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1031d1031e1df44a4b75240c4e0286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_70
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 652
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e1536048a471b4ab7db74cf8824d28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_71
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 652
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc3366073b4c6e4ba7c0e4d5de70665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_72
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 652
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e4088075caa004588110e1e8d15e9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_73
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 652
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3227ee9ec4e1cb4686516931fae03e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_74
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 652
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf874eb8b4668c418116dc99d96b520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_75
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 593
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3794f1b30a69c4c97c738894e0b02c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 593
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86640284e6f3ab1409cc049093161a95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_77
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 593
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162929d3241483949ae8158bc7284dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_78
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 593
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25297125dcc899d479674b21fe7501bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_79
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 593
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a6004c80f5c5642b24fc98062604f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_80
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 593
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f0088e48bf8e94c8a5e02f9ebf4d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_81
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 593
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b5d756b0562f47b43f67b1ccdca47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_82
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 593
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da1ff125c43584f86b13f62078887c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_83
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 593
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419de5f64ca15f64fb6c94280dde9184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_84
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 593
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48d2a7819eb2d845a2b9e0a366c66f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_85
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 593
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec0e36d5bc3e343a82c1eaaaf302dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_86
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 593
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37729077a3809b409639c070a8f299f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_87
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 593
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580dc03a6d2026c49bc04d3faee8021f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_88
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 593
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7fedaa16aeeaa4699755a3755c9100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_89
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 593
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2791528da49824485a90ed9d1c7bd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_90
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 593
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aae122eaa73d2545a442db37db5bbba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_91
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 593
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ccdf12c79cda440890d95b48239a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_92
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 593
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225206459bc113949bcde19eb96e6995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_93
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 522
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564fad4adccbcf498ef7fb571440d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_94
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 522
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc537b508081cff448e617dd1bb6fada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_95
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 522
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652b6c67077317249abf3d77e227f1f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_96
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 522
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d97c67ee2f2a48478491dc7486cf542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_97
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 522
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628f193bb3e0f9043b6e2bc8a2598974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_98
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 522
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419698fdac1ed304fa2c429893a2ecc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_99
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 522
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ac642d0f5df284991dc5b4be8fe052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_100
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 522
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22489dfed985ddc40a636a046ff1b19d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_101
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 522
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76803b8f5d108e24eb0b819ce79f3d46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_102
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 522
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a860f8594b22f4ab0a36f482403357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_103
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 521
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e4708b7c4f13843b6c3e3abf155c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_104
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 522
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa96285da5d334ebfb1a839e218668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_105
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 522
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b007e13981c816d49ba96b65b1351857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_106
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 522
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f91ec849af15e46867161673e386bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_107
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 522
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f17e33445b6d4146b065af85b46be56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_108
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 522
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c507cff3995dc4d9a85234935ff5b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_109
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 522
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea33ffd9d147c947801de53235ab3b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_110
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 522
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4fa0982c0bac244a9728894bd4299b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_111
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 522
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c43ad174c93a5e4383d61db3432d8d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_112
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 522
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc05914712dd14aaebe78bf377d111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_113
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 454
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4915023a44f8d74a9b499f33e9af4f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_114
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 454
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a25a3a04da8e30458529efe72101484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 454
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4555d2cf3ddce49901fb72b22dc104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_116
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 454
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af07ade239fa9e49831639e674e312a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_117
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 454
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269e8fff5701fbe4989633e1919bf302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_118
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 454
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9397dfe8e61aee143b2509781d9ef102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_119
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 454
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ea540a3bf1d24dbc1a82744563720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_120
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 454
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1014933892821a443b8aef42688e69e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_121
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 454
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5946ae2b7ba7201438fccc4abb93d4ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_122
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 454
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44199b75d134d9448b5c3c501014b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_123
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 454
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67100338054f924aacf80ee8ebc0b59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_124
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 454
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed15cec98fab374987fdbb666f0e37e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_125
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 454
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c837eaeff0e67c4cb001d9ed33a576b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 454
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f6dcb11729b3344ae3ee92281fa56c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_127
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 454
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958d571955d01ef49810bf51a6b3c061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_128
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 454
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30192aafe09820c49a25f43fa2a9688f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_129
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 454
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b2ccef706ae2d45ba5160afed8b859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_130
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 454
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbeaffcc7bc2764b97177e478fc915c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_131
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 393
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f788a2fa24a94d88e2b47f33a1b85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_132
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 392
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df4666882cf8cf44b859c05b5d78fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_133
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 393
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298f60799d1867b409d682d6dbac111e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_134
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 393
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9681b77e5338fe4b88a5dfeda3a193e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_135
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 393
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a51d64b7b61f9428ecab019f3e0271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_136
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 393
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b65e56b1b00fb46bae5e9002e849f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_137
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 393
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea704b30d9331104ca1cfc6663da6d2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_138
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 393
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e984dc84cec37348911f23dcb7902ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_139
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 393
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e439571c9fb20f442b178050b7f9a1c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_140
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 393
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775dc260fba7414080295869edf3605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_141
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 393
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b917f06aa21748bfc93363c936e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_142
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 393
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e239f9ff5269ac4d8d57651d97a7404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_143
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 393
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d336af8d3d29a4796f60f0ca301ca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_144
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 393
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c0a42fb766b7b4d846e8afe387e4b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_145
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 393
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743c07c0753c84408c275480ffbb87e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_146
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 393
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0cab30ae06634b99e7803e50b9910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_147
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 393
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49668dea1fd1f574e814de7c182eabec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_148
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 393
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce68ed0af94d39489f0f93bfd1819dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_149
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 336
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42fb321d5bc5474b9bda2c2d2fa0550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_150
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 336
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee20318455e500944ab4cb2d7cd7ff36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_151
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 336
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1271d24d4a822e648b0c3866fedbec20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_152
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 336
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f23361673a1084a926befdcfd7727b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_153
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 336
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54c77bd3acce8b4685228a6297c7082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_154
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 336
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079fc895adb156242aab6a118386b1c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_155
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 336
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b14ade050a92c748b6e05bca9da6c02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_156
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 336
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a77651ebe2ba647b02ee6eaeebe302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_157
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 336
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3ee02b629e694ca8eecc84c011de9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_158
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 336
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2656d5337ed17a8468107bf816aaab24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_159
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 336
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86b5daf4cc510e4aa94861a5d9248db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_160
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 336
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4329b7eef91c5ed49b71337e910cc4ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_161
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 336
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca2097d8c0989a4c906dfe8f0a96e97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_162
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 336
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdbba529bcd464478a2afeb3e661654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_163
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 336
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c25de12f5c2a06449355c725e54f517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_164
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 336
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099819eb48ec81e4d9d42bb601643c75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_165
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 336
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66242ac30571bba4498b265c19ab058e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_166
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 336
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e523d4e24b8d6e4eb9b96dd716c7da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_167
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 270
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896fc160430a7c498dd96c5065a1f1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_168
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 270
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c75d3a3ee4538479ad096b4d85d618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_169
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 270
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97703ee8e51ea8f40a9ce86ec3ad3d53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_170
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 270
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d702f5e093f53f4d85d3a3eaeb85baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_171
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 270
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c9129faa625d34294d98bd5b2ce547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_172
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 270
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5992ba23ba738084aadc334a57bc9f5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_173
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 270
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650ef746354baa946ace2d385b854cea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_174
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 270
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8a649ec60323143b7d596e6f8e3cab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_175
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 270
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe3943255f89c4f8f44087e7d3fa16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_176
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 270
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2550dd335816b440a82be74723c8376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_177
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 270
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547e4e1168201e4498d953ecdb1ba403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_178
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 270
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79baad06e3173514fa50246c44364064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_179
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 270
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1abe811d76c4404b9120d1798a27dc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_180
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 270
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de42b4cefa349b644ad00318d5a17fae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_181
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 270
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fa31816354c16458265bf0da6afd23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_182
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 270
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577ad10d387f2674888c127f3ae057a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_183
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 270
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c1df0542185740ac0e6107ba2767a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_184
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 270
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2506e212cb4811642b242648c5288431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_185
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 270
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c8a81aeb4362046b17163452666834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_186
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 194
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b85006db16ae8d449bc787899bbd154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_187
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 195
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21a5a61a4a709f4ca26fd00e8331c23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_188
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 195
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37277c0471860ba4aa1fc476dc62f64d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_189
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 195
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44976309014573b4d82c1cd2e172bc7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_190
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 195
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd02c7ea1e78f94cb1ecf67c17c333e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_191
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 195
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f116ae113851cda4dbc65be7fc1c0124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_192
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 195
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b4d2bad73a8c24b95c5f8ed4e64274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_193
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 195
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3d380fc9b10a6428aacb43e01e8900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_194
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 195
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5a7ee6b8173341bc2ea4f14f6e7a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_195
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 195
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ba5e2d66412804d81a7f7c1d89191e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_196
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 195
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1e19ebb24b27f499c23cd36834be6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_197
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 195
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bc06410f9ccf84a91aa560f070e8ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_198
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 195
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c72c25b3294b14ca1cdc1e0d14884f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_199
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 195
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45976dc11a4df844ab9dd4583b07d4ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_200
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 195
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43140eb43869bfc438f553be5d1f7e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_201
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 195
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cc5caecf405c24c8f275b741ede3c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_202
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 195
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a4da6ce6073d4d8b6a4ef7a4375b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_203
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 195
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edddd6ad09b3f74eb54638c290960f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_204
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 195
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8220e7b86bba18a4ea1f3d9b3cf39f9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_205
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ecbac39898f3f41b2a3acd7791d5af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_206
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 131
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716712813965a144098ddba7266a32a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_207
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa0068b787b5634cbbc8c6ef9dd5838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_208
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 131
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b555015e2b5d2942a8c520d385155b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_209
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 131
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dbeed79696394409cfc07f265cd175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_210
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 131
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b600d7f696243a94e8b218179ad9c700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_211
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 131
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e2c514ec4ed04a858d03840f563a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_212
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 131
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1534e0dd4c4ea4a8f2a34afb7f80d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_213
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 131
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0a34f4ece8caf43909a8de1aac2da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_214
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 131
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f633612f8850a242800214d8e86f3bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_215
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 131
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69abb718b342964418cade5d4cb7514a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_216
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 131
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c002bfb560da58b4499ae8b49e7dfc8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_217
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 131
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9e22e5022d5ac41b1c4d5958d6de88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_218
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 131
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02687e8367fcfb74a842abb675ccfb15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_219
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 131
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4451026bac1041b9ac00848db3a57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_220
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 131
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9b2a83ee8f11448e505be1233b972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_221
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 131
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b3a541291e36b4ba69429e49050dbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_222
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 131
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba750bec94c776a4397f5c523ea98284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_223
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 131
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e927b5c312b8f459bd342df3d47360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_224
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cc05e127beaea4b811e115480a0805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_225
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2fd54016b340e43bde5e499b0e1c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_226
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 68
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981834133baff4f47a66cb5accae8206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_227
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 68
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d28cdb584758843b90872d37d1ead2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_228
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 68
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e387ded378576a43afcbcc1db31d0fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_229
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 68
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af358d9a6b9b9f04d8b74088500b4b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_230
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 68
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304cfac291482ec4ba42dbc47637947f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_231
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 68
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36812ba85a2fff64d9314ccc145adb81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_232
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 68
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a17df9b67211b4f9a9855d8a79e09d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_233
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 68
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864bbe1097749214694f85149e8fc7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_234
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 68
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d2dc6f28b93624185d9074a4b2b16d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_235
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 68
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4c0c407ecb45f4aa6e49e7531a4432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_236
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 68
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ffd02a38d14654f9be242567dcbad5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_237
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 68
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b01a742f75374ab2a7f7502e77a1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_238
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 68
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d21b575751b14c9a1dd3954d03b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_239
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 68
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d25abdffc68bf43a3e12a69ca9b6fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_240
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 68
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4e98298f431c24988ca340f23011a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_241
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 68
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c777fb08ffa2f9048a663fa7cf0bd0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_242
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 68
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae73baf32eaf8c49ad2073b3a586b0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_243
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c7933be329d91448d352a6f8463fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_244
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71df9a188df5d8644b9ce3fe471740d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_245
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb24690a5e6653f4290b3990914aabd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_246
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 4
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baece69262229c4ba0f6ab8c3f8b0f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_247
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 4
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f36a3be58cd9f141bfd711fc0e39307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_248
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 4
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8469ad42ea7d7ef40bb7d78ab27371c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_249
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e340213114ef34d956d5e1991f3f25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_250
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 4
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9958c464085714c9d885e18997db73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_251
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6582bbceca04640ada9cfae935e2b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_252
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1cf85e9d66ab04f97b8c73556ebc0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_253
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 4
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf343bd07807e94ba319876b7866819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_254
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 4
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad166f6c471bfd43b4b95b2bb24ad18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_255
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483c9da14115044d99c7423f965e0a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_256
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 4
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882a556854ae47e42aab8998913d1792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_257
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 4
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bfe5ab160af6c4a81bed1647e96eea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_258
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 4
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdee3ae6836ffc45a683c5d5abf80cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_259
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 4
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29d831dfef532488af691df41d302c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_260
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 4
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20972cce3e86aa4ea6d5757a63ab77f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal_slug_idle_261
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 0
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e1c3b81a9de347aa296ecd0d8e858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
