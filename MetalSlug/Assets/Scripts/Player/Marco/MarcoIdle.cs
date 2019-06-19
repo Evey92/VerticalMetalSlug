@@ -40,7 +40,11 @@ public class MarcoIdle : State<Marco>
 
     if (Input.GetButtonDown("Fire1"))
     {
-      character.ShootWeapon();
+      character.shootWeapon();
+    }
+    else if (Input.GetButtonDown("Fire2"))
+    {
+      character.throwBomb();
     }
   }
 

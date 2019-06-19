@@ -40,7 +40,7 @@ public class SlugTank : Player
     m_playerStateMachine.Init(slugIdleState, this);
   }
 
-  public override void ShootWeapon()
+  public override void shootWeapon()
   {
     if (Time.time > m_weapon.getFireRate() + m_lastShot)
     {
@@ -50,6 +50,10 @@ public class SlugTank : Player
 
   }
 
+  public override void throwBomb()
+  {
+    
+  }
   private StateMachine<SlugTank> m_playerStateMachine;
 
 

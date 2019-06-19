@@ -40,7 +40,7 @@ public class SlugIdle : State<SlugTank>
 
     if (Input.GetButtonDown("Fire1"))
     {
-      character.ShootWeapon();
+      character.shootWeapon();
     }
   }
 

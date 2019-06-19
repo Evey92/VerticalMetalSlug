@@ -41,13 +41,24 @@ public class Marco : Player
     m_playerStateMachine.Init(playerIdleState, this);
   }
 
-  public override void ShootWeapon()
+  public override void shootWeapon()
   {
     if (Time.time > m_weapon.getFireRate() + m_lastShot)
     {
       m_weapon.Shoot();
       m_lastShot = Time.time;
     }
+
+  }
+
+  public override void throwBomb()
+  {
+    float g = Physics.gravity.magnitude;
+
+    Grenade newGrenade;
+    newGrenade = Instantiate(m_grenade, m_weaponSlot.transform.position, m_weaponSlot.transform.rotation);
+    float vSpeed = (newGrenade.m_totalTime * g) / 2;
+    newGrenade.GetComponent<Rigidbody2D>().velocity = new Vector3(m_weaponSlot.transform.right.x *newGrenade.m_hSpeed, vSpeed, 0);
 
   }
 
@@ -61,5 +72,6 @@ public class Marco : Player
   public MarcoWalk playerWalkState;
   public MarcoJump playerJumpState;
   public MarcoFallState playerFallState;
+  public Grenade m_grenade;
   
 }

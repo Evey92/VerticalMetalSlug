@@ -5,7 +5,8 @@ using UnityEngine;
 public abstract class Player : Entity
 {
  
-  public abstract void ShootWeapon();
+  public abstract void shootWeapon();
+  public abstract void throwBomb();
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
@@ -24,6 +25,8 @@ public abstract class Player : Entity
   /// </summary>
   public Weapon m_weapon;
   public SpriteRenderer m_characterSprite;
+  public Sprite m_bombSprite;
+  public GameObject m_weaponSlot;
   public bool m_canFire;
   public float m_speedMultiplier;
   public float m_horizontalSpeed;
