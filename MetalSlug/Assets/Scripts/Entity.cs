@@ -44,14 +44,21 @@ public abstract class Entity : MonoBehaviour
 
 #region Properties
   /// <summary>
-  /// Public getter for m_isGrounded
+  /// Public getter and setter for m_isGrounded
   /// </summary>
-  public bool IsGrounded { get { return m_isGrounded; } }
+  public bool IsGrounded
+  {
+    set { m_isGrounded = value; }
+    get { return m_isGrounded; }
+  }
 
   /// <summary>
-  /// Public getter for m_isFacingRight
+  /// Public getter and setter for m_isFacingRight
   /// </summary>
-  public bool IsFacingRight { get { return m_isFacingRight; } }
+  public bool IsFacingRight {
+    set { m_isFacingRight = value; }
+    get { return m_isFacingRight; }
+  }
 
   /// <summary>
   /// Public getter and setter for m_walkSpeed
