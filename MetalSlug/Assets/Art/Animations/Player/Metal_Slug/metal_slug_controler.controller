@@ -9,12 +9,6 @@ AnimatorController:
   m_Name: metal_slug_controler
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Blend
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: Speed
     m_Type: 1
     m_DefaultFloat: 0
@@ -1360,7 +1354,7 @@ AnimatorStateMachine:
     m_Position: {x: 24, y: 168, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102317698701781938}
-    m_Position: {x: 24, y: 324, z: 0}
+    m_Position: {x: 24, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102298548384180528}
     m_Position: {x: -240, y: 168, z: 0}
@@ -1384,7 +1378,7 @@ AnimatorStateMachine:
     m_Position: {x: -480, y: 324, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102490180772295472}
-    m_Position: {x: 24, y: 408, z: 0}
+    m_Position: {x: 24, y: 324, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102943362105127252}
     m_Position: {x: -264, y: 120, z: 0}
@@ -1401,7 +1395,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 288, y: 168, z: 0}
-  m_EntryPosition: {x: 48, y: 480, z: 0}
+  m_EntryPosition: {x: 48, y: 396, z: 0}
   m_ExitPosition: {x: -456, y: 384, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102490180772295472}
