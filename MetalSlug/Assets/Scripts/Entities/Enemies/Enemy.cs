@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemy : Entity
+public abstract class Enemy : Character
 {
 #region Methods
 
@@ -17,10 +17,11 @@ public abstract class Enemy : Entity
 #endregion
 
 #region Editor Members
-
+  [SerializeField]
+  protected float m_HP;
 #endregion
 
 #region Properties
-
+  public float HP { get { return m_HP; } }
 #endregion
 }

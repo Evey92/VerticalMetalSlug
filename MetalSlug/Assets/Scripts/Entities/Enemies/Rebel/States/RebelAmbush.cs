@@ -1,14 +1,14 @@
 ﻿using System;
 using UnityEngine;
 
-public class RebelFlee : State<Rebel>
+public class RebelAmbush : State<Rebel>
 {
-  public RebelFlee(StateMachine<Rebel> stateMachine)
+  public RebelAmbush(StateMachine<Rebel> stateMachine)
   : base(stateMachine) { }
 
   public override void OnStateEnter(Rebel rebel)
   {
-
+    Debug.Log("Entered " + this.ToString() + " state.");
   }
 
   public override void OnStatePreUpdate(Rebel rebel)

@@ -1,14 +1,14 @@
 ﻿using System;
 using UnityEngine;
 
-public class RebelWalk : State<Rebel>
+public class RebelRun : State<Rebel>
 {
-  public RebelWalk(StateMachine<Rebel> stateMachine)
+  public RebelRun(StateMachine<Rebel> stateMachine)
   : base(stateMachine) { }
 
   public override void OnStateEnter(Rebel rebel)
   {
-
+    Debug.Log("Entered " + this.ToString() + " state.");
   }
 
   public override void OnStatePreUpdate(Rebel rebel)
