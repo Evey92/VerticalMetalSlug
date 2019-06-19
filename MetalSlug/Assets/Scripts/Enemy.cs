@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemy : Entity
+public abstract class Enemy : Character
 {
 #region Methods
 
