@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      maxDistance = Screen.width / 2;
     }
 
     // Update is called once per frame
@@ -15,4 +15,7 @@ public class CameraFollow : MonoBehaviour
     {
         
     }
+
+  float maxDistance;
+  public Player m_player;
 }
