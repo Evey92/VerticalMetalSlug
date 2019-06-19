@@ -19,7 +19,7 @@ public class PrisonerFleeing : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-    prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.FleeingSpeed,
+    prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.FleeSpeed,
       prisoner.transform.position.y,
       prisoner.transform.position.z);
     if (!prisoner.IsGrounded)

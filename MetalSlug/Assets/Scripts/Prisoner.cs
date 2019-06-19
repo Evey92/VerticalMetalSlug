@@ -12,7 +12,7 @@ namespace PrisonerState
   };
 }
 
-public class Prisoner : MonoBehaviour
+public class Prisoner : Entity
 {
 #region Unity
   private void Awake()
@@ -22,13 +22,13 @@ public class Prisoner : MonoBehaviour
     m_startPosition = transform.position.x;
     if (m_startRight)
     {
-      m_endPosition = m_startPosition + m_walkingRange;
-      m_walkRight = true;
+      m_endPosition = m_startPosition + m_walkRange;
+      m_isFacingRight = true;
     }
     else
     {
-      m_endPosition = m_startPosition - m_walkingRange;
-      m_walkRight = false;
+      m_endPosition = m_startPosition - m_walkRange;
+      m_isFacingRight = false;
     }
 
     m_isPathSet = true;
@@ -53,7 +53,7 @@ public class Prisoner : MonoBehaviour
   /// <summary>
   /// 
   /// </summary>
-  private void InitStateMachine()
+  protected override void InitStateMachine()
   {
     m_StateMachine = new StateMachine<Prisoner>();
 
@@ -88,7 +88,7 @@ public class Prisoner : MonoBehaviour
         startPosition = new Vector3(transform.position.x,
           transform.position.y,
           transform.position.z);
-        endPosition = new Vector3(transform.position.x + m_walkingRange,
+        endPosition = new Vector3(transform.position.x + m_walkRange,
           transform.position.y,
           transform.position.z);
       }
@@ -97,7 +97,7 @@ public class Prisoner : MonoBehaviour
         startPosition = new Vector3(transform.position.x,
           transform.position.y,
           transform.position.z);
-        endPosition = new Vector3(transform.position.x - m_walkingRange,
+        endPosition = new Vector3(transform.position.x - m_walkRange,
           transform.position.y,
           transform.position.z);
       }
@@ -110,14 +110,8 @@ public class Prisoner : MonoBehaviour
 #region Private Members
   private float m_startPosition;
   private float m_endPosition;
-  private float m_fallSpeed;
   private bool m_isPathSet = false;
-  [SerializeField]
-  private bool m_isGrounded;
-  private bool m_walkRight;
-  [SerializeField]
   private bool m_isFree = false;
-  [SerializeField]
   private bool m_droppedItem = false;
 #endregion
 
@@ -126,13 +120,10 @@ public class Prisoner : MonoBehaviour
   private PrisonerState.E m_prisonerState;
   [SerializeField]
   [Range(5, 20)]
-  private float m_walkingRange = 10;
-  [SerializeField]
-  [Range(5, 10)]
-  private float m_walkingSpeed = 5;
+  private float m_walkRange = 10;
   [SerializeField]
   [Range(10, 20)]
-  private float m_fleeingSpeed = 10;
+  private float m_fleeSpeed = 10;
   [SerializeField]
   private bool m_startRight;
 #endregion
@@ -140,25 +131,15 @@ public class Prisoner : MonoBehaviour
 #region Properties
   public float StartPosition { get { return m_startPosition; } }
   public float EndPosition { get { return m_endPosition; } }
-  public float FallSpeed
-  {
-    set { m_fallSpeed = value; }
-    get { return m_fallSpeed; }
-  }
   public bool IsPathSet { get { return m_isPathSet; } }
-  public bool IsGrounded { get { return m_isGrounded; } }
-  public bool WalkRight
-  {
-    set { m_walkRight = value; }
-    get { return m_walkRight; }
-  }
   public bool IsFree { get { return m_isFree; } }
   public bool DroppedItem { get { return m_droppedItem; } }
+  // TODO: Add a boolean for whether the prisoner should start running right
+  // TODO: Add a walk speed slider for the editor
 
   public PrisonerState.E CapturedState { get { return m_prisonerState; } }
-  public float WalkingRange { get { return m_walkingRange; } }
-  public float WalkingSpeed { get { return m_walkingSpeed; } }
-  public float FleeingSpeed { get { return m_fleeingSpeed; } }
+  public float WalkRange { get { return m_walkRange; } }
+  public float FleeSpeed { get { return m_fleeSpeed; } }
   public bool StartRight { get { return m_startRight; } }
 #endregion
 
