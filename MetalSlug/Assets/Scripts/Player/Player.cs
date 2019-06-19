@@ -2,62 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public abstract class Player : Character
 {
-
-  // Start is called before the first frame update
-  private void Awake()
-  {
-    
-    InitStateMAchine();
-    m_walkSpeed = 3;
-    m_speedMultiplier = 5;
-    
-  }
+ 
+  public abstract void shootWeapon();
+  public abstract void throwBomb();
+  public abstract void jump();
+  public abstract void walk();
 
   private void FixedUpdate()
   {
-    m_playerStateMachine.OnState(this);
-  }
-
-  // Update is called once per frame
-  void Update()
-  {
-
-  }
-
-  /// <summary>
-  /// Used to initiate the player's state machine
-  /// </summary>
-  private void InitStateMAchine()
-  {
-    m_playerStateMachine = new StateMachine<Player>();
-    playerIdleState = new PlayerIdle(m_playerStateMachine);
-    playerWalkState = new PlayerWalk(m_playerStateMachine);
-    playerJumpState = new PlayerJump(m_playerStateMachine);
-    playerFallState = new PlayerFallState(m_playerStateMachine);
-
-    m_playerStateMachine.Init(playerIdleState);
+    //if (GetComponent<Rigidbody2D>().velocity.y > -1.0f && GetComponent<Rigidbody2D>().velocity.y <= 0)
+    //{
+    //  IsGrounded = true;
+    //}
   }
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-    if(collision.gameObject.tag == "Floor" && !m_isGrounded)
+    if (collision.gameObject.tag == "Floor" && !IsGrounded)
     {
-      m_isGrounded = true;
-      Debug.Log("im grounded");
+      IsGrounded = true;
     }
   }
 
-  public PlayerIdle playerIdleState;
-  public PlayerWalk playerWalkState;
-  public PlayerJump playerJumpState;
-  public PlayerFallState playerFallState;
-  public bool m_isGrounded;
-  public float m_walkSpeed;
+  /// <summary>
+  /// Protected members
+  /// </summary>
+  protected float m_lastShot;
+  
+  /// <summary>
+  /// Public members
+  /// </summary>
+  public Weapon m_weapon;
+  public SpriteRenderer m_characterSprite;
+  public Sprite m_bombSprite;
+  public GameObject m_weaponSlot;
+  public bool m_canFire;
   public float m_speedMultiplier;
   public float m_horizontalSpeed;
-
-  private StateMachine<Player> m_playerStateMachine;
-
+  public float m_extraGravity;
+  public float m_jumpForce;
+  public int m_grenades;
+  public int m_lives;
 }

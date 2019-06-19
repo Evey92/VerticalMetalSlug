@@ -10,12 +10,12 @@ public class Handgun : Weapon
   {
     m_ammo = -1;
     m_firePower = 1;
-    m_fireRate = 0.2f;
+    m_fireRate = 0.08f;
   }
 
   void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
@@ -23,12 +23,18 @@ public class Handgun : Weapon
     {
         
     }
-  /// <summary>
-  /// Used to shoot a bullet
-  /// </summary>
+
   public override void Shoot()
   {
-    Instantiate(m_bullet, m_bulletSpawn.transform);
-
+    
+    Bullet bulletInstance;
+    bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, m_bulletSpawn.transform.rotation);
+    m_bullet.init(m_bulletSprite, m_firePower);
+    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 500);    
   }
+
+  
+
+  public Sprite m_bulletSprite;
+
 }

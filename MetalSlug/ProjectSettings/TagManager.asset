@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
-  - Enemy
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -15,10 +15,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Boundaries
+  - Ammo
+  - PlayerBullet
+  - Player
   - 
   - 
   - 

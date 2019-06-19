@@ -10,9 +10,10 @@ public class StateMachine<T>
   /// Initializes State Machine with <paramref name="initialState"/>
   /// </summary>
   /// <param name="initialState"></param>
-  public void Init(State<T> initialState)
+  public void Init(State<T> initialState, T character)
   {
     m_CurrentState = m_LastState = initialState;
+    m_CurrentState.OnStateEnter(character);
   }
 
   /// <summary>
