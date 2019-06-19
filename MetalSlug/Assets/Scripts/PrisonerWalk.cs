@@ -25,43 +25,43 @@ public class PrisonerWalk : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-    if (prisoner.WalkRight)
+    if (prisoner.IsFacingRight)
     {
-      prisoner.transform.position = new Vector3(prisoner.transform.position.x + Time.fixedDeltaTime * prisoner.WalkingSpeed,
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x + Time.fixedDeltaTime * prisoner.WalkSpeed,
         prisoner.transform.position.y,
         prisoner.transform.position.z);
       if (prisoner.StartRight)
       {
         if (prisoner.transform.position.x > prisoner.EndPosition)
         {
-          prisoner.WalkRight = false;
+          prisoner.IsFacingRight = false;
         }
       }
       else
       {
         if (prisoner.transform.position.x > prisoner.StartPosition)
         {
-          prisoner.WalkRight = false;
+          prisoner.IsFacingRight = false;
         }
       }
     }
     else
     {
-      prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.WalkingSpeed,
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x - Time.fixedDeltaTime * prisoner.WalkSpeed,
         prisoner.transform.position.y,
         prisoner.transform.position.z);
       if (prisoner.StartRight)
       {
         if (prisoner.transform.position.x < prisoner.StartPosition)
         {
-          prisoner.WalkRight = true;
+          prisoner.IsFacingRight = true;
         }
       }
       else
       {
         if (prisoner.transform.position.x < prisoner.EndPosition)
         {
-          prisoner.WalkRight = true;
+          prisoner.IsFacingRight = true;
         }
       }
     }
