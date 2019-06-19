@@ -54,6 +54,16 @@ public class SlugTank : Player
   {
     
   }
+
+  public override void jump()
+  {
+    //Do jump stuff
+  }
+
+  public override void walk()
+  {
+    //Do Stuf
+  }
   private StateMachine<SlugTank> m_playerStateMachine;
 
 

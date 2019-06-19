@@ -9,9 +9,10 @@ public class Marco : Player
   {
 
     InitStateMachine();
-    m_walkSpeed = 3;
-    m_speedMultiplier = 5;
+    WalkSpeed = 5.0f;
+    m_speedMultiplier = 12.0f;
     m_extraGravity = 29.4f;
+    m_jumpForce = 7.6f;
     m_isFacingRight = true;
     m_canFire = true;
   }
@@ -21,10 +22,18 @@ public class Marco : Player
     m_playerStateMachine.OnState(this);
   }
 
-  // Update is called once per frame
-  void Update()
+  public override void jump()
   {
+    IsGrounded = false;
+    m_horizontalSpeed = Input.GetAxisRaw("Horizontal");
+    GetComponent<Rigidbody2D>().AddForce(new Vector2(m_horizontalSpeed * WalkSpeed, 1 * m_jumpForce), ForceMode2D.Impulse);
 
+  }
+
+  public override void walk()
+  {
+    Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+    transform.position += horizontal * Time.deltaTime * WalkSpeed;
   }
 
   /// <summary>

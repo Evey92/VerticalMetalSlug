@@ -9,10 +9,7 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateEnter(Marco character)
   {
-
-    Debug.Log("Entered Walk state");
-
-
+    character.walk();
   }
 
   public override void OnStatePreUpdate(Marco character)
@@ -39,14 +36,19 @@ public class MarcoWalk : State<Marco>
     {
       character.shootWeapon();
     }
+    else if (Input.GetButtonDown("Fire2"))
+    {
+      character.throwBomb();
+    }
+    if (character.GetComponent<Rigidbody2D>().velocity.y < -0.5)
+    {
+      m_StateMachine.ToState(character.playerFallState, character);
+    }
   }
 
   public override void OnStateUpdate(Marco character)
   {
-    Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
-    character.transform.position += horizontal * Time.deltaTime * character.WalkSpeed;
-
-
+    character.walk();
   }
 
   public override void OnStateExit(Marco character)

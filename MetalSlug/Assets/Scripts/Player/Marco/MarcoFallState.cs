@@ -10,7 +10,6 @@ public class MarcoFallState : State<Marco>
   {
     Debug.Log("Entered Fall state");
 
-    // Play falling animation 
   }
 
   public override void OnStatePreUpdate(Marco character)
@@ -37,6 +36,7 @@ public class MarcoFallState : State<Marco>
 
   public override void OnStateExit(Marco character)
   {
-    
+    character.IsJumping = false;
+
   }
 }
