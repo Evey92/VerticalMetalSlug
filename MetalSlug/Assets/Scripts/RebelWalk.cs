@@ -8,7 +8,7 @@ public class RebelWalk : State<Rebel>
 
   public override void OnStateEnter(Rebel rebel)
   {
-
+    Debug.Log("Entered " + this.ToString() + " state.");
   }
 
   public override void OnStatePreUpdate(Rebel rebel)
