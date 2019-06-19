@@ -32,7 +32,7 @@ public class Rebel : Enemy
   }
   #endregion
 
-  #region Methods
+#region Methods
   /// <summary>
   /// 
   /// </summary>
