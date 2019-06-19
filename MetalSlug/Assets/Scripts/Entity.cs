@@ -36,10 +36,15 @@ public abstract class Entity : MonoBehaviour
   /// Entity's speed when falling
   /// </summary>
   protected float m_fallSpeed;
-#endregion
+  #endregion
 
-#region Editor Members
-
+  #region Editor Members
+  /// <summary>
+  /// Entity's gravity, used to calculate its speed when falling
+  /// </summary>
+  [SerializeField]
+  [Range(0.0f, 9.8f)]
+  protected float m_gravity;
 #endregion
 
 #region Properties
@@ -77,5 +82,10 @@ public abstract class Entity : MonoBehaviour
     set { m_fallSpeed = value; }
     get { return m_fallSpeed; }
   }
+
+  /// <summary>
+  /// Public getter for m_gravity
+  /// </summary>
+  public float Gravity { get { return m_gravity; } }
 #endregion
 }
