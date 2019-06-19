@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-public class RebelIdle : State<Rebel>
+public class RebelAmbush : State<Rebel>
 {
-  public RebelIdle(StateMachine<Rebel> stateMachine)
+  public RebelAmbush(StateMachine<Rebel> stateMachine)
   : base(stateMachine) { }
 
   public override void OnStateEnter(Rebel rebel)

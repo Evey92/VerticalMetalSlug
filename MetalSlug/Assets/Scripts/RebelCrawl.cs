@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-public class RebelIdle : State<Rebel>
+public class RebelCrawl : State<Rebel>
 {
-  public RebelIdle(StateMachine<Rebel> stateMachine)
+  public RebelCrawl(StateMachine<Rebel> stateMachine)
   : base(stateMachine) { }
 
   public override void OnStateEnter(Rebel rebel)
