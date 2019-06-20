@@ -33,7 +33,7 @@ public class MarcoIdle : State<Marco>
       m_StateMachine.ToState(character.playerWalkState, character);
     }
 
-    if(character.GetComponent<Rigidbody2D>().velocity.y < 0)
+    if(!character.IsGrounded && !character.IsJumping)
     {
       m_StateMachine.ToState(character.playerFallState, character);
       character.IsGrounded = false;
@@ -53,11 +53,11 @@ public class MarcoIdle : State<Marco>
 
     if(Input.GetAxisRaw("Vertical") > 0)
     {
-      character.m_weaponSlot.transform.localRotation = Quaternion.Lerp(character.m_weaponSlot.transform.rotation, Quaternion.Euler(0, 0, 90), Time.time * 0.1f); 
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
     }
     else
     {
-      character.m_weaponSlot.transform.localRotation = Quaternion.Lerp(character.m_weaponSlot.transform.rotation, Quaternion.Euler(0, 0, 0), Time.time * 0.1f);
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
     }
   }
 

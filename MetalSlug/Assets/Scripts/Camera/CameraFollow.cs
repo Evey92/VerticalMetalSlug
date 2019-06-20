@@ -9,6 +9,7 @@ public class CameraFollow : MonoBehaviour
   {
     m_playerOffset = 1.2f;
     m_camOffsetSpeed = 3.0f;
+    m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
   }
 
   void LateUpdate()
@@ -17,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     {
       if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
       {
-        Debug.Log("Player reached the middle of screen. Moving away.");
+      
         Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
 
         if (m_player.IsJumping)
