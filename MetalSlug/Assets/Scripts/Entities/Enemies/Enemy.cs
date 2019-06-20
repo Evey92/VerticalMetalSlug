@@ -4,8 +4,48 @@ using UnityEngine;
 
 public abstract class Enemy : Character
 {
-#region Methods
+#region Unity
+  protected virtual void Awake()
+  {
+    m_players = GameObject.FindGameObjectsWithTag("Player");
+    m_nearestPlayer = m_players[0];
+  }
 
+  protected virtual void FixedUpdate()
+  {
+    SelectNearestPlayer();
+    if (m_canTurn)
+    {
+      if (m_nearestPlayer.transform.position.x < transform.position.x)
+      {
+        if (m_isFacingRight)
+          m_isFacingRight = false;
+      }
+      else
+      {
+        if (!m_isFacingRight)
+          m_isFacingRight = true;
+      }
+    }
+  }
+#endregion
+
+#region Methods
+  protected virtual void SelectNearestPlayer()
+  {
+    float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
+    foreach (GameObject player in m_players)
+    {
+      if (Vector3.Distance(transform.position,
+        player.transform.position) < distance)
+      {
+        if (m_nearestPlayer != player)
+        {
+          m_nearestPlayer = player;
+        }
+      }
+    }
+  }
 #endregion
 
 #region Gizmos
@@ -13,15 +53,50 @@ public abstract class Enemy : Character
 #endregion
 
 #region Private Members
+  /// <summary>
+  /// 
+  /// </summary>
+  protected GameObject[] m_players;
 
+  /// <summary>
+  /// 
+  /// </summary>
+  protected GameObject m_nearestPlayer;
 #endregion
 
 #region Editor Members
+  /// <summary>
+  /// 
+  /// </summary>
   [SerializeField]
-  protected float m_HP;
+  protected float m_HP = 0;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  protected bool m_canTurn = true;
 #endregion
 
 #region Properties
+  /// <summary>
+  /// 
+  /// </summary>
+  public GameObject[] Players { get { return m_players; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public GameObject NearestPlayer { get { return m_nearestPlayer; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
   public float HP { get { return m_HP; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public bool CanTurn { get { return m_canTurn; } }
 #endregion
 }

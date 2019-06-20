@@ -20,18 +20,21 @@ namespace RebelInitialState
 public class Rebel : Enemy
 {
 #region Unity
-  private void Awake()
+  protected override void Awake()
   {
+    base.Awake();
+
     InitStateMachine();
 
     m_HP = 1.0f;
   }
 
-  private void FixedUpdate()
+  protected override void FixedUpdate()
   {
+    base.FixedUpdate();
     m_StateMachine.OnState(this);
   }
-  #endregion
+#endregion
 
 #region Methods
   /// <summary>
@@ -74,8 +77,6 @@ public class Rebel : Enemy
         m_StateMachine.Init(rebelIdle, this);
         break;
     }
-
-    //m_StateMachine.Init(rebelJumping, this);
   }
 #endregion
 
@@ -143,6 +144,13 @@ public class Rebel : Enemy
   [SerializeField]
   [Range(5.0f, 8.0f)]
   protected float m_playerDetectRadius = 5.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(0.5f, 2.0f)]
+  protected float m_timeToTurn = 0.5f;
 #endregion
 
 #region Properties
@@ -175,6 +183,16 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   public float AmbushHeight { get { return m_ambushHeight; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float PlayerDetectRadius { get { return m_playerDetectRadius; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float TimeToTurn { get { return m_timeToTurn; } }
 #endregion
 
 #region State Machine
