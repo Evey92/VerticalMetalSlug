@@ -54,17 +54,19 @@ public abstract class Entity : MonoBehaviour
   protected bool m_isFacingRight;
 
   /// <summary>
-  /// Entity's walk speed
-  /// </summary>
-  protected float m_walkSpeed;
-
-  /// <summary>
   /// Entity's speed when falling
   /// </summary>
   protected float m_fallSpeed;
-  #endregion
+#endregion
 
 #region Editor Members
+  /// <summary>
+  /// Entity's walk speed
+  /// </summary>
+  [SerializeField]
+  [Range(3.0f, 6.0f)]
+  protected float m_walkSpeed = 3.0f;
+
   /// <summary>
   /// Entity's gravity, used to calculate its speed when falling
   /// </summary>
