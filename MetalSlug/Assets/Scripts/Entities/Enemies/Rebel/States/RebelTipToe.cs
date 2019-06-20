@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-public class RebelFlee : State<Rebel>
+public class RebelTipToe : State<Rebel>
 {
-  public RebelFlee(StateMachine<Rebel> stateMachine)
+  public RebelTipToe(StateMachine<Rebel> stateMachine)
   : base(stateMachine) { }
 
   public override void OnStateEnter(Rebel rebel)
@@ -18,7 +18,7 @@ public class RebelFlee : State<Rebel>
       m_StateMachine.ToState(rebel.rebelFall, rebel);
     }
     // TODO: If player is detected, go to run state or flee state
-    if (rebel.HP <= 0)
+    if(rebel.HP<=0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
     }
@@ -28,13 +28,13 @@ public class RebelFlee : State<Rebel>
   {
     if (rebel.IsFacingRight)
     {
-      rebel.transform.position = new Vector3(rebel.transform.position.x + rebel.FleeSpeed * Time.fixedDeltaTime,
+      rebel.transform.position = new Vector3(rebel.transform.position.x + rebel.TipToeSpeed * Time.fixedDeltaTime,
         rebel.transform.position.y,
         rebel.transform.position.z);
     }
     else
     {
-      rebel.transform.position = new Vector3(rebel.transform.position.x - rebel.FleeSpeed * Time.fixedDeltaTime,
+      rebel.transform.position = new Vector3(rebel.transform.position.x - rebel.TipToeSpeed * Time.fixedDeltaTime,
         rebel.transform.position.y,
         rebel.transform.position.z);
     }

@@ -10,6 +10,22 @@ public abstract class Entity : MonoBehaviour
 
 #region Methods
   protected abstract void InitStateMachine();
+
+  protected virtual void OnTriggerEnter2D(Collider2D other)
+  {
+    if (Physics2D.Raycast(transform.position, -transform.up))
+    {
+      m_isGrounded = true;
+    }
+  }
+
+  protected virtual void OnTriggerExit2D(Collider2D other)
+  {
+    if (m_isGrounded)
+    {
+      m_isGrounded = false;
+    }
+  }
 #endregion
 
 #region Gizmos
