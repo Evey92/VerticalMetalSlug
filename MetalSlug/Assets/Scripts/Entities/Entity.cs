@@ -5,12 +5,6 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour
 {
 #region Unity
-
-#endregion
-
-#region Methods
-  protected abstract void InitStateMachine();
-
   protected virtual void OnTriggerEnter2D(Collider2D other)
   {
     if (Physics2D.Raycast(transform.position, -transform.up))
@@ -25,6 +19,22 @@ public abstract class Entity : MonoBehaviour
     {
       m_isGrounded = false;
     }
+  }
+#endregion
+
+#region Methods
+  protected abstract void InitStateMachine();
+
+  /// <summary>
+  /// Used to calculate fall speed and apply it to this entity's position.
+  /// Should be called on fall states.
+  /// </summary>
+  public virtual void Fall()
+  {
+    m_fallSpeed += m_gravity * Time.fixedDeltaTime;
+    transform.position = new Vector3(transform.position.x,
+      transform.position.y - (m_fallSpeed * Time.fixedDeltaTime),
+      transform.position.z);
   }
 #endregion
 
@@ -54,13 +64,13 @@ public abstract class Entity : MonoBehaviour
   protected float m_fallSpeed;
   #endregion
 
-  #region Editor Members
+#region Editor Members
   /// <summary>
   /// Entity's gravity, used to calculate its speed when falling
   /// </summary>
   [SerializeField]
   [Range(0.0f, 9.8f)]
-  protected float m_gravity;
+  protected float m_gravity = 9.8f;
 #endregion
 
 #region Properties
