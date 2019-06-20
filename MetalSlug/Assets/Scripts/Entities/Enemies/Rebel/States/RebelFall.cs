@@ -16,7 +16,7 @@ public class RebelFall : State<Rebel>
   {
     if(rebel.IsGrounded)
     {
-      m_StateMachine.ToState(rebel.rebelWalk, rebel);
+      m_StateMachine.ToState(rebel.rebelRun, rebel);
     }
     if (rebel.HP <= 0)
     {

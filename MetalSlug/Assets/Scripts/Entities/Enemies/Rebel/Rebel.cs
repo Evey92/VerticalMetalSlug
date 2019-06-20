@@ -107,42 +107,42 @@ public class Rebel : Enemy
   /// </summary>
   [SerializeField]
   [Range(0.5f, 2.5f)]
-  protected float m_crawlSpeed;
+  protected float m_crawlSpeed = 0.5f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(2.5f, 5.0f)]
-  protected float m_tipToeSpeed;
+  protected float m_tipToeSpeed = 2.5f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(5.0f, 10.0f)]
-  protected float m_runSpeed;
+  protected float m_runSpeed = 5.0f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(10.0f, 20.0f)]
-  protected float m_fleeSpeed;
+  protected float m_fleeSpeed = 10.0f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(6.0f, 12.0f)]
-  protected float m_ambushHeight;
+  protected float m_ambushHeight = 6.0f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(5.0f, 8.0f)]
-  protected float m_playerDetectRadius;
+  protected float m_playerDetectRadius = 5.0f;
 #endregion
 
 #region Properties
