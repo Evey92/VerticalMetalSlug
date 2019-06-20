@@ -28,6 +28,10 @@ public class MarcoJump : State<Marco>
     {
       character.throwBomb();
     }
+    if (character.GetComponent<Rigidbody2D>().velocity.y <= 0)
+    {
+      m_StateMachine.ToState(character.playerFallState, character);
+    }
   }
 
   public override void OnStateUpdate(Marco character)
@@ -40,10 +44,7 @@ public class MarcoJump : State<Marco>
       character.GetComponent<Rigidbody2D>().AddForce(new Vector2(character.m_horizontalSpeed, 0), ForceMode2D.Impulse);
 
     }
-    if (character.GetComponent<Rigidbody2D>().velocity.y <=0)
-    {
-      m_StateMachine.ToState(character.playerFallState, character);
-    }
+    
   }
 
   public override void OnStateExit(Marco character)

@@ -41,8 +41,7 @@ public abstract class Player : Character
   public bool m_canFire;
   public float m_speedMultiplier;
   public float m_horizontalSpeed;
-  public float m_extraGravity;
   public float m_jumpForce;
-  public int m_grenades;
+  public int m_grenadesLeft;
   public int m_lives;
 }

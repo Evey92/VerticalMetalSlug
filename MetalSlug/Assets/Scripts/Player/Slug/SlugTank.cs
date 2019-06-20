@@ -10,7 +10,7 @@ public class SlugTank : Player
     InitStateMachine();
     m_walkSpeed = 3;
     m_speedMultiplier = 5;
-    m_extraGravity = 29.4f;
+    FallSpeed = 29.4f;
     m_isFacingRight = true;
     m_canFire = true;
   }

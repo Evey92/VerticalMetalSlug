@@ -29,7 +29,7 @@ public class MarcoFallState : State<Marco>
   {
     Vector3 vel = character.GetComponent<Rigidbody2D>().velocity;
 
-    vel.y -= character.m_extraGravity * Time.deltaTime;
+    vel.y -= character.FallSpeed * Time.deltaTime;
 
     character.GetComponent<Rigidbody2D>().velocity = vel;
   }
