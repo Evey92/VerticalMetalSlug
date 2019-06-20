@@ -74,7 +74,7 @@ public class Marco : Player
   }
 
   /// <summary>
-  /// Function to 
+  /// Function to instantiate a grenade
   /// </summary>
   public override void throwBomb()
   {

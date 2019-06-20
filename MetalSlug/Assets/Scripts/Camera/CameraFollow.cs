@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-  void Start()
-  {
-    m_maxDistance = 5f;
-    m_destination = transform.position;
-    m_projection = m_player.transform.position;
-  }
-
-  // Update is called once per frame
+  
   void LateUpdate()
   {
     if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
@@ -26,18 +19,36 @@ public class CameraFollow : MonoBehaviour
       }
       else
       {
-        transform.position += horizontal * Time.fixedDeltaTime * m_player.WalkSpeed;
+        transform.position += (horizontal * Time.fixedDeltaTime * m_player.WalkSpeed) ;
       }
     }
+    else if(m_stoppedMoving)
+    {
+      transform.position = new Vector3(m_player.transform.position.x + m_playerOffset, transform.position.y, transform.position.z);
+    }
   }
+  /// <summary>
+  /// Variable so the camera is not completely centered on the player
+  /// </summary>
+  [SerializeField]
+  float m_playerOffset;
 
-
+  /// <summary>
+  /// Reference to the camera to which this script is attached
+  /// </summary>
   public Camera m_thisCamera;
+
+  /// <summary>
+  /// A reference to the player's GO
+  /// </summary>
   public Player m_player;
-  private Vector2 m_destination;
-  private Vector2 m_projection;
-  public float m_maxDistance;
-  public float m_speed = 4.9f;
+
+  /// <summary>
+  /// Value to check if plaer stopped moving
+  /// </summary>
+  [SerializeField]
+  bool m_stoppedMoving;
+
 
 
 }
