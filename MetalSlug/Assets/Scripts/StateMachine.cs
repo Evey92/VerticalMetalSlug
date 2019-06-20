@@ -51,4 +51,14 @@ public class StateMachine<T>
   /// State Machine's last state
   /// </summary>
   private State<T> m_LastState;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public State<T> CurrentState { get { return m_CurrentState; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public State<T> LastState { get { return m_LastState; } }
 }

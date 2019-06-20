@@ -6,7 +6,17 @@ using System;
 public abstract class Character : Entity
 {
 #region Unity
-  
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    base.OnTriggerEnter2D(other);
+    m_canJump = true;
+  }
+
+  protected override void OnTriggerExit2D(Collider2D other)
+  {
+    base.OnTriggerExit2D(other);
+    m_canJump = false;
+  }
 #endregion
 
 #region Methods
@@ -15,16 +25,28 @@ public abstract class Character : Entity
   /// </summary>
   public void CalculateInitialJumpSpeed()
   {
-    m_jumpSpeed = (1.0f / 2.0f) * (1.0f - (float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f));
+    m_jumpSpeed = (0.5f) * (1.0f - (float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f));
     if (m_jumpSpeed < 0.0f)
     {
-      m_jumpSpeed = (1.0f / 2.0f) * ((float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f) + 1.0f);
+      m_jumpSpeed = (0.5f) * ((float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f) + 1.0f);
     }
+  }
+
+  /// <summary>
+  /// Used to calculate and apply JumpSpeed.
+  /// Should be called on Jump states' Update methods.
+  /// </summary>
+  public virtual void Jump()
+  {
+    m_jumpSpeed -= Gravity * Time.fixedDeltaTime;
+    transform.position = new Vector3(transform.position.x,
+      transform.position.y + m_jumpSpeed * Time.fixedDeltaTime,
+      transform.position.z);
   }
 #endregion
 
 #region Gizmos
-  private void OnDrawGizmos()
+  protected virtual void OnDrawGizmos()
   {
     Vector3 jumpStart, jumpEnd;
     if (m_isJumping)
@@ -79,7 +101,7 @@ public abstract class Character : Entity
   [SerializeField]
   [Range(3.0f, 6.0f)]
   [Tooltip("Jump height.")]
-  protected float m_jumpHeight;
+  protected float m_jumpHeight = 3.0f;
 
   /// <summary>
   /// Sets the time it'll take to reach jump height
@@ -87,7 +109,7 @@ public abstract class Character : Entity
   [SerializeField]
   [Range(0.5f, 1.0f)]
   [Tooltip("Time it'll take to reach the jump height in seconds.")]
-  protected float m_jumpTime;
+  protected float m_jumpTime = 0.5f;
 #endregion
 
 #region Properties

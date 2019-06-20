@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEditor;
 
 namespace RebelInitialState
 {
@@ -32,7 +33,7 @@ public class Rebel : Enemy
   }
   #endregion
 
-  #region Methods
+#region Methods
   /// <summary>
   /// 
   /// </summary>
@@ -48,6 +49,8 @@ public class Rebel : Enemy
     rebelIdle = new RebelIdle(m_StateMachine);
     rebelJumping = new RebelJumping(m_StateMachine);
     rebelRun = new RebelRun(m_StateMachine);
+    rebelThrow = new RebelThrow(m_StateMachine);
+    rebelTipToe = new RebelTipToe(m_StateMachine);
     rebelWalk = new RebelWalk(m_StateMachine);
 
     switch (m_initialState)
@@ -72,12 +75,20 @@ public class Rebel : Enemy
         break;
     }
 
-    m_StateMachine.Init(rebelJumping, this);
+    //m_StateMachine.Init(rebelJumping, this);
   }
 #endregion
 
 #region Gizmos
+  protected override void OnDrawGizmos()
+  {
+    base.OnDrawGizmos();
 
+    Handles.color = Color.yellow;
+    Handles.DrawWireDisc(transform.position,
+      new Vector3(0, 0, 1),
+      m_playerDetectRadius);
+  }
 #endregion
 
 #region Private Members
@@ -95,22 +106,43 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   [SerializeField]
+  [Range(0.5f, 2.5f)]
+  protected float m_crawlSpeed = 0.5f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(2.5f, 5.0f)]
+  protected float m_tipToeSpeed = 2.5f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
   [Range(5.0f, 10.0f)]
-  protected float m_runSpeed;
+  protected float m_runSpeed = 5.0f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(10.0f, 20.0f)]
-  protected float m_fleeSpeed;
+  protected float m_fleeSpeed = 10.0f;
 
   /// <summary>
   /// 
   /// </summary>
   [SerializeField]
   [Range(6.0f, 12.0f)]
-  protected float m_ambushHeight;
+  protected float m_ambushHeight = 6.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(5.0f, 8.0f)]
+  protected float m_playerDetectRadius = 5.0f;
 #endregion
 
 #region Properties
@@ -118,6 +150,16 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   public RebelInitialState.E InitialState { get { return m_initialState; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float CrawlSpeed { get { return m_crawlSpeed; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float TipToeSpeed { get { return m_tipToeSpeed; } }
 
   /// <summary>
   /// 
@@ -181,6 +223,16 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   public RebelRun rebelRun;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public RebelThrow rebelThrow;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public RebelTipToe rebelTipToe;
 
   /// <summary>
   /// 

@@ -16,16 +16,21 @@ public class RebelFall : State<Rebel>
   {
     if(rebel.IsGrounded)
     {
-      m_StateMachine.ToState(rebel.rebelWalk, rebel);
+      m_StateMachine.ToState(rebel.rebelRun, rebel);
+    }
+    if (rebel.HP <= 0)
+    {
+      m_StateMachine.ToState(rebel.rebelDie, rebel);
     }
   }
 
   public override void OnStateUpdate(Rebel rebel)
   {
-    rebel.FallSpeed += (rebel.Gravity * rebel.Gravity * Time.fixedDeltaTime);
+    rebel.FallSpeed += (rebel.Gravity * Time.fixedDeltaTime * Time.fixedDeltaTime);
     rebel.transform.position = new Vector3(rebel.transform.position.x,
-      rebel.transform.position.y - (rebel.FallSpeed * Time.fixedDeltaTime),
+      rebel.transform.position.y - (rebel.FallSpeed),
       rebel.transform.position.z);
+    // TODO: Based on previous state, use respective speed
   }
 
   public override void OnStateExit(Rebel rebel)
