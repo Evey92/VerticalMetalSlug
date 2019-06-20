@@ -24,7 +24,7 @@ public abstract class Character : Entity
 #endregion
 
 #region Gizmos
-  private void OnDrawGizmos()
+  protected virtual void OnDrawGizmos()
   {
     Vector3 jumpStart, jumpEnd;
     if (m_isJumping)
