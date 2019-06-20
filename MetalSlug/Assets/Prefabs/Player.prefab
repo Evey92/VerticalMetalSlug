@@ -387,11 +387,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8818733303940771141}
   - component: {fileID: 8818733303940771140}
-  - component: {fileID: 8818733303940771143}
+  - component: {fileID: 5782869928041552452}
   - component: {fileID: 3419860803455238942}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -435,8 +435,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &8818733303940771143
-CapsuleCollider2D:
+--- !u!61 &5782869928041552452
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -448,9 +448,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.20238373, y: -0.021879435}
-  m_Size: {x: 0.92664677, y: 1.8751721}
-  m_Direction: 0
+  m_Offset: {x: -0.22389555, y: -0.082095146}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9552212, y: 1.716465}
+  m_EdgeRadius: 0
 --- !u!114 &3419860803455238942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,16 +481,18 @@ MonoBehaviour:
   m_bombSprite: {fileID: 0}
   m_weaponSlot: {fileID: 0}
   m_canFire: 0
+  m_isMoving: 0
   m_speedMultiplier: 0
   m_horizontalSpeed: 0
   m_jumpForce: 0
   m_grenadesLeft: 0
   m_lives: 0
-  m_torso: {fileID: 0}
-  m_Legs: {fileID: 0}
+  m_torso: {fileID: 8818733302614962910}
+  m_Legs: {fileID: 1136845461133302913}
   m_torsoAnimator: {fileID: 0}
   m_legsAnimator: {fileID: 0}
-  m_grenade: {fileID: 0}
+  m_grenade: {fileID: 8479023631227874488, guid: 825e790c9f806ad42b11c6d7f0845437,
+    type: 3}
   m_grenadesOnScreen: 0
   m_guninterpolation: 0
 --- !u!1001 &7602210398310417283

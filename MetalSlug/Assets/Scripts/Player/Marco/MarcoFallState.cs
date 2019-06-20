@@ -37,6 +37,5 @@ public class MarcoFallState : State<Marco>
   public override void OnStateExit(Marco character)
   {
     character.IsJumping = false;
-
   }
 }

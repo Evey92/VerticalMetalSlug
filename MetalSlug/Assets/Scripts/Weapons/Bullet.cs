@@ -19,9 +19,14 @@ public class Bullet : MonoBehaviour
     void Start()
     {
 
-      Destroy(gameObject, 10f);
+      //Destroy(gameObject, 5.0f);
 
     }
+
+  void OnBecameInvisible()
+  {
+    Destroy(gameObject);
+  }
 
   // Update is called once per frame
   void Update()

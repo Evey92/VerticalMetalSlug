@@ -26,6 +26,7 @@ public abstract class Player : Character
     }
   }
 
+
   /// <summary>
   /// Protected members
   /// </summary>
@@ -39,6 +40,7 @@ public abstract class Player : Character
   public Sprite m_bombSprite;
   public GameObject m_weaponSlot;
   public bool m_canFire;
+  public bool m_isMoving;
   public float m_speedMultiplier;
   public float m_horizontalSpeed;
   public float m_jumpForce;

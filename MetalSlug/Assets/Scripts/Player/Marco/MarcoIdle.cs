@@ -36,6 +36,7 @@ public class MarcoIdle : State<Marco>
     if(character.GetComponent<Rigidbody2D>().velocity.y < 0)
     {
       m_StateMachine.ToState(character.playerFallState, character);
+      character.IsGrounded = false;
     }
 
     if (Input.GetButtonDown("Fire1"))
