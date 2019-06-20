@@ -13,7 +13,10 @@ public class RebelIdle : State<Rebel>
 
   public override void OnStatePreUpdate(Rebel rebel)
   {
-
+    if (rebel.HP <= 0)
+    {
+      m_StateMachine.ToState(rebel.rebelDie, rebel);
+    }
   }
 
   public override void OnStateUpdate(Rebel rebel)

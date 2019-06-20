@@ -18,6 +18,10 @@ public class RebelFall : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelWalk, rebel);
     }
+    if (rebel.HP <= 0)
+    {
+      m_StateMachine.ToState(rebel.rebelDie, rebel);
+    }
   }
 
   public override void OnStateUpdate(Rebel rebel)
@@ -26,6 +30,7 @@ public class RebelFall : State<Rebel>
     rebel.transform.position = new Vector3(rebel.transform.position.x,
       rebel.transform.position.y - (rebel.FallSpeed),
       rebel.transform.position.z);
+    // TODO: Based on previous state, use respective speed
   }
 
   public override void OnStateExit(Rebel rebel)
