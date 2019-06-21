@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: 0f690b7b6627a754fa3769480634828c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Marco_legs_0
+    21300002: Marco_legs_1
+    21300004: Marco_legs_2
+    21300006: Marco_legs_3
+    21300008: Marco_legs_4
+    21300010: Marco_legs_5
+    21300012: Marco_legs_6
+    21300014: Marco_legs_7
+    21300016: Marco_legs_8
+    21300018: Marco_legs_9
+    21300020: Marco_legs_10
+    21300022: Marco_legs_11
+    21300024: Marco_legs_12
+    21300026: Marco_legs_13
+    21300028: Marco_legs_14
+    21300030: Marco_legs_15
+    21300032: Marco_legs_16
+    21300034: Marco_legs_17
+    21300036: Marco_legs_18
+    21300038: Marco_legs_19
+    21300040: Marco_legs_20
+    21300042: Marco_legs_21
+    21300044: Marco_legs_22
+    21300046: Marco_legs_23
+    21300048: Marco_legs_24
+    21300050: Marco_legs_25
+    21300052: Marco_legs_26
+    21300054: Marco_legs_27
+    21300056: Marco_legs_28
+    21300058: Marco_legs_29
+    21300060: Marco_legs_30
+    21300062: Marco_legs_31
+    21300064: Marco_legs_32
+    21300066: Marco_legs_33
+    21300068: Marco_legs_34
+    21300070: Marco_legs_35
+    21300072: Marco_legs_36
+    21300074: Marco_legs_37
+    21300076: Marco_legs_38
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marco_legs_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 21
+        height: 16
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4476d1a09d794ab95ef80e9201ad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 21
+        height: 16
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169f3f69878f1dc4b8d69bdbbae6c334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 21
+        height: 16
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb88df5e6b808b449ef20a79504e289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2
+        width: 21
+        height: 16
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace279f5b0d38534180fa2b9f9a64c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 21
+        height: 16
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aee87fdf13eca48a7dda457d378696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75af8317f5190d4092c5de435da9a06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 28
+        height: 20
+      alignment: 9
+      pivot: {x: 0.89, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abaa666a90455b488c972ffa97d4ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6
+        width: 31
+        height: 16
+      alignment: 9
+      pivot: {x: 0.83, y: 0.01}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd299bb2595d0b4e8864f892e3f5c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0de3b222c8feb48944414a82cad250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 1.3, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae73ab41cebf2840a1fbdecd4889de1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a57a11602854c4db306fcd6f4d8419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67a22a71ea6ac343841fb2c72c8bf95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.8, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d3805308706c241b95338202c7604d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 6
+        width: 31
+        height: 16
+      alignment: 9
+      pivot: {x: 0.75, y: 0.066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cb2cf27ac2bb448d7ea2cbecef282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c202ca27fdbd934098be439fd65ab78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae45615038b4b1247b9257661ee286a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff677fb512b06499a04ad04ce2ceed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72028e6afcbc08546b3bde4bbb298667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: 0.88, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a845a42f7f6524fb629d4479af0246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 1.3, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2686e206fc9dfb4aa412bae48a1e635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_20
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 1, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ebdb995cc6a4641bb3f588f7caf4b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_21
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.95, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706cc5363aabf104a8132b5c2dfa2dc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_22
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 1.2, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ded921a2f109c4e9e030ea8cfbf938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 1, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395a34fe68b4f40419b139c9448d062f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_24
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a76cce81b97ff641a6f6ff33aaf874a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_25
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2
+        width: 16
+        height: 19
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aac7e83bffadd41b2876c2e29e08db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_26
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2
+        width: 15
+        height: 18
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ac04c7b527b4e4e9cb0dc22eb9bcf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_27
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2
+        width: 18
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3f69f84c5c5545b992c11f4b9c38d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_28
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2
+        width: 19
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a70e3843665fe469f0b3e089ecb9c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_29
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2
+        width: 20
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40856d180b91d574184d52acccbccdb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4
+        width: 20
+        height: 23
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068200c3be4bbfc45b5b5f4b1329d082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_31
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 7
+        width: 21
+        height: 20
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaea1a5f37a76f044b1fdff255a3fc35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_32
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 9
+        width: 21
+        height: 19
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f6ffe3032cc34f828d0ceb5624120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_33
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 5
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36310fe198eb64cbad55eb7a5cf2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 7
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb33258d6adc84e9107b2e09b68416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_35
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 9
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaa0c8ead9132c47b7ea36a87f968ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_36
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 11
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dcf5be8cb4dc7488c388a89d5276bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_37
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 10
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e913f28d50393d049ac65f0957735dee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_legs_38
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 9
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844bb4cc280ca1348a5aad17ec3c9d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c2db8cffbeccefa4faca03b1f5974f51
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
