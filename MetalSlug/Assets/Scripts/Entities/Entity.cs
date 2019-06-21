@@ -14,10 +14,13 @@ public abstract class Entity : MonoBehaviour
     if (hit.collider != null)
     {
       float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
-      transform.position = new Vector3(transform.position.x,
+      if (hit.point.y > (transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)))
+      {
+        transform.position = new Vector3(transform.position.x,
         hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
         transform.position.z);
-      m_isGrounded = true;
+        m_isGrounded = true;
+      }
     }
   }
 
