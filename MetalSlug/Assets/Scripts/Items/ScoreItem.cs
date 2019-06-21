@@ -1,18 +1,49 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreItem : MonoBehaviour
+namespace ScoreItemKind
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  public enum E
+  {
+    Fish = 0,
+    Turkey,
+    Pig,
+    Letter,
+    Medal
+  };
+}
 
-    // Update is called once per frame
-    void Update()
+public class ScoreItem : Item
+{
+  // Start is called before the first frame update
+  void Start()
+  {
+
+    switch (m_itemKind)
     {
-        
+      case ScoreItemKind.E.Fish:
+        m_ammount = 500;
+        break;
+      case ScoreItemKind.E.Turkey:
+        m_ammount = 1000;
+        break;
+      case ScoreItemKind.E.Pig:
+        m_ammount = 1000;
+        break;
+      case ScoreItemKind.E.Letter:
+        m_ammount = 500;
+        break;
+      case ScoreItemKind.E.Medal:
+        m_ammount = 10;
+        break;
+      default:
+        m_ammount = 0;
+        break;
     }
+  }
+
+  [SerializeField]
+  ScoreItemKind.E m_itemKind;
 }

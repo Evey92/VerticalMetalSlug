@@ -325,6 +325,10 @@ MonoBehaviour:
   m_bulletSpawn: {fileID: 489140266544572296}
   m_bullet: {fileID: 7402599716090927790, guid: 6a45ef5b57d5a1140a11ed974d564676,
     type: 3}
+  m_firePower: 0
+  m_fireRate: 0
+  m_range: 0
+  m_ammo: 0
   m_bulletSprite: {fileID: 21300000, guid: e6062880c72fcb24d906ba758f2ec398, type: 3}
 --- !u!95 &4760356378295319578
 Animator:
@@ -476,7 +480,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

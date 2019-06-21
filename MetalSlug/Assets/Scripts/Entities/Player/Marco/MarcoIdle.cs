@@ -13,7 +13,7 @@ public class MarcoIdle : State<Marco>
   /// <param name="character"></param>
   public override void OnStateEnter(Marco character)
   {
-    
+    Debug.Log("Entered Idle State");
     //Just to make sure we don't go through the floor
     character.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
   }

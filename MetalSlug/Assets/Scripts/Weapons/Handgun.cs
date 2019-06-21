@@ -28,7 +28,7 @@ public class Handgun : Weapon
   {
     
     Bullet bulletInstance;
-    bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, m_bulletSpawn.transform.rotation);
+    bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, new Quaternion(0, 0, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
     m_bullet.init(m_bulletSprite, m_firePower);
     bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 500);    
   }
