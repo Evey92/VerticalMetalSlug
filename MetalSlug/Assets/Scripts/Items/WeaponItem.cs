@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace WeaponItemKind
+{
+  public enum E
+  {
+    kHangun = 0,
+    kHeavyMachine,
+    kFlameShot,
+    kRocketLaunch,
+  };
+}
+
 public class WeaponItem : Item
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public WeaponItemKind.E m_weponKind;
 }

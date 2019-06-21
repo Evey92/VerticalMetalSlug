@@ -11,7 +11,7 @@ namespace ScoreItemKind
     Turkey,
     Pig,
     Letter,
-    Medal
+    Medal,
   };
 }
 
