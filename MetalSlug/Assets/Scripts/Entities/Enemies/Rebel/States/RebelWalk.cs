@@ -17,7 +17,26 @@ public class RebelWalk : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelFall, rebel);
     }
-    // TODO: If player is detected, go to run state or flee state
+
+    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) >
+      (rebel.PlayerDetectRadius + rebel.SafeZone))
+    {
+      if (rebel.IsFacingRight)
+      {
+        rebel.IsFacingRight = false;
+      }
+    }
+
+    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
+      rebel.PlayerDetectRadius)
+    {
+      // TODO: Add a random or something to make it go to flee or something else
+      if(!rebel.IsFacingRight)
+      {
+        rebel.IsFacingRight = true;
+      }
+    }
+
     if (rebel.HP <= 0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);

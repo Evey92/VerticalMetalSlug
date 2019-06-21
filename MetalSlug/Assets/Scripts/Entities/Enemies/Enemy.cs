@@ -14,19 +14,6 @@ public abstract class Enemy : Character
   protected virtual void FixedUpdate()
   {
     SelectNearestPlayer();
-    if (m_canTurn)
-    {
-      if (m_nearestPlayer.transform.position.x < transform.position.x)
-      {
-        if (m_isFacingRight)
-          m_isFacingRight = false;
-      }
-      else
-      {
-        if (!m_isFacingRight)
-          m_isFacingRight = true;
-      }
-    }
   }
 #endregion
 

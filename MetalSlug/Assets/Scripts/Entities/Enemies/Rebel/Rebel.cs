@@ -32,11 +32,37 @@ public class Rebel : Enemy
   protected override void FixedUpdate()
   {
     base.FixedUpdate();
+
+    float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
+    //if (m_canTurn && m_isGrounded && (distance < m_playerDetectRadius))
+    //{
+    //  if (m_nearestPlayer.transform.position.x < transform.position.x)
+    //  {
+    //    if (!m_isFacingRight)
+    //      m_isFacingRight = true;
+    //  }
+    //  else
+    //  {
+    //    if (m_isFacingRight)
+    //      m_isFacingRight = false;
+    //  }
+    //}
+
     m_StateMachine.OnState(this);
   }
-#endregion
 
-#region Methods
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    base.OnTriggerEnter2D(other);
+
+    if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_HP = 0;
+    }
+  }
+  #endregion
+
+  #region Methods
   /// <summary>
   /// 
   /// </summary>
@@ -78,6 +104,11 @@ public class Rebel : Enemy
         break;
     }
   }
+
+  public void Die()
+  {
+    Destroy(gameObject);
+  }
 #endregion
 
 #region Gizmos
@@ -89,6 +120,31 @@ public class Rebel : Enemy
     Handles.DrawWireDisc(transform.position,
       new Vector3(0, 0, 1),
       m_playerDetectRadius);
+
+    Handles.color = Color.red;
+    Handles.DrawWireDisc(transform.position,
+      new Vector3(0, 0, 1),
+      m_threatRadius);
+
+    Gizmos.color = Color.blue;
+    if(m_isFacingRight)
+    {
+      Gizmos.DrawLine(new Vector3(transform.position.x - m_playerDetectRadius,
+        transform.position.y,
+        transform.position.z),
+        new Vector3(transform.position.x - m_playerDetectRadius - m_safeZone,
+        transform.position.y,
+        transform.position.z));
+    }
+    else
+    {
+      Gizmos.DrawLine(new Vector3(transform.position.x + m_playerDetectRadius,
+        transform.position.y,
+        transform.position.z),
+        new Vector3(transform.position.x + m_playerDetectRadius + m_safeZone,
+        transform.position.y,
+        transform.position.z));
+    }
   }
 #endregion
 
@@ -149,6 +205,20 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   [SerializeField]
+  [Range(1.0f, 3.0f)]
+  protected float m_threatRadius = 1.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(2.0f, 4.0f)]
+  protected float m_safeZone = 2.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
   [Range(0.5f, 2.0f)]
   protected float m_timeToTurn = 0.5f;
 #endregion
@@ -188,6 +258,16 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   public float PlayerDetectRadius { get { return m_playerDetectRadius; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float ThreatRadius { get { return m_threatRadius; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float SafeZone { get { return m_safeZone; } }
 
   /// <summary>
   /// 
