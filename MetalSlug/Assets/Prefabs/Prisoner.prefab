@@ -162,10 +162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_walkSpeed: 3
-  m_gravity: 9.8
-  m_isFree: 0
+  m_gravity: 2.5
   m_prisonerState: 0
-  m_walkRange: 5
+  m_walkRange: 20
   m_fleeSpeed: 10
   m_startRight: 0
   m_anim: {fileID: 4008886521276187253}

@@ -56,6 +56,10 @@ public class Prisoner : Entity
     {
       m_isFree = true;
     }
+    else if(collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
+    {
+      m_droppedItem = true;
+    }
   }
   #endregion
 
@@ -121,7 +125,6 @@ public class Prisoner : Entity
   private float m_startPosition;
   private float m_endPosition;
   private bool m_isPathSet = false;
-  [SerializeField]
   private bool m_isFree = false;
   private bool m_droppedItem = false;
 #endregion
