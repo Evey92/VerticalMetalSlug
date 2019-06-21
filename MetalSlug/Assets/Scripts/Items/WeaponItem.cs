@@ -26,10 +26,10 @@ public class WeaponItem : Item
         m_ammount = 200;
         break;
       case WeaponItemKind.E.kFlameShot:
-        m_ammount = 20;
+        m_ammount = 30;
         break;
       case WeaponItemKind.E.kRocketLaunch:
-        m_ammount = 30;
+        m_ammount = 20;
         break;
       default:
         m_ammount = 0;
@@ -39,11 +39,32 @@ public class WeaponItem : Item
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
+    if(collision.tag == "Player")
+    {
+      //m_audioSource.clip = m_pickUpClip;
+      m_audioSource.PlayOneShot(m_pickUpClip);
+      Destroy(gameObject);
+    }
+  }
+
+  protected override void OnTriggerExit2D(Collider2D other)
+  {
+
+  }
+
+  protected override void InitStateMachine()
+  {
+    
+  }
+
+  public override void Fall()
+  {
     
   }
 
   [SerializeField]
-  AudioClip audioClip;
+  AudioClip m_pickUpClip;
+  AudioClip m_weaponAnnouncement;
 
   public WeaponItemKind.E m_weponKind;
   public AudioSource m_audioSource;

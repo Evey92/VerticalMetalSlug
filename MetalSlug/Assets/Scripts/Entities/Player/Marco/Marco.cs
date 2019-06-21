@@ -17,6 +17,7 @@ public class Marco : Player
     m_grenadesLeft = m_maxGrenades;
     m_isSlug = false;
     m_torsoAnimator = m_torso.GetComponent<Animator>();
+    m_legsAnimator = m_Legs.GetComponent<Animator>();
 
   }
 
@@ -160,6 +161,14 @@ public class Marco : Player
       m_weapon = weapon;
       m_weapon.gameObject.SetActive(true);
       m_ammoLeft = weapon.m_ammo;
+    }
+  }
+
+  private void OnCollisionEnter2D(Collision2D collision)
+  {
+    if(collision.gameObject.tag == "Item")
+    {
+
     }
   }
 

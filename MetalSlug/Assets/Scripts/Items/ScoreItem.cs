@@ -44,6 +44,25 @@ public class ScoreItem : Item
     }
   }
 
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    throw new NotImplementedException();
+  }
+
+  protected override void OnTriggerExit2D(Collider2D other)
+  {
+    throw new NotImplementedException();
+  }
+
+  protected override void InitStateMachine()
+  {
+    throw new NotImplementedException();
+  }
+
+  public override void Fall()
+  {
+    throw new NotImplementedException();
+  }
   [SerializeField]
   ScoreItemKind.E m_itemKind;
 }
