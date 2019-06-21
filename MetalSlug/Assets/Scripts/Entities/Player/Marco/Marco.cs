@@ -14,12 +14,19 @@ public class Marco : Player
     FallSpeed = 29.4f;
     IsFacingRight = true;
     m_canFire = true;
-    m_grenadesLeft = 10;
-
+    m_grenadesLeft = m_maxGrenades;
+    m_isSlug = false;
     m_torsoAnimator = m_torso.GetComponent<Animator>();
 
   }
 
+  private void Update()
+  {
+    if(m_ammoLeft <= 0)
+    {
+      m_weapon = m_handgun;
+    }
+  }
 
   private void FixedUpdate()
   {
@@ -50,6 +57,38 @@ public class Marco : Player
     transform.position += horizontal * Time.deltaTime * WalkSpeed;
   }
 
+  public override void collectItem(int m_ammount, ItemType.E itemType)
+  {
+    switch (itemType)
+    {
+      case ItemType.E.kGas:
+        m_score = m_ammount;
+        break;
+
+      case ItemType.E.kScore:
+
+        break;
+    }
+  }
+
+  public override void collectWeapon(int m_ammount, WeaponItemKind.E itemType)
+  {
+    switch (itemType)
+    {
+      case WeaponItemKind.E.kHeavyMachine:
+        equipWeapon(m_heavyMachinePrefab);
+        break;
+
+      case WeaponItemKind.E.kFlameShot:
+        //Give score
+        break;
+
+      case WeaponItemKind.E.kRocketLaunch:
+        //GiveScore
+        break;
+    }
+  }
+
   /// <summary>
   /// Used to initiate the player's state machine
   /// </summary>
@@ -72,6 +111,10 @@ public class Marco : Player
     {
       m_weapon.Shoot();
       m_lastShot = Time.time;
+      if(m_weapon.m_weaponKind != WeaponItemKind.E.kHangun)
+      {
+        m_ammoLeft -= m_weapon.m_ammoSpent;
+      }
     }
     
   }
@@ -103,6 +146,21 @@ public class Marco : Player
     transform.position = new Vector3(transform.position.x,
       transform.position.y - (m_fallSpeed * Time.fixedDeltaTime),
       transform.position.z);
+  }
+
+  public void equipWeapon(Weapon weapon)
+  {
+    if (m_weapon == weapon)
+    {
+      m_ammoLeft = m_weapon.m_ammo;
+    }
+    else
+    {
+      m_weapon.gameObject.SetActive(false);
+      m_weapon = weapon;
+      m_weapon.gameObject.SetActive(true);
+      m_ammoLeft = weapon.m_ammo;
+    }
   }
 
   /// <summary>
@@ -164,5 +222,21 @@ public class Marco : Player
   [SerializeField]
   [Range(0.0f, 10.0f)]
   public float m_parachuteFallSpeed = 0.0f;
+
+
+
+  /// <summary>
+  /// Reference to the handgun
+  /// </summary>
+  public Handgun m_handgun;
+
+  /// <summary>
+  /// Prefab to create a new heavy machine gun
+  /// </summary>
+  public HeavyMachineGun m_heavyMachinePrefab;
+
+  //public FlameShot m_flameShotPrefab;
+  //public RocketLauncher m_rocketLauncherPrefab;
+  
 
 }
