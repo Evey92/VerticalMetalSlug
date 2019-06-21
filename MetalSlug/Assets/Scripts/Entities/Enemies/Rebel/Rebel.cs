@@ -33,20 +33,23 @@ public class Rebel : Enemy
   {
     base.FixedUpdate();
 
-    float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
-    //if (m_canTurn && m_isGrounded && (distance < m_playerDetectRadius))
-    //{
-    //  if (m_nearestPlayer.transform.position.x < transform.position.x)
-    //  {
-    //    if (!m_isFacingRight)
-    //      m_isFacingRight = true;
-    //  }
-    //  else
-    //  {
-    //    if (m_isFacingRight)
-    //      m_isFacingRight = false;
-    //  }
-    //}
+    if (m_nearestPlayer != null)
+    {
+      float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
+      //if (m_canTurn && m_isGrounded && (distance < m_playerDetectRadius))
+      //{
+      //  if (m_nearestPlayer.transform.position.x < transform.position.x)
+      //  {
+      //    if (!m_isFacingRight)
+      //      m_isFacingRight = true;
+      //  }
+      //  else
+      //  {
+      //    if (m_isFacingRight)
+      //      m_isFacingRight = false;
+      //  }
+      //}
+    } 
 
     m_StateMachine.OnState(this);
   }

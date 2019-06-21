@@ -8,7 +8,14 @@ public abstract class Enemy : Character
   protected virtual void Awake()
   {
     m_players = GameObject.FindGameObjectsWithTag("Player");
-    m_nearestPlayer = m_players[0];
+    if (m_players.Length > 0)
+    {
+      m_nearestPlayer = m_players[0];
+    }
+    else
+    {
+      m_nearestPlayer = null;
+    }
   }
 
   protected virtual void FixedUpdate()
@@ -20,15 +27,18 @@ public abstract class Enemy : Character
 #region Methods
   protected virtual void SelectNearestPlayer()
   {
-    float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
-    foreach (GameObject player in m_players)
+    if (m_players.Length > 0)
     {
-      if (Vector3.Distance(transform.position,
-        player.transform.position) < distance)
+      float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
+      foreach (GameObject player in m_players)
       {
-        if (m_nearestPlayer != player)
+        if (Vector3.Distance(transform.position,
+          player.transform.position) < distance)
         {
-          m_nearestPlayer = player;
+          if (m_nearestPlayer != player)
+          {
+            m_nearestPlayer = player;
+          }
         }
       }
     }
