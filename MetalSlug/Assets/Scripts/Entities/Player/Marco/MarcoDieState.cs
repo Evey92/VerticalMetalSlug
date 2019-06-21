@@ -4,22 +4,12 @@ using UnityEngine;
 
 public class MarcoDieState : State<Marco>
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  MarcoDieState(StateMachine<Marco> stateMachine)
+  : base(stateMachine) { }
 
   public override void OnStateEnter(Marco character)
   {
   }
-
   public override void OnStatePreUpdate(Marco character)
   {
   }
