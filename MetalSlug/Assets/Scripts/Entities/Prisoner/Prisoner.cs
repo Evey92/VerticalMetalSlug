@@ -48,9 +48,18 @@ public class Prisoner : Entity
 
     m_StateMachine.OnState(this);
   }
-#endregion
 
-#region Methods
+  protected override void OnTriggerEnter2D(Collider2D collision)
+  {
+    base.OnTriggerEnter2D(collision);
+    if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_isFree = true;
+    }
+  }
+  #endregion
+
+  #region Methods
   /// <summary>
   /// 
   /// </summary>

@@ -74,8 +74,5 @@ public class PrisonerWalk : State<Prisoner>
     }
   }
 
-  public override void OnStateExit(Prisoner prisoner)
-  {
-
-  }
+ 
 }
