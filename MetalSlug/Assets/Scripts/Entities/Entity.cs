@@ -7,15 +7,26 @@ public abstract class Entity : MonoBehaviour
 #region Unity
   protected virtual void OnTriggerEnter2D(Collider2D other)
   {
-    if (Physics2D.Raycast(transform.position, -transform.up))
+    RaycastHit2D hit = Physics2D.Raycast(transform.position,
+      -transform.up,
+      Mathf.Infinity,
+      (1 << LayerMask.NameToLayer("Ground")));
+    if (hit.collider != null)
     {
-      m_isGrounded = true;
+      float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
+      if (distance < 1.0f)
+      {
+        transform.position = new Vector3(transform.position.x,
+          transform.position.y + distance,
+          transform.position.z);
+        m_isGrounded = true;
+      }
     }
   }
 
   protected virtual void OnTriggerExit2D(Collider2D other)
   {
-    if (m_isGrounded)
+    if (m_isGrounded && other.gameObject.layer == LayerMask.NameToLayer("Ground"))
     {
       m_isGrounded = false;
     }

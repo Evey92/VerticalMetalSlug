@@ -18,22 +18,25 @@ public class RebelRun : State<Rebel>
       m_StateMachine.ToState(rebel.rebelFall, rebel);
     }
 
-    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) >
-      (rebel.PlayerDetectRadius + rebel.SafeZone))
+    if (rebel.NearestPlayer != null)
     {
-      if (rebel.IsFacingRight)
+      if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) >
+        (rebel.PlayerDetectRadius + rebel.SafeZone))
       {
-        rebel.IsFacingRight = false;
-        m_StateMachine.ToState(rebel.rebelWalk, rebel);
+        if (rebel.IsFacingRight)
+        {
+          rebel.IsFacingRight = false;
+          m_StateMachine.ToState(rebel.rebelWalk, rebel);
+        }
       }
-    }
 
-    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
-      rebel.PlayerDetectRadius)
-    {
-      if (!rebel.IsFacingRight)
+      if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
+        rebel.PlayerDetectRadius)
       {
-        rebel.IsFacingRight = true;
+        if (!rebel.IsFacingRight)
+        {
+          rebel.IsFacingRight = true;
+        }
       }
     }
 
