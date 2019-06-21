@@ -4,27 +4,50 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-  
+
+  private void Awake()
+  {
+    m_playerOffset = 1.2f;
+    m_camOffsetSpeed = 3.0f;
+    m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+  }
+
   void LateUpdate()
   {
-    if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
+    if (m_player.m_isMoving)
     {
-      Debug.Log("Player reached the middle of screen. Moving away.");
-      Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
-
-      if (m_player.IsJumping)
+      if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
       {
-        transform.position += horizontal * Time.fixedDeltaTime * m_player.GetComponent<Rigidbody2D>().velocity.x;
+      
+        Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
 
-      }
-      else
-      {
-        transform.position += (horizontal * Time.fixedDeltaTime * m_player.WalkSpeed) ;
+        if (m_player.IsJumping)
+        {
+          transform.position += horizontal * Time.fixedDeltaTime * m_player.GetComponent<Rigidbody2D>().velocity.x;
+
+        }
+        else
+        {
+          transform.position += (horizontal * Time.fixedDeltaTime * m_player.WalkSpeed);
+        }
       }
     }
-    else if(m_stoppedMoving)
+    else
     {
-      transform.position = new Vector3(m_player.transform.position.x + m_playerOffset, transform.position.y, transform.position.z);
+
+      if (m_thisCamera.transform.position.x  < m_player.transform.position.x + m_playerOffset)
+      {
+        Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
+        if (m_player.IsJumping)
+        {
+          transform.position += horizontal * Time.fixedDeltaTime * m_camOffsetSpeed;
+
+        }
+        else
+        {
+          transform.position += (horizontal * Time.fixedDeltaTime * m_camOffsetSpeed);
+        }
+      }
     }
   }
   /// <summary>
@@ -44,10 +67,10 @@ public class CameraFollow : MonoBehaviour
   public Player m_player;
 
   /// <summary>
-  /// Value to check if plaer stopped moving
+  /// Variable to control how fast the camera moves when moving to offset
   /// </summary>
   [SerializeField]
-  bool m_stoppedMoving;
+  private float m_camOffsetSpeed;
 
 
 

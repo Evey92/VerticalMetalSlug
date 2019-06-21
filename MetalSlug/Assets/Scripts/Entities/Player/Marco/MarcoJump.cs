@@ -9,13 +9,15 @@ public class MarcoJump : State<Marco>
 
   public override void OnStateEnter(Marco character)
   {
-    character.jump();
+    Debug.Log("Jumping");
     character.IsJumping = true;
+    character.IsGrounded = false;
+    character.CalculateInitialJumpSpeed();
   }
 
   public override void OnStatePreUpdate(Marco character)
   {
-    if(character.GetComponent<Rigidbody2D>().velocity.y < 0)
+    if(character.JumpSpeed < 0)
     {
       m_StateMachine.ToState(character.playerFallState, character);
     }
@@ -28,10 +30,7 @@ public class MarcoJump : State<Marco>
     {
       character.throwBomb();
     }
-    if (character.GetComponent<Rigidbody2D>().velocity.y <= 0)
-    {
-      m_StateMachine.ToState(character.playerFallState, character);
-    }
+   
   }
 
   public override void OnStateUpdate(Marco character)
@@ -44,11 +43,13 @@ public class MarcoJump : State<Marco>
       character.GetComponent<Rigidbody2D>().AddForce(new Vector2(character.m_horizontalSpeed, 0), ForceMode2D.Impulse);
 
     }
-    
+    character.Jump();
+
+
   }
 
   public override void OnStateExit(Marco character)
   {
-    
+    character.IsJumping = false;
   }
 }

@@ -17,6 +17,19 @@ public class RebelIdle : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
     }
+    float playerDistance = Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position);
+    //if(Something Random)
+    //{
+    //  m_StateMachine.ToState(rebel.rebelRun, rebel);
+    //}
+    //if (playerDistance <= rebel.ThreatRadius && m_courage < 5)
+    //{
+    //  m_StateMachine.ToState(rebel.rebelPanic, rebel); 
+    //}
+    //if ()
+    //{
+    //  m_StateMachine.ToState(rebel., rebel);
+    //}
   }
 
   public override void OnStateUpdate(Rebel rebel)

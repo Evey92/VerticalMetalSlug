@@ -9,7 +9,8 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateEnter(Marco character)
   {
-    character.walk();
+    //character.walk();
+    character.m_isMoving = true;
   }
 
   public override void OnStatePreUpdate(Marco character)
@@ -53,6 +54,7 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateExit(Marco character)
   {
-    
+    character.m_isMoving = false;
+
   }
 }

@@ -12,7 +12,6 @@ public class Marco : Player
     WalkSpeed = 3.4f;
     m_speedMultiplier = 4.0f;
     FallSpeed = 29.4f;
-    m_jumpForce = 7.6f;
     IsFacingRight = true;
     m_canFire = true;
     m_grenadesLeft = 10;
@@ -30,12 +29,15 @@ public class Marco : Player
   /// <summary>
   /// Function to jump using Unity's physics called on the playerJumpstate
   /// </summary>
-  public override void jump()
+  public override void Jump()
   {
-    IsGrounded = false;
-
     m_horizontalSpeed = Input.GetAxisRaw("Horizontal");
-    GetComponent<Rigidbody2D>().AddForce(new Vector2(m_horizontalSpeed* m_speedMultiplier, 1 * m_jumpForce), ForceMode2D.Impulse);
+
+    m_jumpSpeed -= Gravity * Time.fixedDeltaTime;
+    transform.position = new Vector3(transform.position.x + m_horizontalSpeed * Time.fixedDeltaTime * m_speedMultiplier,
+      transform.position.y + m_jumpSpeed * Time.fixedDeltaTime,
+      transform.position.z);
+    
 
   }
 
@@ -58,8 +60,9 @@ public class Marco : Player
     playerWalkState = new MarcoWalk(m_playerStateMachine);
     playerJumpState = new MarcoJump(m_playerStateMachine);
     playerFallState = new MarcoFallState(m_playerStateMachine);
+    playeParachuteFallState = new MarcoParachuteState(m_playerStateMachine);
 
-    m_playerStateMachine.Init(playerIdleState, this);
+    m_playerStateMachine.Init(playeParachuteFallState, this);
   }
 
   public override void shootWeapon()
@@ -94,10 +97,25 @@ public class Marco : Player
     }
   }
 
+  public void parachuteFall()
+  {
+    m_fallSpeed = m_parachuteFallSpeed;
+    transform.position = new Vector3(transform.position.x,
+      transform.position.y - (m_fallSpeed * Time.fixedDeltaTime),
+      transform.position.z);
+  }
+
   /// <summary>
   /// The state machine that handles all the states for the player
   /// </summary>
   private StateMachine<Marco> m_playerStateMachine;
+
+
+  /// <summary>
+  /// Variable to keep track and limit the number of grenades on screen
+  /// </summary>
+  [SerializeField]
+  public int m_grenadesOnScreen;
 
   /// <summary>
   /// The upper GO that handles the sprites and animator for the torso
@@ -108,17 +126,17 @@ public class Marco : Player
   /// The lower GO that handles the sprites and animator for the torso
   /// </summary>
   public GameObject m_Legs;
-  
+
   /// <summary>
   /// The Animator from the torso GO that handles it's animations
   /// </summary>
   public Animator m_torsoAnimator;
-  
+
   /// <summary>
   /// The Animator from the legs GO that handles it's animations
   /// </summary>
   public Animator m_legsAnimator;
-  
+
   /// <summary>
   /// The states for all the actions of the player to create the state machine
   /// </summary>
@@ -126,6 +144,7 @@ public class Marco : Player
   public MarcoWalk playerWalkState;
   public MarcoJump playerJumpState;
   public MarcoFallState playerFallState;
+  public MarcoParachuteState playeParachuteFallState;
 
   /// <summary>
   /// The Prefab to instantiate grenades
@@ -133,14 +152,17 @@ public class Marco : Player
   public Grenade m_grenade;
 
   /// <summary>
-  /// Variable to keep track and limit the number of grenades on screen
+  /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
-  public int m_grenadesOnScreen;
+  [SerializeField]
+  [Range(1.0f, 30.0f)]
+ public float m_guninterpolation = 10.0f;
 
   /// <summary>
   /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
-  public float m_guninterpolation;
-
+  [SerializeField]
+  [Range(0.0f, 10.0f)]
+  public float m_parachuteFallSpeed = 0.0f;
 
 }
