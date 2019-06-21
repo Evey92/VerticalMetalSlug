@@ -7,14 +7,20 @@ public abstract class Entity : MonoBehaviour
 #region Unity
   protected virtual void OnTriggerEnter2D(Collider2D other)
   {
-    RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, Mathf.Infinity, (1 << LayerMask.NameToLayer("Ground")));
+    RaycastHit2D hit = Physics2D.Raycast(transform.position,
+      -transform.up,
+      Mathf.Infinity,
+      (1 << LayerMask.NameToLayer("Ground")));
     if (hit.collider != null)
     {
       float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
-      transform.position = new Vector3(transform.position.x,
-        transform.position.y + distance,
-        transform.position.z);
-      m_isGrounded = true;
+      if (distance < 1.0f)
+      {
+        transform.position = new Vector3(transform.position.x,
+          transform.position.y + distance,
+          transform.position.z);
+        m_isGrounded = true;
+      }
     }
   }
 
