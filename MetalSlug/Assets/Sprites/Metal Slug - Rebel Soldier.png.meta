@@ -1357,6 +1357,7 @@ TextureImporter:
     21302704: Metal Slug - Rebel Soldier_175
     21302706: Metal Slug - Rebel Soldier_177
     21302708: Metal Slug - Rebel Soldier_1357
+    21302710: Metal Slug - Rebel Soldier_606
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -20526,8 +20527,8 @@ TextureImporter:
         y: 1272
         width: 27
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20546,8 +20547,8 @@ TextureImporter:
         y: 1272
         width: 27
         height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20566,8 +20567,8 @@ TextureImporter:
         y: 1272
         width: 27
         height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20586,8 +20587,8 @@ TextureImporter:
         y: 1272
         width: 27
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20606,8 +20607,8 @@ TextureImporter:
         y: 1272
         width: 28
         height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.90000004}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20626,8 +20627,8 @@ TextureImporter:
         y: 1272
         width: 31
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20646,8 +20647,8 @@ TextureImporter:
         y: 1272
         width: 31
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20706,8 +20707,8 @@ TextureImporter:
         y: 1228
         width: 36
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20726,8 +20727,8 @@ TextureImporter:
         y: 1228
         width: 39
         height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20746,8 +20747,8 @@ TextureImporter:
         y: 1228
         width: 40
         height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20766,8 +20767,8 @@ TextureImporter:
         y: 1228
         width: 40
         height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20786,8 +20787,8 @@ TextureImporter:
         y: 1228
         width: 38
         height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20806,8 +20807,8 @@ TextureImporter:
         y: 1228
         width: 44
         height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20826,8 +20827,8 @@ TextureImporter:
         y: 1228
         width: 44
         height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20966,8 +20967,8 @@ TextureImporter:
         y: 1188
         width: 45
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20986,8 +20987,8 @@ TextureImporter:
         y: 1188
         width: 45
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -21162,10 +21163,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_991
       rect:
         serializedVersion: 2
-        x: 159
-        y: 1125
-        width: 14
-        height: 13
+        x: 136
+        y: 1095
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21182,10 +21183,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_992
       rect:
         serializedVersion: 2
-        x: 213
-        y: 1124
-        width: 14
-        height: 12
+        x: 188
+        y: 1095
+        width: 39
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21202,10 +21203,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_993
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1120
-        width: 15
-        height: 15
+        x: 235
+        y: 1095
+        width: 43
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21222,10 +21223,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_994
       rect:
         serializedVersion: 2
-        x: 319
-        y: 1117
-        width: 13
-        height: 14
+        x: 289
+        y: 1095
+        width: 44
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21242,10 +21243,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_995
       rect:
         serializedVersion: 2
-        x: 374
-        y: 1117
-        width: 14
-        height: 9
+        x: 340
+        y: 1095
+        width: 48
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21259,73 +21260,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_996
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 1095
-        width: 42
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ffc887355900ab46880eed92d374d19
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_997
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 1095
-        width: 39
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bf09609f13a66a49a49f75bbc3ae9e0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_998
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 1095
-        width: 45
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41d7adeb98396dc45844909cdded7a71
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Metal Slug - Rebel Soldier_999
       rect:
         serializedVersion: 2
-        x: 425
-        y: 1113
-        width: 14
-        height: 9
+        x: 393
+        y: 1095
+        width: 46
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21362,10 +21303,10 @@ TextureImporter:
       name: Metal Slug - Rebel Soldier_1001
       rect:
         serializedVersion: 2
-        x: 533
-        y: 1107
-        width: 14
-        height: 9
+        x: 501
+        y: 1095
+        width: 46
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21374,86 +21315,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 15abec59325e64e4bb74b1f4032eb5a2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1002
-      rect:
-        serializedVersion: 2
-        x: 235
-        y: 1095
-        width: 43
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b2f2076ff414fd40bf9d04f6da9ac99
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1003
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 1095
-        width: 44
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 606dfdc21ce774741b481d0dad5af893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1004
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 1095
-        width: 44
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0442f8891e6cf814391561b3fac37f19
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1005
-      rect:
-        serializedVersion: 2
-        x: 501
-        y: 1095
-        width: 41
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8a3cb69130518446bdc5566e30d12b6
       vertices: []
       indices: 
       edges: []
@@ -24446,8 +24307,8 @@ TextureImporter:
         y: 625
         width: 30
         height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48000002}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24486,8 +24347,8 @@ TextureImporter:
         y: 625
         width: 29
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24506,8 +24367,8 @@ TextureImporter:
         y: 625
         width: 28
         height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24526,8 +24387,8 @@ TextureImporter:
         y: 625
         width: 28
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24546,8 +24407,8 @@ TextureImporter:
         y: 625
         width: 28
         height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24566,8 +24427,8 @@ TextureImporter:
         y: 625
         width: 28
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75000006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24586,8 +24447,8 @@ TextureImporter:
         y: 625
         width: 29
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24606,8 +24467,8 @@ TextureImporter:
         y: 625
         width: 28
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 1.11}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -24674,46 +24535,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: be7aea43dea27ed44a46bb59357a97fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1167
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 609
-        width: 5
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98ae2a179a6fc264c8e75e9a8633ad36
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1168
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 612
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 543039709421c0a43b3c5d4f056e89f2
       vertices: []
       indices: 
       edges: []
@@ -24963,9 +24784,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 486
-        y: 492
+        y: 477
         width: 44
-        height: 49
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -24979,33 +24800,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1182
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 523
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a24c5c16768b9449405fc51e8b0693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Metal Slug - Rebel Soldier_1183
       rect:
         serializedVersion: 2
-        x: 551
-        y: 496
-        width: 40
-        height: 45
+        x: 547
+        y: 477
+        width: 44
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25023,9 +24824,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 612
-        y: 496
+        y: 477
         width: 45
-        height: 45
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25039,53 +24840,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1185
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 537
-        width: 11
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55146999603358442a2c872a42a879df
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1186
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 508
-        width: 26
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11753cb2eef6221448a038a888603440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Metal Slug - Rebel Soldier_1187
       rect:
         serializedVersion: 2
-        x: 703
-        y: 509
-        width: 18
-        height: 32
+        x: 676
+        y: 477
+        width: 45
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25119,33 +24880,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1189
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 517
-        width: 10
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 319268546c8301640b70593ea30d8572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Metal Slug - Rebel Soldier_1190
       rect:
         serializedVersion: 2
         x: 746
-        y: 504
+        y: 477
         width: 38
-        height: 28
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25159,206 +24900,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1191
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 513
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a15b28444f60a54388d2b956cd7d1ef
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1192
-      rect:
-        serializedVersion: 2
-        x: 699
-        y: 512
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8651034a5f75ca944bb037755950c5b4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1193
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 504
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 108cabf439f0a074184aadb7364b0cbb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1194
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 507
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29b5b42af2ac8a4408e76f8f4c768081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1195
-      rect:
-        serializedVersion: 2
-        x: 698
-        y: 498
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 847e1be70a2524e42bed00fb7fd9d83e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1196
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 477
-        width: 28
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5855ef9d910b07149a2dac5e0ac76741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1197
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 477
-        width: 29
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49fc3127fe932cf4ab91c7292c5fb818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1198
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 477
-        width: 28
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a111a7e74b3a1014497be53383d1c8d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1199
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 477
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09e6068d536b5024a9eb8bc78e329ec1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Metal Slug - Rebel Soldier_1200
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 477
-        width: 28
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 605a570a915e2584abf6b4f86ba0e945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Metal Slug - Rebel Soldier_1201
       rect:
         serializedVersion: 2
@@ -25366,8 +24907,8 @@ TextureImporter:
         y: 477
         width: 28
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -28534,6 +28075,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2816b6c4ae7c3d840af5d18cdd866648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal Slug - Rebel Soldier_606
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5398
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb79fa6cb980454eb5d560170626a1c
       vertices: []
       indices: 
       edges: []
