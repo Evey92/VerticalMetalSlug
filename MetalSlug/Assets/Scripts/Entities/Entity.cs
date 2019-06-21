@@ -14,13 +14,32 @@ public abstract class Entity : MonoBehaviour
     if (hit.collider != null)
     {
       float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
-      if (distance < 1.0f)
+      transform.position = new Vector3(transform.position.x,
+        hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
+        transform.position.z);
+      m_isGrounded = true;
+    }
+  }
+
+  protected virtual void OnTriggerStay2D(Collider2D other)
+  {
+    RaycastHit2D hit = Physics2D.Raycast(transform.position,
+       -transform.up,
+       Mathf.Infinity,
+       (1 << LayerMask.NameToLayer("Ground")));
+    if (hit.collider != null)
+    {
+      float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
+      if (hit.point.y > (transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)))
       {
         transform.position = new Vector3(transform.position.x,
-          transform.position.y + distance,
+          hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
           transform.position.z);
-        m_isGrounded = true;
       }
+    }
+    else
+    {
+      m_isGrounded = false;
     }
   }
 
