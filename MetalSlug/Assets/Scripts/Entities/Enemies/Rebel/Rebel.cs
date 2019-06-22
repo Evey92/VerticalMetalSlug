@@ -12,7 +12,7 @@ namespace RebelInitialState
     kCrawl,
     kRun,
     kAmbush,
-
+    kThrow,
     kNum
   };
 }
@@ -99,6 +99,9 @@ public class Rebel : Enemy
       case RebelInitialState.E.kAmbush:
         m_StateMachine.Init(rebelAmbush, this);
         break;
+      case RebelInitialState.E.kThrow:
+        m_StateMachine.Init(rebelThrow, this);
+        break;
       case RebelInitialState.E.kNum: // Should not really be set to this, but in case it is
         m_StateMachine.Init(rebelIdle, this);
         break;
@@ -106,6 +109,18 @@ public class Rebel : Enemy
         m_StateMachine.Init(rebelIdle, this);
         break;
     }
+  }
+
+  public void throwBomb()
+  {
+
+    float g = Physics.gravity.magnitude;
+
+    Grenade newGrenade;
+    newGrenade = Instantiate(m_grenade, m_weaponSlot.transform.position, m_weaponSlot.transform.rotation);
+    float vSpeed = (newGrenade.m_totalTime * g) / 2;
+    newGrenade.GetComponent<Rigidbody2D>().velocity = new Vector3(m_weaponSlot.transform.right.x * newGrenade.m_hSpeed, vSpeed, 0);
+
   }
 
   public void Die()
@@ -161,6 +176,18 @@ public class Rebel : Enemy
   /// </summary>
   [SerializeField]
   protected RebelInitialState.E m_initialState;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  protected Grenade m_grenade;
+
+  /// <summary>
+  /// Reference to the weapon slot for weapon changing
+  /// </summary>
+  [SerializeField]
+  public GameObject m_weaponSlot;
 
   /// <summary>
   /// 
