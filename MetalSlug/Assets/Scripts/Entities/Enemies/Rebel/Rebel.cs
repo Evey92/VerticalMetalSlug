@@ -143,6 +143,7 @@ public class Rebel : Enemy
   [SerializeField]
   [Range(5.0f, 8.0f)]
   protected float m_playerDetectRadius = 5.0f;
+
 #endregion
 
 #region Properties
