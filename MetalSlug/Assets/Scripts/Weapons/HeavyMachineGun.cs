@@ -13,32 +13,18 @@ public class HeavyMachineGun : Weapon
   public override void Shoot()
   {
     float shotRotation = 0;
-    float burstDelay = 0.0f;
-    float burstTimer = 0.0f;
-    float burstsLeft = m_bursts;
+
     if(!m_player.GetComponent<Marco>().IsFacingRight)
     {
       shotRotation = 180;
     }
 
-    while(burstsLeft > 0)
-    {
-      if (burstTimer <= burstDelay)
-      {
-        Vector3 spaunpos = new Vector3(m_bulletSpawn.transform.position.x + Random.insideUnitCircle.x * .25f, m_bulletSpawn.transform.position.y + Random.insideUnitCircle.y * .25f, m_bulletSpawn.transform.position.z);
-        Bullet bulletInstance;
-        bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
-        bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
-
-        burstTimer = burstDelay;
-        --m_bursts;
-      }
-      else
-      {
-        burstTimer -= Time.fixedDeltaTime;
-      }
-    }
-
+    
+    Vector3 spaunpos = new Vector3(m_bulletSpawn.transform.position.x + Random.insideUnitCircle.x * .25f, m_bulletSpawn.transform.position.y + Random.insideUnitCircle.y * .25f, m_bulletSpawn.transform.position.z);
+    Bullet bulletInstance;
+    bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
+    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
+    ++m_bulletsShot;
   }
 
   public void spawnBullet(Vector3 Position, Quaternion rotation)
@@ -46,8 +32,7 @@ public class HeavyMachineGun : Weapon
     Instantiate(m_bullet, Position, rotation);
   }
 
-  [SerializeField]
-  int m_bursts = 2;
+  
   
   public float m_delay = 1;
 

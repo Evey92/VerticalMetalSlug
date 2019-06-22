@@ -70,7 +70,20 @@ public class Marco : Player
         break;
 
       case ItemType.E.kScore:
+        m_score = m_ammount;
+        break;
 
+      case ItemType.E.kBomb:
+
+        if (m_grenadesLeft + m_ammount < m_maxGrenades)
+        {
+          m_grenadesLeft += m_ammount;
+
+        }
+        else
+        {
+          m_grenadesLeft = m_maxGrenades;
+        }
         break;
     }
   }
@@ -93,6 +106,8 @@ public class Marco : Player
     }
   }
 
+
+
   /// <summary>
   /// Used to initiate the player's state machine
   /// </summary>
@@ -108,19 +123,40 @@ public class Marco : Player
     m_playerStateMachine.Init(playeParachuteFallState, this);
   }
 
+  //public override void shootWeapon()
+  //{
+  //  int bursts = m_weapon.m_bursts;
+  //  float coolDown = m_weapon.m_weaponCooldown;
+  //  float coolDownTIme = 0.0f;
+  //  if (Time.time > m_weapon.getFireRate() + m_lastShot)
+  //  {
+
+  //    m_weapon.InvokeRepeating("Shoot", 1, m_weapon.m_bursts);
+  //    m_weapon.Shoot();
+  //    m_lastShot = Time.time;
+  //    m_ammoLeft -= m_weapon.m_ammoSpent;
+  //  }
+  //}
+
   public override void shootWeapon()
   {
-    
-    if (Time.time > m_weapon.getFireRate() + m_lastShot)
+    if (Time.time - m_lastShot > 1 / m_weapon.getFireRate() + m_lastShot )
     {
-      m_weapon.Shoot();
+      m_firing = true;   
+      m_weapon.InvokeRepeating("Shoot", 0, 0.3f);
       m_lastShot = Time.time;
-      if(m_weapon.m_weaponKind != WeaponItemKind.E.kHangun)
+
+      while (m_firing)
       {
-        m_ammoLeft -= m_weapon.m_ammoSpent;
+        if (m_weapon.m_bulletsShot >= m_weapon.m_bursts)
+        {
+          m_ammoLeft -= m_weapon.m_ammoSpent;
+          m_weapon.m_bulletsShot = 0;
+          CancelInvoke();
+          m_firing = false;
+        }
       }
     }
-    
   }
 
   /// <summary>
@@ -245,6 +281,11 @@ public class Marco : Player
   [SerializeField]
   [Range(1.0f, 30.0f)]
   public float m_hFallSpeed = 0.0f;
+
+  /// <summary>
+  /// Reference to the handgun
+  /// </summary>
+  public bool m_firing;
 
   /// <summary>
   /// Reference to the handgun

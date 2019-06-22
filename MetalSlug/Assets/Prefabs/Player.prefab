@@ -479,7 +479,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8818733303940771161}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -567,6 +567,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8818733303684047912}
     m_Modifications:
+    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
+        type: 3}
+      propertyPath: m_Name
+      value: HeavyMachineGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_bulletSpawn
@@ -635,16 +645,6 @@ PrefabInstance:
     - target: {fileID: 4728282887116600582, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
-        type: 3}
-      propertyPath: m_Name
-      value: HeavyMachineGun
-      objectReference: {fileID: 0}
-    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

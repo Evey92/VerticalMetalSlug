@@ -19,9 +19,7 @@ public abstract class Weapon : MonoBehaviour
     return m_fireRate;
   }
 
-  public GameObject m_player;
-  public GameObject m_bulletSpawn;
-  public Bullet m_bullet;
+  
   
   /// <summary>
   /// Used to control how much damage it does
@@ -49,14 +47,35 @@ public abstract class Weapon : MonoBehaviour
   /// <summary>
   /// Used to keep track of how much ammo you've got left
   /// </summary>
+  [SerializeField]
+  public int m_bulletsShot = 0;
+
+  /// <summary>
+  /// Used to keep track of how much ammo you've got left
+  /// </summary>
   public int m_ammoSpent;
 
+  /// <summary>
+  /// Used to keep track of how many bullets the wepon shoots
+  /// </summary>
+  [SerializeField]
+  public int m_bursts = 2;
+
+  /// <summary>
+  /// Used to keep track of how many bullets the wepon shoots
+  /// </summary>
+  [SerializeField]
+  public float m_weaponCooldown;
   /// <summary>
   /// Asset to assign the pweapons bullet sprite
   /// </summary>
   public Sprite m_bulletSprite;
 
   public WeaponItemKind.E m_weaponKind;
+
+  public GameObject m_player;
+  public GameObject m_bulletSpawn;
+  public Bullet m_bullet;
 
 
 }

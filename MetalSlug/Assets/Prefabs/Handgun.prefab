@@ -98,11 +98,13 @@ MonoBehaviour:
   m_bulletSpawn: {fileID: 0}
   m_bullet: {fileID: 7402599716090927790, guid: 6a45ef5b57d5a1140a11ed974d564676,
     type: 3}
-  m_firePower: 0
-  m_fireRate: 0
+  m_firePower: 1
+  m_fireRate: 0.3
   m_range: 0
-  m_ammo: 0
+  m_ammo: 1
   m_ammoSpent: 0
+  m_bursts: 1
+  m_weaponCooldown: 0
   m_bulletSprite: {fileID: 21300000, guid: e6062880c72fcb24d906ba758f2ec398, type: 3}
   m_weaponKind: 0
   m_shotSound: {fileID: 8300000, guid: eb8851c41befe4142afa5138abe68520, type: 3}

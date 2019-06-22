@@ -44,12 +44,12 @@ public class ScoreItem : Item
     }
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
+  protected  void OnTriggerEnter2D(Collider2D other)
   {
     throw new NotImplementedException();
   }
 
-  protected override void OnTriggerExit2D(Collider2D other)
+  protected  void OnTriggerExit2D(Collider2D other)
   {
     throw new NotImplementedException();
   }
@@ -59,7 +59,7 @@ public class ScoreItem : Item
     throw new NotImplementedException();
   }
 
-  public override void Fall()
+  public  void Fall()
   {
     throw new NotImplementedException();
   }
