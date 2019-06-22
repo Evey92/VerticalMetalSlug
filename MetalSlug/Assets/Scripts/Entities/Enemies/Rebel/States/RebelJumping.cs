@@ -20,6 +20,10 @@ public class RebelJumping : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelFall, rebel);
     }
+    if (rebel.HP <= 0)
+    {
+      m_StateMachine.ToState(rebel.rebelDie, rebel);
+    }
   }
 
   public override void OnStateUpdate(Rebel rebel)

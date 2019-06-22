@@ -4,40 +4,74 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-  void Start()
+
+  private void Awake()
   {
-    m_maxDistance = 5f;
-    m_destination = transform.position;
-    m_projection = m_player.transform.position;
+    m_playerOffset = 1.2f;
+    m_camOffsetSpeed = 3.0f;
+    m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
   }
 
-  // Update is called once per frame
   void LateUpdate()
   {
-    if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
+    if (m_player.m_isMoving)
     {
-      Debug.Log("Player reached the middle of screen. Moving away.");
-      Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
-
-      if (m_player.IsJumping)
+      if (m_thisCamera.WorldToScreenPoint(m_player.transform.position).x >= Screen.width / 2)
       {
-        transform.position += horizontal * Time.fixedDeltaTime * m_player.GetComponent<Rigidbody2D>().velocity.x;
+      
+        Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
 
+        if (m_player.IsJumping)
+        {
+          transform.position += horizontal * Time.fixedDeltaTime * m_player.GetComponent<Rigidbody2D>().velocity.x;
+
+        }
+        else
+        {
+          transform.position += (horizontal * Time.fixedDeltaTime * m_player.WalkSpeed);
+        }
       }
-      else
+    }
+    else
+    {
+
+      if (m_thisCamera.transform.position.x  < m_player.transform.position.x + m_playerOffset)
       {
-        transform.position += horizontal * Time.fixedDeltaTime * m_player.WalkSpeed;
+        Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
+        if (m_player.IsJumping)
+        {
+          transform.position += horizontal * Time.fixedDeltaTime * m_camOffsetSpeed;
+
+        }
+        else
+        {
+          transform.position += (horizontal * Time.fixedDeltaTime * m_camOffsetSpeed);
+        }
       }
     }
   }
+  /// <summary>
+  /// Variable so the camera is not completely centered on the player
+  /// </summary>
+  [SerializeField]
+  float m_playerOffset;
 
-
+  /// <summary>
+  /// Reference to the camera to which this script is attached
+  /// </summary>
   public Camera m_thisCamera;
+
+  /// <summary>
+  /// A reference to the player's GO
+  /// </summary>
   public Player m_player;
-  private Vector2 m_destination;
-  private Vector2 m_projection;
-  public float m_maxDistance;
-  public float m_speed = 4.9f;
+
+  /// <summary>
+  /// Variable to control how fast the camera moves when moving to offset
+  /// </summary>
+  [SerializeField]
+  private float m_camOffsetSpeed;
+
 
 
 }

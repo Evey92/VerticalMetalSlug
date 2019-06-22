@@ -1,0 +1,3477 @@
+fileFormatVersion: 2
+guid: c8a0eb117742f964ca220dabe46a490e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_0
+    21300002: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_1
+    21300004: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_2
+    21300006: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_3
+    21300008: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_4
+    21300010: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_5
+    21300012: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_6
+    21300014: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_7
+    21300016: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_8
+    21300018: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_9
+    21300020: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_10
+    21300022: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_11
+    21300024: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_12
+    21300026: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_13
+    21300028: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_14
+    21300030: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_15
+    21300032: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_16
+    21300034: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_17
+    21300036: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_18
+    21300038: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_19
+    21300040: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_20
+    21300042: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_21
+    21300044: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_22
+    21300046: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_23
+    21300048: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_24
+    21300050: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_25
+    21300052: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_26
+    21300054: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_27
+    21300056: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_28
+    21300058: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_29
+    21300060: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_30
+    21300062: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_31
+    21300064: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_32
+    21300066: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_33
+    21300068: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_34
+    21300070: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_35
+    21300072: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_36
+    21300074: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_37
+    21300076: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_38
+    21300078: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_39
+    21300080: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_40
+    21300082: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_41
+    21300084: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_42
+    21300086: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_43
+    21300088: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_44
+    21300090: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_45
+    21300092: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_46
+    21300094: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_47
+    21300096: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_48
+    21300098: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_49
+    21300100: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_50
+    21300102: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_51
+    21300104: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_52
+    21300106: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_53
+    21300108: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_54
+    21300110: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_55
+    21300112: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_56
+    21300114: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_57
+    21300116: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_58
+    21300118: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_59
+    21300120: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_60
+    21300122: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_61
+    21300124: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_62
+    21300126: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_63
+    21300128: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_64
+    21300130: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_65
+    21300132: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_66
+    21300134: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_67
+    21300136: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_68
+    21300138: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_69
+    21300140: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_70
+    21300142: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_71
+    21300144: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_72
+    21300146: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_73
+    21300148: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_74
+    21300150: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_75
+    21300152: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_76
+    21300154: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_77
+    21300156: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_78
+    21300158: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_79
+    21300160: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_80
+    21300162: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_81
+    21300164: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_82
+    21300166: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_83
+    21300168: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_84
+    21300170: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_85
+    21300172: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_86
+    21300174: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_87
+    21300176: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_88
+    21300178: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_89
+    21300180: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_90
+    21300182: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_91
+    21300184: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_92
+    21300186: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_93
+    21300188: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_94
+    21300190: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_95
+    21300192: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_96
+    21300194: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_97
+    21300196: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_98
+    21300198: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_99
+    21300200: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_100
+    21300202: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_101
+    21300204: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_102
+    21300206: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_103
+    21300208: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_104
+    21300210: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_105
+    21300212: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_106
+    21300214: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_107
+    21300216: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_108
+    21300218: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_109
+    21300220: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_110
+    21300222: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_111
+    21300224: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_112
+    21300226: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_113
+    21300228: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_114
+    21300230: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_115
+    21300232: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_116
+    21300234: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_117
+    21300236: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_118
+    21300238: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_119
+    21300240: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_120
+    21300242: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_121
+    21300244: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_122
+    21300246: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_123
+    21300248: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_124
+    21300250: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_125
+    21300252: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_126
+    21300254: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_127
+    21300256: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_128
+    21300258: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_129
+    21300260: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_130
+    21300262: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_131
+    21300264: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_132
+    21300266: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_133
+    21300268: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_134
+    21300270: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_135
+    21300272: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_136
+    21300274: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_137
+    21300276: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_138
+    21300278: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_139
+    21300280: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_140
+    21300282: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_141
+    21300284: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_142
+    21300286: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_143
+    21300288: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_144
+    21300290: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_145
+    21300292: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_146
+    21300294: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_147
+    21300296: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_148
+    21300298: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_149
+    21300300: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_150
+    21300302: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_151
+    21300304: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_152
+    21300306: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_153
+    21300308: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_154
+    21300310: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_155
+    21300312: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_156
+    21300314: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_157
+    21300316: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_158
+    21300318: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_159
+    21300320: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_160
+    21300322: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_161
+    21300324: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_162
+    21300326: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_163
+    21300328: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_164
+    21300330: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_165
+    21300332: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_166
+    21300334: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_167
+    21300336: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_168
+    21300338: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_169
+    21300340: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_170
+    21300342: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_171
+    21300344: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_172
+    21300346: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_173
+    21300348: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_174
+    21300350: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_175
+    21300352: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_176
+    21300354: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_177
+    21300356: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_178
+    21300358: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_179
+    21300360: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_180
+    21300362: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_181
+    21300364: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_182
+    21300366: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_183
+    21300368: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_184
+    21300370: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_185
+    21300372: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_186
+    21300374: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_187
+    21300376: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_188
+    21300378: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_189
+    21300380: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_190
+    21300382: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_191
+    21300384: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_192
+    21300386: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_193
+    21300388: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_194
+    21300390: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_195
+    21300392: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_196
+    21300394: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_197
+    21300396: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_198
+    21300398: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_199
+    21300400: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_200
+    21300402: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_201
+    21300404: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_202
+    21300406: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_203
+    21300408: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_204
+    21300410: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_205
+    21300412: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_206
+    21300414: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_207
+    21300416: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_208
+    21300418: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_209
+    21300420: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_210
+    21300422: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_211
+    21300424: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_212
+    21300426: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_213
+    21300428: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_214
+    21300430: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_215
+    21300432: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_216
+    21300434: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_217
+    21300436: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_218
+    21300438: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_219
+    21300440: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_220
+    21300442: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_221
+    21300444: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_222
+    21300446: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_223
+    21300448: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_224
+    21300450: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_225
+    21300452: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_226
+    21300454: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_227
+    21300456: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_228
+    21300458: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_229
+    21300460: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_230
+    21300462: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_231
+    21300464: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_232
+    21300466: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_233
+    21300468: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_234
+    21300470: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_235
+    21300472: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_236
+    21300474: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_237
+    21300476: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_238
+    21300478: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_239
+    21300480: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_240
+    21300482: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_241
+    21300484: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_242
+    21300486: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_243
+    21300488: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_244
+    21300490: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_245
+    21300492: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_246
+    21300494: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_247
+    21300496: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_248
+    21300498: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_249
+    21300500: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_250
+    21300502: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_251
+    21300504: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_252
+    21300506: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_253
+    21300508: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_254
+    21300510: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_255
+    21300512: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_256
+    21300514: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_257
+    21300516: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_258
+    21300518: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_259
+    21300520: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_260
+    21300522: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_261
+    21300524: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_262
+    21300526: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_263
+    21300528: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_264
+    21300530: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_265
+    21300532: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_266
+    21300534: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_267
+    21300536: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_268
+    21300538: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_269
+    21300540: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_270
+    21300542: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_271
+    21300544: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_272
+    21300546: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_273
+    21300548: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_274
+    21300550: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_275
+    21300552: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_276
+    21300554: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_277
+    21300556: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_278
+    21300558: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_279
+    21300560: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_280
+    21300562: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_281
+    21300564: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_282
+    21300566: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_283
+    21300568: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_284
+    21300570: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_285
+    21300572: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_286
+    21300574: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_287
+    21300576: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_288
+    21300578: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_289
+    21300580: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_290
+    21300582: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_291
+    21300584: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_292
+    21300586: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_293
+    21300588: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_294
+    21300590: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_295
+    21300592: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_296
+    21300594: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_297
+    21300596: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_298
+    21300598: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_299
+    21300600: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_300
+    21300602: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_301
+    21300604: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_302
+    21300606: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_303
+    21300608: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_304
+    21300610: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_305
+    21300612: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_306
+    21300614: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_307
+    21300616: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_308
+    21300618: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_309
+    21300620: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_310
+    21300622: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_311
+    21300624: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_312
+    21300626: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_313
+    21300628: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_314
+    21300630: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_315
+    21300632: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_316
+    21300634: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_317
+    21300636: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_318
+    21300638: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_319
+    21300640: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_320
+    21300642: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_321
+    21300644: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_322
+    21300646: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_323
+    21300648: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_324
+    21300650: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_325
+    21300652: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_326
+    21300654: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_327
+    21300656: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_328
+    21300658: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_329
+    21300660: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_330
+    21300662: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_331
+    21300664: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_332
+    21300666: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_333
+    21300668: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_334
+    21300670: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_335
+    21300672: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_336
+    21300674: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_337
+    21300676: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_338
+    21300678: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_339
+    21300680: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_340
+    21300682: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_341
+    21300684: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_342
+    21300686: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_343
+    21300688: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_344
+    21300690: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_345
+    21300692: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_346
+    21300694: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_347
+    21300696: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_348
+    21300698: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_349
+    21300700: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_350
+    21300702: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_351
+    21300704: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_352
+    21300706: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_353
+    21300708: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_354
+    21300710: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_355
+    21300712: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_356
+    21300714: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_357
+    21300716: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_358
+    21300718: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_359
+    21300720: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_360
+    21300722: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_361
+    21300724: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_362
+    21300726: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_363
+    21300728: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_364
+    21300730: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_365
+    21300732: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_366
+    21300734: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_367
+    21300736: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_368
+    21300738: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_369
+    21300740: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_370
+    21300742: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_371
+    21300744: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_372
+    21300746: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_373
+    21300748: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_374
+    21300750: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_375
+    21300752: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_376
+    21300754: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_377
+    21300756: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_378
+    21300758: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_379
+    21300760: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_380
+    21300762: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_381
+    21300764: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_382
+    21300766: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_383
+    21300768: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_384
+    21300770: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_385
+    21300772: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_386
+    21300774: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_387
+    21300776: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_388
+    21300778: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_389
+    21300780: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_390
+    21300782: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_391
+    21300784: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_392
+    21300786: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_393
+    21300788: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_394
+    21300790: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_395
+    21300792: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_396
+    21300794: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_397
+    21300796: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_398
+    21300798: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_399
+    21300800: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_400
+    21300802: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_401
+    21300804: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_402
+    21300806: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_403
+    21300808: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_404
+    21300810: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_405
+    21300812: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_406
+    21300814: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_407
+    21300816: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_408
+    21300818: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_409
+    21300820: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_410
+    21300822: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_411
+    21300824: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_412
+    21300826: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_413
+    21300828: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_414
+    21300830: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_415
+    21300832: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_416
+    21300834: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_417
+    21300836: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_418
+    21300838: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_419
+    21300840: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_420
+    21300842: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_421
+    21300844: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_422
+    21300846: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_423
+    21300848: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_424
+    21300850: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_425
+    21300852: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_426
+    21300854: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_427
+    21300856: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_428
+    21300858: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_429
+    21300860: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_430
+    21300862: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_431
+    21300864: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_432
+    21300866: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_433
+    21300868: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_434
+    21300870: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_435
+    21300872: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_436
+    21300874: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_437
+    21300876: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_438
+    21300878: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_439
+    21300880: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_440
+    21300882: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_441
+    21300884: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_442
+    21300886: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_443
+    21300888: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_444
+    21300890: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_445
+    21300892: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_446
+    21300894: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_447
+    21300896: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_448
+    21300898: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_449
+    21300900: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_450
+    21300902: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_451
+    21300904: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_452
+    21300906: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_453
+    21300908: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_454
+    21300910: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_455
+    21300912: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_456
+    21300914: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_457
+    21300916: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_458
+    21300918: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_459
+    21300920: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_460
+    21300922: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_461
+    21300924: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_462
+    21300926: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_463
+    21300928: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_464
+    21300930: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_465
+    21300932: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_466
+    21300934: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_467
+    21300936: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_468
+    21300938: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_469
+    21300940: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_470
+    21300942: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_471
+    21300944: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_472
+    21300946: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_473
+    21300948: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_474
+    21300950: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_475
+    21300952: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_476
+    21300954: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_477
+    21300956: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_478
+    21300958: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_479
+    21300960: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_480
+    21300962: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_481
+    21300964: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_482
+    21300966: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_483
+    21300968: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_484
+    21300970: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_485
+    21300972: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_486
+    21300974: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_487
+    21300976: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_488
+    21300978: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_489
+    21300980: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_490
+    21300982: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_491
+    21300984: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_492
+    21300986: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_493
+    21300988: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_494
+    21300990: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_495
+    21300992: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_496
+    21300994: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_497
+    21300996: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_498
+    21300998: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_499
+    21301000: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_500
+    21301002: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_501
+    21301004: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_502
+    21301006: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_503
+    21301008: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_504
+    21301010: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_505
+    21301012: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_506
+    21301014: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_507
+    21301016: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_508
+    21301018: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_509
+    21301020: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_510
+    21301022: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_511
+    21301024: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_512
+    21301026: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_513
+    21301028: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_514
+    21301030: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_515
+    21301032: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_516
+    21301034: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_517
+    21301036: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_518
+    21301038: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_519
+    21301040: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_520
+    21301042: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_521
+    21301044: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_522
+    21301046: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_523
+    21301048: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_524
+    21301050: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_525
+    21301052: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_526
+    21301054: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_527
+    21301056: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_528
+    21301058: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_529
+    21301060: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_530
+    21301062: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_531
+    21301064: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_532
+    21301066: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_533
+    21301068: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_534
+    21301070: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_535
+    21301072: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_536
+    21301074: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_537
+    21301076: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_538
+    21301078: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_539
+    21301080: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_540
+    21301082: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_541
+    21301084: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_542
+    21301086: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_543
+    21301088: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_544
+    21301090: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_545
+    21301092: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_546
+    21301094: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_547
+    21301096: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_548
+    21301098: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_549
+    21301100: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_550
+    21301102: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_551
+    21301104: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_552
+    21301106: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_553
+    21301108: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_554
+    21301110: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_555
+    21301112: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_556
+    21301114: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_557
+    21301116: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_558
+    21301118: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_559
+    21301120: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_560
+    21301122: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_561
+    21301124: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_562
+    21301126: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_563
+    21301128: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_564
+    21301130: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_565
+    21301132: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_566
+    21301134: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_567
+    21301136: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_568
+    21301138: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_569
+    21301140: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_570
+    21301142: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_571
+    21301144: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_572
+    21301146: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_573
+    21301148: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_574
+    21301150: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_575
+    21301152: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_576
+    21301154: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_577
+    21301156: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_578
+    21301158: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_579
+    21301160: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_580
+    21301162: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_581
+    21301164: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_582
+    21301166: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_583
+    21301168: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_584
+    21301170: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_585
+    21301172: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_586
+    21301174: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_587
+    21301176: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_588
+    21301178: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_589
+    21301180: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_590
+    21301182: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_591
+    21301184: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_592
+    21301186: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_593
+    21301188: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_594
+    21301190: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_595
+    21301192: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_596
+    21301194: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_597
+    21301196: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_598
+    21301198: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_599
+    21301200: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_600
+    21301202: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_601
+    21301204: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_602
+    21301206: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_603
+    21301208: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_604
+    21301210: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_605
+    21301212: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_606
+    21301214: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_607
+    21301216: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_608
+    21301218: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_609
+    21301220: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_610
+    21301222: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_611
+    21301224: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_612
+    21301226: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_613
+    21301228: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_614
+    21301230: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_615
+    21301232: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_616
+    21301234: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_617
+    21301236: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_618
+    21301238: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_619
+    21301240: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_620
+    21301242: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_621
+    21301244: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_622
+    21301246: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_623
+    21301248: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_624
+    21301250: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_625
+    21301252: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_626
+    21301254: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_627
+    21301256: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_628
+    21301258: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_629
+    21301260: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_630
+    21301262: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_631
+    21301264: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_632
+    21301266: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_633
+    21301268: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_634
+    21301270: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_635
+    21301272: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_636
+    21301274: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_637
+    21301276: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_638
+    21301278: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_639
+    21301280: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_640
+    21301282: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_641
+    21301284: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_642
+    21301286: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_643
+    21301288: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_644
+    21301290: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_645
+    21301292: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_646
+    21301294: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_647
+    21301296: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_648
+    21301298: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_649
+    21301300: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_650
+    21301302: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_651
+    21301304: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_652
+    21301306: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_653
+    21301308: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_654
+    21301310: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_655
+    21301312: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_656
+    21301314: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_657
+    21301316: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_658
+    21301318: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_659
+    21301320: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_660
+    21301322: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_661
+    21301324: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_662
+    21301326: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_663
+    21301328: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_664
+    21301330: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_665
+    21301332: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_666
+    21301334: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_667
+    21301336: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_668
+    21301338: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_669
+    21301340: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_670
+    21301342: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_671
+    21301344: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_672
+    21301346: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_673
+    21301348: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_674
+    21301350: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_675
+    21301352: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_676
+    21301354: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_677
+    21301356: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_678
+    21301358: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_679
+    21301360: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_680
+    21301362: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_681
+    21301364: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_682
+    21301366: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_683
+    21301368: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_684
+    21301370: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_685
+    21301372: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_686
+    21301374: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_687
+    21301376: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_688
+    21301378: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_689
+    21301380: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_690
+    21301382: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_691
+    21301384: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_692
+    21301386: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_693
+    21301388: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_694
+    21301390: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_695
+    21301392: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_696
+    21301394: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_697
+    21301396: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_698
+    21301398: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_699
+    21301400: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_700
+    21301402: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_701
+    21301404: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_702
+    21301406: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_703
+    21301408: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_704
+    21301410: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_705
+    21301412: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_706
+    21301414: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_707
+    21301416: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_708
+    21301418: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_709
+    21301420: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_710
+    21301422: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_711
+    21301424: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_712
+    21301426: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_713
+    21301428: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_714
+    21301430: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_715
+    21301432: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_716
+    21301434: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_717
+    21301436: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_718
+    21301438: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_719
+    21301440: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_720
+    21301442: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_721
+    21301444: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_722
+    21301446: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_723
+    21301448: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_724
+    21301450: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_725
+    21301452: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_726
+    21301454: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_727
+    21301456: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_728
+    21301458: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_729
+    21301460: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_730
+    21301462: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_731
+    21301464: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_732
+    21301466: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_733
+    21301468: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_734
+    21301470: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_735
+    21301472: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_736
+    21301474: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_737
+    21301476: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_738
+    21301478: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_739
+    21301480: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_740
+    21301482: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_741
+    21301484: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_742
+    21301486: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_743
+    21301488: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_744
+    21301490: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_745
+    21301492: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_746
+    21301494: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_747
+    21301496: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_748
+    21301498: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_749
+    21301500: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_750
+    21301502: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_751
+    21301504: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_752
+    21301506: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_753
+    21301508: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_754
+    21301510: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_755
+    21301512: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_756
+    21301514: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_757
+    21301516: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_758
+    21301518: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_759
+    21301520: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_760
+    21301522: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_761
+    21301524: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_762
+    21301526: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_763
+    21301528: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_764
+    21301530: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_765
+    21301532: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_766
+    21301534: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_767
+    21301536: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_768
+    21301538: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_769
+    21301540: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_770
+    21301542: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_771
+    21301544: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_772
+    21301546: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_773
+    21301548: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_774
+    21301550: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_775
+    21301552: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_776
+    21301554: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_777
+    21301556: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_778
+    21301558: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_779
+    21301560: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_780
+    21301562: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_781
+    21301564: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_782
+    21301566: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_783
+    21301568: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_784
+    21301570: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_785
+    21301572: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_786
+    21301574: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_787
+    21301576: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_788
+    21301578: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_789
+    21301580: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_790
+    21301582: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_791
+    21301584: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_792
+    21301586: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_793
+    21301588: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_794
+    21301590: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_795
+    21301592: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_796
+    21301594: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_797
+    21301596: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_798
+    21301598: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_799
+    21301600: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_800
+    21301602: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_801
+    21301604: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_802
+    21301606: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_803
+    21301608: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_804
+    21301610: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_805
+    21301612: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_806
+    21301614: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_807
+    21301616: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_808
+    21301618: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_809
+    21301620: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_810
+    21301622: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_811
+    21301624: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_812
+    21301626: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_813
+    21301628: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_814
+    21301630: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_815
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2927
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d3577dfc2b1024ba374ff9edcec03a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2927
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5476ae1b8a46c594c81ae25e886ce5e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2927
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324469356f65fd4bb37f5c0ec6e3edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2927
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c74a4030e27de74aa7c5bde3cb82ae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2856
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f02144b4a21d34c9ff01d12faa5d56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2856
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b82a292b6ea513498edfba5ee6f6e7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2856
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3376fb61343aab240a810d9fbe4328cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2856
+        width: 18
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af33e43037f14046ae7837c0907cb28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_36
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2856
+        width: 18
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a518700ca3544d8774f9010a3226d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2874
+        width: 3
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a075bb3ed6694d94ce073c02f06a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2874
+        width: 3
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4593fa2f9138240499be26c65e3425bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_39
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2874
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea4e7c402602b244bf23ebb6cae39c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2860
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3426f6b777eec4fa2581f687bacc01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_41
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2861
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c2db29657ab1d46b8982096d7f20bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_42
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2860
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1701d7ac9e7ab204c967668a34373500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_45
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2861
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedfd8b50c5fea428656e3b6c63ec0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_46
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2861
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3dd5724d7aa534ba778e4a999b635a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2851
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851dae9a45cdac247b00c5f6a0c05ac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2848
+        width: 33
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34e851c731650d4abd24dfd0d4b34bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_55
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2844
+        width: 38
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a44d82ddb601c4cad672d9e0790206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_67
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2841
+        width: 43
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79c625a40a05da458f7ec0ac4b43f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_68
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2790
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f10fd685d4424fbc6dc0ff8e8e15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_69
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2790
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0667abb20a3f06942b5ca50c0b137c8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_70
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2790
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2fe7161d6410844939c6fa8a76a4b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_71
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2790
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437ee512759a764b8568ecaeb95d7b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_72
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2790
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce75eda37843a4580edc7f7280c3f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2790
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb78be6216fc87459c9006081dc9422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_74
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 2790
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e2bd0e2d1b5d6458b8040835981c1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_75
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2790
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30b8ffcc458314ba55727c16b3647f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_76
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2787
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc6583af50c3db47b3f4f59cd7e36b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2739
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f301a9fc46d26c34f81eea1a0b226aba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_78
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2739
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2100f51c623f03b419eed566e20027f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_79
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2739
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5100b64e1a559d48893943abc2a4210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_80
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2739
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3051f332583fa9342a2374c5c84c042c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_81
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2739
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd28318e0c1b954cb5ac97d1d9a7374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2739
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160cf9046ae068045a5d61916d7df97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_84
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2739
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed731fb1d6aeb941a7e5f0627418c3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_110
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2739
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7418fd071725d49b3b3cdd1aa21c4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_119
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2739
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0473d4150316084fba015bfc90aca58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_121
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2694
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce59a58179dc97419e068dc87d3f55e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_122
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2694
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b357eab768cc948b4f54c533cf5038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_123
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2694
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376a587d7abd725419c99bfaa59f2e9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_124
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2695
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba181b7e6b15ae4e83d409c0d048a0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_125
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2696
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e09bb6eca3da9498fc5302ec0d2f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_126
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2694
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78142167be157794bb1b1393920fed6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_127
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2694
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288b3056c312ee94382faf6873b599e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_128
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2694
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d61ae3c1ec9a4b83bf015047db6b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_129
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2694
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d4f07058fafeb47b01b99078e2a201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_130
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2694
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29715588c33fb949bc9bbb22f205024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_131
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2695
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9aa5858ce899d43a4d0ff07058bb06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_132
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2695
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaa80116e1c5e9468bcb82083ae695e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_133
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2647
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ecadd287f6ee49b0f51785638ad8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_134
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2647
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e5af5d2b2bf040a693a4cb1a920e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_135
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2648
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7020678779be8fa40950b7dd17fe6000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_136
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2647
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b9c3fe660ff9d40bdd7ced46d7db93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_137
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2646
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc29daeadc441d04486b9031b65a5ba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_138
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2645
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67122fb22c0479e48adbed10f0b5a91d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_139
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2645
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf08cb533a271142b586c79594d1210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_140
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2647
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c804b010e6a241ad31f290214bf7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_141
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2648
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b3b7b9cf0e3e44487569163c4d9650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_142
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2648
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c882e743c8ea1a4392876bd6a90751b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_143
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2648
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1bda9036e11f44c861f1cf12f3cc35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_144
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2651
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8421cc282ca946a4e8db0cc152b25ec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2653
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03975876831794249a01daf915d5548b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_146
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2652
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5062c93f226a4fc44b0a21d27e4415ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_147
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2585
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eea2d7f88707fa4883d6f7ee9e8c868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_148
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2585
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85a526bc5f3ac840859706d94645793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_149
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2586
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8ec260b88c82e40b99cc2d57da20ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2590
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a021c01898d10bd448ddb6ea19e26dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_151
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2594
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060675b64b8bf2f4ca3c5f32107dbdbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_152
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2594
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525a5f1afa016b6459a537c6e56b9625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_153
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2594
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ae409c6ff28f449849d7c3c4db63a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_154
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2595
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f718181de76e90b419a54f9155060226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_155
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2596
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5f7d7d0ab0c8d42a934889935c8d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_156
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2597
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068192dee135ced48b4db0c7e604aed3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_157
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2600
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b8e53a25e0dc94b96b3d07f7bf77a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_158
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2602
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac756b793b43944b84a1f41bea5027e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_159
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2604
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e31eab66f437954f8903109b3d93d3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_160
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2604
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c48c092872372a49a0f78d2bdacdb20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_161
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2607
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de321e776ed5a24f9e4a9ce32d8c0f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_162
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2612
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04137abedb36c3e4eb64fec4a9ca1c63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_163
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2544
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5ff7d3c19578f459d40e2e48a18288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_164
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2544
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db1ff9e4984ed48bb5de23776c3e2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_165
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2544
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aa77607d10c814e86469576e1119c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_166
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2544
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033fcc00e9e79a64d8521272a58809c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_167
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2544
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f464172fff686754ca82ae41e7bcd139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_168
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2544
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8934855d1402404f9b41f41d992d6ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_169
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2544
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb25df1459067734eb1d8884fa98b5b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_170
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2544
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e745e69269c64c9c8d02866b5858b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_171
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2544
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116a6da976b25c4a91f04e04317f8ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_172
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2544
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4595d1c378f3ebd42b464d2c926b989a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_173
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2544
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2cef4135cd98742b6168ec54082564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_174
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2501
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ca2e1832802d24a98519aa9fcaf68f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_175
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2501
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c95224f865c738488ea5b3e762fe83c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_176
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2501
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46f14844cbd3df478f34b98644d7572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_177
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2501
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20b8987d267dd546935b7aa6ff0c768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_179
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2501
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aa041fdd78f5a469107210688fd06b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_180
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2501
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd96d28e2cfec4d90d69ac7b93359e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_181
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2501
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b290e62817d247baea74447a0cc61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_182
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2501
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c17fbd944c3a343aade73283a78d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_183
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2501
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c014c196cd64c4cb6d2b0a52fb54d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_184
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2501
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d0d1ab707e679478bea2aa109809eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_185
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2501
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8043748ade03d4a90e36f5e228c354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_186
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2501
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925b378a0dc001e479dedda02c8daf7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_187
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2501
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858307295f43c1e44b791d2058db9e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_188
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2501
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a3313b8119244eb56b29e3cb79d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_189
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2457
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d922a71f0e27d7c4fb98f002b5c46a24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_190
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2457
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887149b7b460f34abc539a78ac1e0ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_191
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2457
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65075095f3533164ea938b09c000ec12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_192
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2459
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c100c2288911c5489b8cc291396c5aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_193
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2457
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06afc341db44de341bc7ed9fe1243f0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_194
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2457
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c44394392534e04e8814687fd19f2bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_195
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2457
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cc6dadfc35cb540960d139004f387a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_196
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2460
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911220ab99e5c143bd6a3f357f58dab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2927
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73659623821a6154bbedc4c11a9ea5b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2927
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0805c9a5d98dc46967a260a254aaee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2865
+        width: 3
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aefde3909ac18d4c85494d3f4f4cbdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2864
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: -2.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1210b8700e108764f80d751f7526ea14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2862
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab861fa925f05ba41802a15987566a89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2874
+        width: 3
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bed84142ef8594ca3b06a2b7d22766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2874
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a178c379554904ea85a4b9974ee44a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2874
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5639a16c9c5e24b90180b413b9e081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2874
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac4a4529e4b8f948aa0fcb67b24baa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_10
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2739
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855ee6a60ffad5c43b022d3a24faa440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2927
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a212735232f77478f9e05ee9655c48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2927
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c882d54658ffa49bc6e282ba14d004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - POWs Helpful NPCs_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2927
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd0839ecaf00b44a379058f6f1b6be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d5161dbb28aa8b44b94f1e4182e82df5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
