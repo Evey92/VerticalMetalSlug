@@ -18,6 +18,7 @@ public class RebelFall : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelRun, rebel);
     }
+
     if (rebel.HP <= 0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
@@ -26,11 +27,38 @@ public class RebelFall : State<Rebel>
 
   public override void OnStateUpdate(Rebel rebel)
   {
-    rebel.FallSpeed += (rebel.Gravity * Time.fixedDeltaTime * Time.fixedDeltaTime);
-    rebel.transform.position = new Vector3(rebel.transform.position.x,
-      rebel.transform.position.y - (rebel.FallSpeed),
-      rebel.transform.position.z);
+    rebel.Fall();
     // TODO: Based on previous state, use respective speed
+    if(m_StateMachine.LastState == rebel.rebelWalk)
+    {
+      if (rebel.IsFacingRight)
+      {
+        rebel.transform.position = new Vector3(rebel.transform.position.x + rebel.WalkSpeed * Time.fixedDeltaTime,
+          rebel.transform.position.y,
+          rebel.transform.position.z);
+      }
+      else
+      {
+        rebel.transform.position = new Vector3(rebel.transform.position.x - rebel.WalkSpeed * Time.fixedDeltaTime,
+          rebel.transform.position.y,
+          rebel.transform.position.z);
+      }
+    }
+    if(m_StateMachine.LastState==rebel.rebelRun)
+    {
+      if (rebel.IsFacingRight)
+      {
+        rebel.transform.position = new Vector3(rebel.transform.position.x + rebel.RunSpeed * Time.fixedDeltaTime,
+          rebel.transform.position.y,
+          rebel.transform.position.z);
+      }
+      else
+      {
+        rebel.transform.position = new Vector3(rebel.transform.position.x - rebel.RunSpeed * Time.fixedDeltaTime,
+          rebel.transform.position.y,
+          rebel.transform.position.z);
+      }
+    }
   }
 
   public override void OnStateExit(Rebel rebel)

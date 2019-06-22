@@ -20,20 +20,52 @@ namespace RebelInitialState
 public class Rebel : Enemy
 {
 #region Unity
-  private void Awake()
+  protected override void Awake()
   {
+    base.Awake();
+
     InitStateMachine();
 
     m_HP = 1.0f;
   }
 
-  private void FixedUpdate()
+  protected override void FixedUpdate()
   {
+    base.FixedUpdate();
+
+    if (m_nearestPlayer != null)
+    {
+      float distance = Vector3.Distance(transform.position, m_nearestPlayer.transform.position);
+      //if (m_canTurn && m_isGrounded && (distance < m_playerDetectRadius))
+      //{
+      //  if (m_nearestPlayer.transform.position.x < transform.position.x)
+      //  {
+      //    if (!m_isFacingRight)
+      //      m_isFacingRight = true;
+      //  }
+      //  else
+      //  {
+      //    if (m_isFacingRight)
+      //      m_isFacingRight = false;
+      //  }
+      //}
+    } 
+
     m_StateMachine.OnState(this);
+  }
+
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    base.OnTriggerEnter2D(other);
+
+    if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_HP = 0;
+    }
   }
   #endregion
 
-#region Methods
+  #region Methods
   /// <summary>
   /// 
   /// </summary>
@@ -74,8 +106,11 @@ public class Rebel : Enemy
         m_StateMachine.Init(rebelIdle, this);
         break;
     }
+  }
 
-    //m_StateMachine.Init(rebelJumping, this);
+  public void Die()
+  {
+    Destroy(gameObject);
   }
 #endregion
 
@@ -88,6 +123,31 @@ public class Rebel : Enemy
     Handles.DrawWireDisc(transform.position,
       new Vector3(0, 0, 1),
       m_playerDetectRadius);
+
+    Handles.color = Color.red;
+    Handles.DrawWireDisc(transform.position,
+      new Vector3(0, 0, 1),
+      m_threatRadius);
+
+    Gizmos.color = Color.blue;
+    if(m_isFacingRight)
+    {
+      Gizmos.DrawLine(new Vector3(transform.position.x - m_playerDetectRadius,
+        transform.position.y,
+        transform.position.z),
+        new Vector3(transform.position.x - m_playerDetectRadius - m_safeZone,
+        transform.position.y,
+        transform.position.z));
+    }
+    else
+    {
+      Gizmos.DrawLine(new Vector3(transform.position.x + m_playerDetectRadius,
+        transform.position.y,
+        transform.position.z),
+        new Vector3(transform.position.x + m_playerDetectRadius + m_safeZone,
+        transform.position.y,
+        transform.position.z));
+    }
   }
 #endregion
 
@@ -144,6 +204,26 @@ public class Rebel : Enemy
   [Range(5.0f, 8.0f)]
   protected float m_playerDetectRadius = 5.0f;
 
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(1.0f, 3.0f)]
+  protected float m_threatRadius = 1.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(2.0f, 4.0f)]
+  protected float m_safeZone = 2.0f;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  [Range(0.5f, 2.0f)]
+  protected float m_timeToTurn = 0.5f;
 #endregion
 
 #region Properties
@@ -176,6 +256,26 @@ public class Rebel : Enemy
   /// 
   /// </summary>
   public float AmbushHeight { get { return m_ambushHeight; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float PlayerDetectRadius { get { return m_playerDetectRadius; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float ThreatRadius { get { return m_threatRadius; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float SafeZone { get { return m_safeZone; } }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  public float TimeToTurn { get { return m_timeToTurn; } }
 #endregion
 
 #region State Machine

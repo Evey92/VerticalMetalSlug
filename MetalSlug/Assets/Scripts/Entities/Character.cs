@@ -9,13 +9,19 @@ public abstract class Character : Entity
   protected override void OnTriggerEnter2D(Collider2D other)
   {
     base.OnTriggerEnter2D(other);
-    m_canJump = true;
+    if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+    {
+      m_canJump = true;
+    }
   }
 
   protected override void OnTriggerExit2D(Collider2D other)
   {
     base.OnTriggerExit2D(other);
-    m_canJump = false;
+    if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+    {
+      m_canJump = false;
+    }
   }
 #endregion
 
@@ -25,10 +31,10 @@ public abstract class Character : Entity
   /// </summary>
   public void CalculateInitialJumpSpeed()
   {
-    m_jumpSpeed = (0.5f) * (1.0f - (float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f));
+    m_jumpSpeed = (0.5f) * (1.0f - Mathf.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f));
     if (m_jumpSpeed < 0.0f)
     {
-      m_jumpSpeed = (0.5f) * ((float)Math.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f) + 1.0f);
+      m_jumpSpeed = (0.5f) * (Mathf.Sqrt((4.0f * -m_gravity * m_jumpTime) - (8.0f * -m_gravity * m_jumpHeight) + 1.0f) + 1.0f);
     }
   }
 

@@ -9,6 +9,7 @@ public class MarcoFallState : State<Marco>
   public override void OnStateEnter(Marco character)
   {
     Debug.Log("Entered Fall state");
+    character.FallSpeed = 0;
 
   }
 
@@ -27,16 +28,12 @@ public class MarcoFallState : State<Marco>
 
   public override void OnStateUpdate(Marco character)
   {
-    Vector3 vel = character.GetComponent<Rigidbody2D>().velocity;
-
-    vel.y -= character.FallSpeed * Time.deltaTime;
-
-    character.GetComponent<Rigidbody2D>().velocity = vel;
+    character.Fall();
   }
 
   public override void OnStateExit(Marco character)
   {
-    character.IsJumping = false;
+    character.FallSpeed = 0;
 
   }
 }

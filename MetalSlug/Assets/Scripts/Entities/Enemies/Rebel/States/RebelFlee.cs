@@ -38,6 +38,22 @@ public class RebelFlee : State<Rebel>
         rebel.transform.position.y,
         rebel.transform.position.z);
     }
+
+    if (rebel.CanTurn &&
+      (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
+      rebel.PlayerDetectRadius))
+    {
+      if (rebel.NearestPlayer.transform.position.x < rebel.transform.position.x)
+      {
+        if (!rebel.IsFacingRight)
+          rebel.IsFacingRight = true;
+      }
+      else
+      {
+        if (rebel.IsFacingRight)
+          rebel.IsFacingRight = false;
+      }
+    }
   }
 
   public override void OnStateExit(Rebel rebel)
