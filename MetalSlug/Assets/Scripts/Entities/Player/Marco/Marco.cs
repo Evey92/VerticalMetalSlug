@@ -164,10 +164,15 @@ public class Marco : Player
     }
   }
 
-  private void OnCollisionEnter2D(Collision2D collision)
+  protected override void OnTriggerEnter2D(Collider2D collision)
   {
+    base.OnTriggerEnter2D(collision);
+
     if(collision.gameObject.tag == "Item")
     {
+      WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
+      collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
+      Destroy(collision.gameObject);
 
     }
   }

@@ -30,12 +30,17 @@ public abstract class Player : Character
     //}
   }
 
-  private void OnCollisionEnter2D(Collision2D collision)
+  protected void OnCollisionEnter2D(Collision2D collision)
   {
-    if (collision.gameObject.tag == "Floor" && !IsGrounded)
+    if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
     {
       IsGrounded = true;
     }
+  }
+
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    base.OnTriggerEnter2D(other);
   }
 
 
@@ -49,12 +54,6 @@ public abstract class Player : Character
   /// </summary>
   public Weapon m_weapon;
   
-
-  /// <summary>
-  /// Reference to the spriteRenderer of the torso
-  /// </summary>
-  public SpriteRenderer m_characterSprite;
-
   /// <summary>
   /// Sprite for Marco's grenade 
   /// </summary>

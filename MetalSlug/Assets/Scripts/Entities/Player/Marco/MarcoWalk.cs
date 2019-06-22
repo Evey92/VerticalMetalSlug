@@ -21,11 +21,13 @@ public class MarcoWalk : State<Marco>
     }
     else if(Input.GetAxisRaw("Horizontal") < 0)
     {
-      character.transform.localRotation = Quaternion.Euler(0, 180, 0);
+      character.transform.rotation = Quaternion.Euler(0, 180, 0);
+      character.IsFacingRight = false;
     }
     else if (Input.GetAxisRaw("Horizontal") > 0)
     {
-      character.transform.localRotation = Quaternion.Euler(0, 0, 0);
+      character.transform.rotation = Quaternion.Euler(0, 0, 0);
+      character.IsFacingRight = true;
     }
 
     if (Input.GetButtonDown("Jump"))
@@ -41,7 +43,7 @@ public class MarcoWalk : State<Marco>
     {
       character.throwBomb();
     }
-    if (character.GetComponent<Rigidbody2D>().velocity.y < -0.5)
+    if (!character.IsGrounded)
     {
       m_StateMachine.ToState(character.playerFallState, character);
     }

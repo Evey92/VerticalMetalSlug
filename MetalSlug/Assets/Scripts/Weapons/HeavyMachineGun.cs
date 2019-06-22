@@ -12,10 +12,17 @@ public class HeavyMachineGun : Weapon
     m_ammoSpent = 6;
     m_bursts = 2;
     m_instantiationTimer = m_cadence;
+    m_player = GameObject.FindGameObjectWithTag("Player");
   }
 
   public override void Shoot()
   {
+    float shotRotation = 0;
+
+    if(!m_player.GetComponent<Marco>().IsFacingRight)
+    {
+      shotRotation = 180;
+    }
     for (int i = 0; i < m_bursts; ++i)
     {
       m_instantiationTimer -= Time.deltaTime;
@@ -23,7 +30,7 @@ public class HeavyMachineGun : Weapon
       if (m_instantiationTimer <= 0)
       {
         Bullet bulletInstance;
-        bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, new Quaternion(0, m_player.transform.eulerAngles.y, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
+        bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
         m_bullet.init(m_bulletSprite, m_firePower);
         bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_player.transform.right * 650);
 
@@ -32,7 +39,7 @@ public class HeavyMachineGun : Weapon
       if (m_instantiationTimer <= 0)
       {
         Bullet bulletInstance2;
-        bulletInstance2 = Instantiate(m_bullet, m_spawnPoint2.transform.position, new Quaternion(0, m_player.transform.eulerAngles.y, m_spawnPoint2.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
+        bulletInstance2 = Instantiate(m_bullet, m_spawnPoint2.transform.position, new Quaternion(0, shotRotation, m_spawnPoint2.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
         m_bullet.init(m_bulletSprite, m_firePower);
         bulletInstance2.GetComponent<Rigidbody2D>().AddForce(m_player.transform.right * 650);
 
@@ -43,7 +50,7 @@ public class HeavyMachineGun : Weapon
       if (m_instantiationTimer <= 0)
       {
         Bullet bulletInstance3;
-        bulletInstance3 = Instantiate(m_bullet, m_spawnPoint3.transform.position, new Quaternion(0, m_player.transform.eulerAngles.y, m_spawnPoint3.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
+        bulletInstance3 = Instantiate(m_bullet, m_spawnPoint3.transform.position, new Quaternion(0, shotRotation, m_spawnPoint3.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
         m_bullet.init(m_bulletSprite, m_firePower);
         bulletInstance3.GetComponent<Rigidbody2D>().AddForce(m_player.transform.right * 650);
 

@@ -18,7 +18,7 @@ public abstract class Item : Entity
   /// The variable that
   /// </summary>
   [SerializeField]
-  protected int m_ammount;
-  protected ItemKind.E m_itemKind;
+  public int m_ammount;
+  public ItemKind.E m_itemKind;
 
 }

@@ -10,15 +10,16 @@ public class HeavyMachineCrate : WeaponItem
     m_weponKind = WeaponItemKind.E.kHeavyMachine;
   }
 
-
-  private void OnTriggerEnter2D(Collider2D collision)
+  public int Collected()
   {
-    if (collision.gameObject.tag == "Player")
-    {
-      Debug.Log("Collided with heavy");
-      collision.GetComponent<Marco>().collectWeapon(m_ammount, m_weponKind);
+    
+    return m_ammount;
+  }
 
-    }
+
+  protected override void OnTriggerEnter2D(Collider2D collision)
+  {
+    
   }
 
 }

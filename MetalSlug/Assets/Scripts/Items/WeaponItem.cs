@@ -15,6 +15,12 @@ namespace WeaponItemKind
 
 public class WeaponItem : Item
 {
+
+  private void Awake()
+  {
+    m_audioSource = GameObject.FindGameObjectWithTag("SFXSource").GetComponent<AudioSource>();
+  }
+
   private void Start()
   {
     switch (m_weponKind)
@@ -37,13 +43,14 @@ public class WeaponItem : Item
     }
   }
 
-  private void OnTriggerEnter2D(Collider2D collision)
+  protected override void OnTriggerEnter2D(Collider2D collision)
   {
+    base.OnTriggerEnter2D(collision);
+
     if(collision.tag == "Player")
     {
-      //m_audioSource.clip = m_pickUpClip;
       m_audioSource.PlayOneShot(m_pickUpClip);
-      Destroy(gameObject);
+      //Destroy(gameObject);
     }
   }
 

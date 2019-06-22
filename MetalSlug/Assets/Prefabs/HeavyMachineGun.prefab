@@ -163,7 +163,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0709fb7d34f4d0243b71159d0bb33c59, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8fd84694a2539b48acb5824e466561c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0cefd22b26194428baa8258ebe850a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_player: {fileID: 0}
   m_bulletSpawn: {fileID: 2057530312029934623}
   m_bullet: {fileID: 6752617237505744009, guid: b1c81f34fee38bc498bfc05d89974c41,
     type: 3}
@@ -195,7 +196,8 @@ MonoBehaviour:
   m_ammo: 0
   m_ammoSpent: 0
   m_bulletSprite: {fileID: 21300000, guid: ee054e96c9232da42b63383bca08c535, type: 3}
-  m_weaponKind: 0
+  m_weaponKind: 1
+  m_bursts: 0
   m_spawnPoint2: {fileID: 505216548}
   m_spawnPoint3: {fileID: 755303998}
 --- !u!95 &4728282887116600587

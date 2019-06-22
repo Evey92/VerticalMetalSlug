@@ -55,9 +55,14 @@ public class MarcoIdle : State<Marco>
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
     }
+    else if(Input.GetAxisRaw("Vertical") < 0)
+    {
+      //
+    }
     else
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
+
     }
   }
 
