@@ -167,16 +167,21 @@ public class Marco : Player
     }
   }
 
-  protected override void OnTriggerEnter2D(Collider2D collision)
-  {
-    base.OnTriggerEnter2D(collision);
+  //protected override void OnTriggerEnter2D(Collider2D collision)
+  //{
+  //  base.OnTriggerEnter2D(collision);
+  //
+  //  if(collision.gameObject.tag == "Item")
+  //  {
+  //    WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
+  //    collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
+  //    collision.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
+  //  }
+  //}
 
-    if(collision.gameObject.tag == "Item")
-    {
-      WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
-      collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
-      collision.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
-    }
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
+  {
+    base.OnCollisionEnter2D(collision2D);
   }
 
   /// <summary>

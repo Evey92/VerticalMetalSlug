@@ -44,15 +44,15 @@ public class ScoreItem : Item
     }
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
-  {
-    throw new NotImplementedException();
-  }
-
-  protected override void OnTriggerExit2D(Collider2D other)
-  {
-    throw new NotImplementedException();
-  }
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  throw new NotImplementedException();
+  //}
+  //
+  //protected override void OnTriggerExit2D(Collider2D other)
+  //{
+  //  throw new NotImplementedException();
+  //}
 
   protected override void InitStateMachine()
   {

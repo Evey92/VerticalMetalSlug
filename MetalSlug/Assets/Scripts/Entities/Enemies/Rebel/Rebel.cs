@@ -54,15 +54,15 @@ public class Rebel : Enemy
     m_StateMachine.OnState(this);
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
-  {
-    base.OnTriggerEnter2D(other);
-
-    if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
-    {
-      m_HP = 0;
-    }
-  }
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  base.OnTriggerEnter2D(other);
+  //
+  //  if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+  //  {
+  //    m_HP = 0;
+  //  }
+  //}
   #endregion
 
   #region Methods

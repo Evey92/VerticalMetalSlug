@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136845461133302913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.194, y: -0.153, z: 0}
+  m_LocalPosition: {x: -0.12, y: -0.07, z: 0}
   m_LocalScale: {x: 5.116279, y: 5.116279, z: 5.116279}
   m_Children: []
   m_Father: {fileID: 8818733303940771141}
@@ -379,7 +379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8818733303684047915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.259, y: 0.083, z: 0}
+  m_LocalPosition: {x: -0.1850006, y: 0.16599995, z: 0}
   m_LocalScale: {x: 2.4166932, y: 2.4166932, z: 2.4166932}
   m_Children:
   - {fileID: 8818733302697037897}
@@ -567,21 +567,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8818733303684047912}
     m_Modifications:
-    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
+    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
-      propertyPath: m_bulletSpawn
-      value: 
-      objectReference: {fileID: 7021625234786591539}
-    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
+      propertyPath: m_Name
+      value: HeavyMachineGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
-      propertyPath: m_spawnPoint2
-      value: 
-      objectReference: {fileID: 9078133251316893960}
-    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
-        type: 3}
-      propertyPath: m_spawnPoint3
-      value: 
-      objectReference: {fileID: 9078133251637129490}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4728282887116600582, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -637,16 +632,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
+    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
-      propertyPath: m_Name
-      value: HeavyMachineGun
-      objectReference: {fileID: 0}
-    - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
+      propertyPath: m_bulletSpawn
+      value: 
+      objectReference: {fileID: 7021625234786591539}
+    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_spawnPoint2
+      value: 
+      objectReference: {fileID: 9078133251316893960}
+    - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
+        type: 3}
+      propertyPath: m_spawnPoint3
+      value: 
+      objectReference: {fileID: 9078133251637129490}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53ce7f8e441e94a90f28e82818e92e, type: 3}
 --- !u!4 &4351108514171552298 stripped

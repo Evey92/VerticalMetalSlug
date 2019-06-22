@@ -30,17 +30,22 @@ public abstract class Player : Character
     //}
   }
 
-  protected void OnCollisionEnter2D(Collision2D collision)
-  {
-    if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
-    {
-      IsGrounded = true;
-    }
-  }
+  //protected void OnCollisionEnter2D(Collision2D collision)
+  //{
+  //  if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
+  //  {
+  //    IsGrounded = true;
+  //  }
+  //}
+  //
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  base.OnTriggerEnter2D(other);
+  //}
 
-  protected override void OnTriggerEnter2D(Collider2D other)
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
-    base.OnTriggerEnter2D(other);
+    base.OnCollisionEnter2D(collision2D);
   }
 
 
