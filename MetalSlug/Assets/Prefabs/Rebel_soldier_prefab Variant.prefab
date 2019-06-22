@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7475826598196963265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7112119048690650141}
+  m_Layer: 0
+  m_Name: WeaponSlot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7112119048690650141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475826598196963265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.189, y: 0.065, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8080976210660457230}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4161232606500455518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +40,7 @@ PrefabInstance:
     - target: {fileID: 5303778072065474397, guid: fbf5971aab8856f46ad8d719275e7c5e,
         type: 3}
       propertyPath: m_Name
-      value: Rebel_soldier_prefab
+      value: Rebel_soldier_prefab Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5303778072065474384, guid: fbf5971aab8856f46ad8d719275e7c5e,
         type: 3}
@@ -85,7 +115,7 @@ PrefabInstance:
     - target: {fileID: 5303778072065474391, guid: fbf5971aab8856f46ad8d719275e7c5e,
         type: 3}
       propertyPath: m_initialState
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5303778072065474391, guid: fbf5971aab8856f46ad8d719275e7c5e,
         type: 3}
@@ -97,8 +127,25 @@ PrefabInstance:
       propertyPath: m_anim
       value: 
       objectReference: {fileID: 8080976210660457228}
+    - target: {fileID: 5303778072065474391, guid: fbf5971aab8856f46ad8d719275e7c5e,
+        type: 3}
+      propertyPath: m_grenade
+      value: 
+      objectReference: {fileID: 8479023631227874488, guid: 825e790c9f806ad42b11c6d7f0845437,
+        type: 3}
+    - target: {fileID: 5303778072065474391, guid: fbf5971aab8856f46ad8d719275e7c5e,
+        type: 3}
+      propertyPath: m_weaponSlot
+      value: 
+      objectReference: {fileID: 7475826598196963265}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbf5971aab8856f46ad8d719275e7c5e, type: 3}
+--- !u!4 &8080976210660457230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5303778072065474384, guid: fbf5971aab8856f46ad8d719275e7c5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4161232606500455518}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &8080976210660457228 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5303778072065474386, guid: fbf5971aab8856f46ad8d719275e7c5e,
