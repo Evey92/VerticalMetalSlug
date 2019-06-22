@@ -23,15 +23,15 @@ public class Marco : Player
 
   private void Update()
   {
-    if(m_ammoLeft <= 0)
+    if (m_ammoLeft <= 0)
     {
-      m_weapon = m_handgun;
+      equipWeapon(m_handgun);
     }
   }
 
   private void FixedUpdate()
   {
-    m_playerStateMachine.OnState(this); //Start's up the state machine with the idle state
+    m_playerStateMachine.OnState(this); //Starts up the state machine with the idle state
   }
 
   /// <summary>
@@ -58,6 +58,9 @@ public class Marco : Player
     transform.position += horizontal * Time.deltaTime * WalkSpeed;
   }
 
+  /// <summary>
+  /// Function to pick up an item. 
+  /// </summary>
   public override void collectItem(int m_ammount, ItemType.E itemType)
   {
     switch (itemType)
@@ -172,8 +175,7 @@ public class Marco : Player
     {
       WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
       collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
-      Destroy(collision.gameObject);
-
+      collision.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
     }
   }
 

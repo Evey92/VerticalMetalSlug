@@ -190,14 +190,14 @@ MonoBehaviour:
   m_bulletSpawn: {fileID: 2057530312029934623}
   m_bullet: {fileID: 6752617237505744009, guid: b1c81f34fee38bc498bfc05d89974c41,
     type: 3}
-  m_firePower: 0
-  m_fireRate: 0
+  m_firePower: 1
+  m_fireRate: 0.02
   m_range: 0
-  m_ammo: 0
-  m_ammoSpent: 0
+  m_ammo: 200
+  m_ammoSpent: 6
   m_bulletSprite: {fileID: 21300000, guid: ee054e96c9232da42b63383bca08c535, type: 3}
   m_weaponKind: 1
-  m_bursts: 0
+  m_bursts: 2
   m_spawnPoint2: {fileID: 505216548}
   m_spawnPoint3: {fileID: 755303998}
 --- !u!95 &4728282887116600587

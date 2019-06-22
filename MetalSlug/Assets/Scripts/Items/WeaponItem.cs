@@ -18,6 +18,7 @@ public class WeaponItem : Item
 
   private void Awake()
   {
+    InitStateMachine();
     m_audioSource = GameObject.FindGameObjectWithTag("SFXSource").GetComponent<AudioSource>();
   }
 
@@ -43,15 +44,15 @@ public class WeaponItem : Item
     }
   }
 
+  private void FixedUpdate()
+  {
+    m_weaponStateMachine.OnState(this); 
+  }
+
   protected override void OnTriggerEnter2D(Collider2D collision)
   {
     base.OnTriggerEnter2D(collision);
 
-    if(collision.tag == "Player")
-    {
-      m_audioSource.PlayOneShot(m_pickUpClip);
-      //Destroy(gameObject);
-    }
   }
 
   protected override void OnTriggerExit2D(Collider2D other)
@@ -61,17 +62,32 @@ public class WeaponItem : Item
 
   protected override void InitStateMachine()
   {
-    
+    m_weaponStateMachine = new StateMachine<WeaponItem>();
+    weaponIdleState = new WeaponItemIdle(m_weaponStateMachine);
+    weaponFallState = new WeaponItemFall(m_weaponStateMachine);
+    weaponPickedUpstate = new WeaponItemPickedUp(m_weaponStateMachine);
+    weaponDestroyedstate = new WeaponItemDestroyed(m_weaponStateMachine);
+
+    m_weaponStateMachine.Init(weaponIdleState, this);
   }
 
-  public override void Fall()
+  public void Destroy()
   {
-    
+    Destroy(gameObject);
   }
+
+  /// <summary>
+  /// The state machine that handles all the states for the player
+  /// </summary>
+  private StateMachine<WeaponItem> m_weaponStateMachine;
 
   [SerializeField]
-  AudioClip m_pickUpClip;
-  AudioClip m_weaponAnnouncement;
+  public AudioClip m_pickUpClip;
+
+  public WeaponItemIdle weaponIdleState;
+  public WeaponItemFall weaponFallState;
+  public WeaponItemPickedUp weaponPickedUpstate;
+  public WeaponItemDestroyed weaponDestroyedstate;
 
   public WeaponItemKind.E m_weponKind;
   public AudioSource m_audioSource;

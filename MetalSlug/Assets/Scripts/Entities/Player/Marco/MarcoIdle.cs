@@ -43,7 +43,8 @@ public class MarcoIdle : State<Marco>
     {
       character.m_torsoAnimator.SetTrigger("Shooting");
       character.shootWeapon();
-      
+      character.shootWeapon();  
+
 
     }
     else if (Input.GetButtonDown("Fire2"))
@@ -53,16 +54,11 @@ public class MarcoIdle : State<Marco>
 
     if(Input.GetAxisRaw("Vertical") > 0)
     {
-      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
     }
-    else if(Input.GetAxisRaw("Vertical") < 0)
+    else if(Input.GetAxis("Vertical") == 0)
     {
-      //
-    }
-    else
-    {
-      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
-
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
     }
   }
 
@@ -79,5 +75,8 @@ public class MarcoIdle : State<Marco>
   /// Used to declare actions that will take place before exiting this state
   /// </summary>
   /// <param name="character"></param>
-  public override void OnStateExit(Marco character) { }
+  public override void OnStateExit(Marco character)
+  {
+
+  }
 }
