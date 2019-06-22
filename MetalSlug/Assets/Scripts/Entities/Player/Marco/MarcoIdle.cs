@@ -13,7 +13,7 @@ public class MarcoIdle : State<Marco>
   /// <param name="character"></param>
   public override void OnStateEnter(Marco character)
   {
-    
+    Debug.Log("Entered Idle State");
     //Just to make sure we don't go through the floor
     character.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
   }
@@ -55,9 +55,14 @@ public class MarcoIdle : State<Marco>
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
     }
+    else if(Input.GetAxisRaw("Vertical") < 0)
+    {
+      //
+    }
     else
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
+
     }
   }
 

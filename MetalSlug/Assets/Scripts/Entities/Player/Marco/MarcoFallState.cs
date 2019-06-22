@@ -24,6 +24,16 @@ public class MarcoFallState : State<Marco>
     {
       character.shootWeapon();
     }
+
+    if (Input.GetAxisRaw("Horizontal") != 0)
+    {
+
+      Debug.Log("Changing direction in air");
+      character.m_horizontalSpeed = Input.GetAxisRaw("Horizontal") * Time.deltaTime * character.m_hFallSpeed;
+      character.GetComponent<Rigidbody2D>().AddForce(new Vector2(character.m_horizontalSpeed, 0), ForceMode2D.Impulse);
+
+    }
+
   }
 
   public override void OnStateUpdate(Marco character)

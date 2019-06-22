@@ -2,12 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace ItemType
+{
+  public enum E
+  {
+    kGas,
+    kBomb,
+    kScore
+  };
+}
+
+
 public abstract class Player : Character
 {
  
   public abstract void shootWeapon();
   public abstract void throwBomb();
   public abstract void walk();
+  public abstract void collectItem(int m_ammount, ItemType.E itemType);
+  public abstract void collectWeapon(int m_ammount, WeaponItemKind.E itemType);
 
   private void FixedUpdate()
   {
@@ -17,12 +30,17 @@ public abstract class Player : Character
     //}
   }
 
-  private void OnCollisionEnter2D(Collision2D collision)
+  protected void OnCollisionEnter2D(Collision2D collision)
   {
-    if (collision.gameObject.tag == "Floor" && !IsGrounded)
+    if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
     {
       IsGrounded = true;
     }
+  }
+
+  protected override void OnTriggerEnter2D(Collider2D other)
+  {
+    base.OnTriggerEnter2D(other);
   }
 
 
@@ -36,12 +54,6 @@ public abstract class Player : Character
   /// </summary>
   public Weapon m_weapon;
   
-
-  /// <summary>
-  /// Reference to the spriteRenderer of the torso
-  /// </summary>
-  public SpriteRenderer m_characterSprite;
-
   /// <summary>
   /// Sprite for Marco's grenade 
   /// </summary>
@@ -51,6 +63,7 @@ public abstract class Player : Character
   /// Reference to the weapon slot for weapon changing
   /// </summary>
   public GameObject m_weaponSlot;
+
 
   /// <summary>
   /// Variable to check if Marco can fire. 
@@ -64,6 +77,11 @@ public abstract class Player : Character
   public bool m_isMoving;
 
   /// <summary>
+  /// Used to check if Marco is moving
+  /// </summary>
+  public bool m_isSlug;
+
+  /// <summary>
   /// Multiplier to control the in air movement
   /// </summary>
   public float m_speedMultiplier;
@@ -74,12 +92,35 @@ public abstract class Player : Character
   public float m_horizontalSpeed;
 
   /// <summary>
+  /// Value to control how long it takes for the gun to interpolate from front to up and down 
+  /// </summary>
+  [SerializeField]
+  public float m_score= 0.0f;
+
+  /// <summary>
+  /// Value to control how long it takes for the gun to interpolate from front to up and down 
+  /// </summary>
+  [SerializeField]
+  public float m_ammoLeft = 0.0f;
+
+  /// <summary>
   /// Used to track how many grenades are in Marco's inventory
   /// </summary>
   public int m_grenadesLeft;
 
   /// <summary>
+  /// Used to track how many grenades are in Marco's inventory
+  /// </summary>
+  public int m_maxGrenades = 99;
+
+  /// <summary>
+  /// Used to track how many grenades are in Marco's inventory
+  /// </summary>
+  public int m_defaultGrenades = 10;
+
+  /// <summary>
   /// Used to track how many lives are left
   /// </summary>
   public int m_lives;
+
 }

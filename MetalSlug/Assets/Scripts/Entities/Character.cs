@@ -18,7 +18,7 @@ public abstract class Character : Entity
   protected override void OnTriggerExit2D(Collider2D other)
   {
     base.OnTriggerExit2D(other);
-    if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+    if (other.gameObject.layer == 1 << LayerMask.NameToLayer("Ground"))
     {
       m_canJump = false;
     }

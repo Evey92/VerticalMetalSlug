@@ -11,15 +11,17 @@ public class MarcoJump : State<Marco>
   {
     Debug.Log("Jumping");
     character.IsJumping = true;
-    character.IsGrounded = false;
     character.CalculateInitialJumpSpeed();
   }
 
   public override void OnStatePreUpdate(Marco character)
   {
-    if(character.JumpSpeed < 0)
+    
+
+    if (character.JumpSpeed <= 0)
     {
       m_StateMachine.ToState(character.playerFallState, character);
+
     }
 
     if (Input.GetButtonDown("Fire1"))
@@ -44,6 +46,7 @@ public class MarcoJump : State<Marco>
 
     }
     character.Jump();
+    character.IsGrounded = false;
 
 
   }
