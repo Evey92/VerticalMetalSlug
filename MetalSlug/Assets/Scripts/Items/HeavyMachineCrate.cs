@@ -17,9 +17,9 @@ public class HeavyMachineCrate : WeaponItem
   }
 
 
-  protected void OnTriggerEnter2D(Collider2D collision)
-  {
-    
-  }
+  //protected override void OnTriggerEnter2D(Collider2D collision)
+  //{
+  //  
+  //}
 
 }

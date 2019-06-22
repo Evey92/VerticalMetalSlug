@@ -15,10 +15,10 @@ namespace ItemKind
 public abstract class Item : Entity
 {
 
-  protected override void OnTriggerEnter2D(Collider2D collision)
-  {
-    base.OnTriggerEnter2D(collision);
-  }
+  //protected override void OnTriggerEnter2D(Collider2D collision)
+  //{
+  //  base.OnTriggerEnter2D(collision);
+  //}
 
   /// <summary>
   /// The variable that

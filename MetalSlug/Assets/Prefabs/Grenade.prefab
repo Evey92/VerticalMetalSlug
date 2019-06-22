@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2433285825368294117}
   - component: {fileID: 8318058840688574076}
   - component: {fileID: 8479023631227874488}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Grenade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,6 +137,7 @@ MonoBehaviour:
   m_damage: 0
   m_maxDistance: 0
   m_hSpeed: 0
+  m_fireRate: 0
   m_totalTime: 0
   m_maxBounce: 0
-  m_bounces: 0
+  m_bounced: 0

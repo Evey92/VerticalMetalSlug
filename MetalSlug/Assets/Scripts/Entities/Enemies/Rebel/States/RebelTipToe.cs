@@ -17,8 +17,29 @@ public class RebelTipToe : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelFall, rebel);
     }
-    // TODO: If player is detected, go to run state or flee state
-    if(rebel.HP<=0)
+
+    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
+      rebel.PlayerDetectRadius)
+    {
+      // TODO: Add a random or something to make it go to flee or something else
+      if (!rebel.IsFacingRight)
+      {
+        rebel.IsFacingRight = true;
+      }
+      m_StateMachine.ToState(rebel.rebelWalk, rebel);
+    }
+
+    if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
+     rebel.ThreatRadius)
+    {
+      if (!rebel.IsFacingRight)
+      {
+        rebel.IsFacingRight = true;
+      }
+      m_StateMachine.ToState(rebel.rebelFlee, rebel); // TODO: Should actually knife the player and go to run
+    }
+
+    if (rebel.HP <= 0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
     }

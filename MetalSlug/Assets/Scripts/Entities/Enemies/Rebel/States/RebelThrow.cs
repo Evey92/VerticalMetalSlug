@@ -17,6 +17,10 @@ public class RebelThrow : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
     }
+    Debug.Log("Throwing grenade");
+    rebel.throwBomb();
+
+    m_StateMachine.ToState(rebel.rebelRun, rebel);
   }
 
   public override void OnStateUpdate(Rebel rebel)
