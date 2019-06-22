@@ -237,7 +237,12 @@ public class Marco : Player
   [Range(0.0f, 10.0f)]
   public float m_parachuteFallSpeed = 0.0f;
 
-
+  /// <summary>
+  /// Value to control how long it takes for the gun to interpolate from front to up and down 
+  /// </summary>
+  [SerializeField]
+  [Range(1.0f, 30.0f)]
+  public float m_hFallSpeed = 0.0f;
 
   /// <summary>
   /// Reference to the handgun
