@@ -64,6 +64,6 @@ public class RebelFlee : State<Rebel>
 
   public override void OnStateExit(Rebel rebel)
   {
-
+    rebel.m_afraid = false;
   }
 }
