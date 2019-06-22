@@ -2,15 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AmmoType
-{
-  public enum E
-  {
-
-  };
-}
-
-public class AmmoItem : MonoBehaviour
+public class HeavyMachinePowerUp : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
