@@ -18,6 +18,7 @@ public class RebelFall : State<Rebel>
     {
       m_StateMachine.ToState(rebel.rebelRun, rebel);
     }
+
     if (rebel.HP <= 0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
