@@ -23,7 +23,7 @@ public class Rebel : Enemy
   protected override void Awake()
   {
     base.Awake();
-
+    Anim.SetInteger("state", (int)m_initialState);
     InitStateMachine();
 
     m_HP = 1.0f;
@@ -152,7 +152,7 @@ public class Rebel : Enemy
 #endregion
 
 #region Private Members
-
+  public bool m_afraid = false;
 #endregion
 
 #region Editor Members
@@ -224,13 +224,21 @@ public class Rebel : Enemy
   [SerializeField]
   [Range(0.5f, 2.0f)]
   protected float m_timeToTurn = 0.5f;
-#endregion
 
-#region Properties
+  [SerializeField]
+  protected Animator m_anim;
+  #endregion
+
+  #region Properties
   /// <summary>
   /// 
   /// </summary>
   public RebelInitialState.E InitialState { get { return m_initialState; } }
+
+  /// <summary>
+  ///
+  /// </summary>
+  public Animator Anim { get { return m_anim; } }
 
   /// <summary>
   /// 

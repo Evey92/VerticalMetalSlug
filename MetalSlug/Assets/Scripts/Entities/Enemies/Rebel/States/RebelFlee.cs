@@ -9,6 +9,7 @@ public class RebelFlee : State<Rebel>
   public override void OnStateEnter(Rebel rebel)
   {
     Debug.Log("Entered " + this.ToString() + " state.");
+    rebel.Anim.SetBool("afraid", rebel.m_afraid);
   }
 
   public override void OnStatePreUpdate(Rebel rebel)
@@ -26,17 +27,20 @@ public class RebelFlee : State<Rebel>
 
   public override void OnStateUpdate(Rebel rebel)
   {
+    
     if (rebel.IsFacingRight)
     {
       rebel.transform.position = new Vector3(rebel.transform.position.x + rebel.FleeSpeed * Time.fixedDeltaTime,
         rebel.transform.position.y,
         rebel.transform.position.z);
+      rebel.m_afraid = true;
     }
     else
     {
       rebel.transform.position = new Vector3(rebel.transform.position.x - rebel.FleeSpeed * Time.fixedDeltaTime,
         rebel.transform.position.y,
         rebel.transform.position.z);
+      rebel.m_afraid = true;
     }
 
     if (rebel.CanTurn &&
@@ -47,11 +51,13 @@ public class RebelFlee : State<Rebel>
       {
         if (!rebel.IsFacingRight)
           rebel.IsFacingRight = true;
+        rebel.m_afraid = true;
       }
       else
       {
         if (rebel.IsFacingRight)
           rebel.IsFacingRight = false;
+        rebel.m_afraid = true;
       }
     }
   }
