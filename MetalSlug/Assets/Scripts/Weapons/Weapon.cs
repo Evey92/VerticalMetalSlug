@@ -9,6 +9,7 @@ public abstract class Weapon : MonoBehaviour
   /// </summary>
   public abstract void Shoot();
 
+
   /// <summary>
   /// Used o get the fire rate 
   /// </summary>

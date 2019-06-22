@@ -58,6 +58,9 @@ public class Marco : Player
     transform.position += horizontal * Time.deltaTime * WalkSpeed;
   }
 
+  /// <summary>
+  /// Function to pick up an item. 
+  /// </summary>
   public override void collectItem(int m_ammount, ItemType.E itemType)
   {
     switch (itemType)
@@ -172,8 +175,7 @@ public class Marco : Player
     {
       WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
       collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
-      Destroy(collision.gameObject);
-
+      collision.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
     }
   }
 

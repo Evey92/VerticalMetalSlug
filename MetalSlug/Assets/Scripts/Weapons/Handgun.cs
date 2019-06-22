@@ -7,9 +7,6 @@ public class Handgun : Weapon
   // Start is called before the first frame update
   private void Awake()
   {
-    m_ammo = 1;
-    m_firePower = 1;
-    m_fireRate = 0.01f;
     m_player = GameObject.FindGameObjectWithTag("Player");
   }
 
@@ -25,8 +22,7 @@ public class Handgun : Weapon
     {
       bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, new Quaternion(0, 180, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
     }
-    m_bullet.init(m_bulletSprite, m_firePower);
-    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 700);
+    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 500);
 
     m_audioSource.PlayOneShot(m_shotSound);
   }

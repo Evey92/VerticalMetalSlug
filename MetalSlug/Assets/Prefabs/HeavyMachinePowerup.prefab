@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2449388664262088503
+--- !u!1 &553905643721878928
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2449388664262088499}
-  - component: {fileID: 2449388664262088498}
-  - component: {fileID: 2449388664262088496}
-  - component: {fileID: 4676522824140917914}
-  - component: {fileID: 2449388664262088492}
+  - component: {fileID: 553905643721878925}
+  - component: {fileID: 553905643721878924}
+  - component: {fileID: 553905643721878927}
+  - component: {fileID: 553905643721878926}
+  - component: {fileID: 553905643721878929}
+  - component: {fileID: 1781913073}
   m_Layer: 14
   m_Name: HeavyMachinePowerup
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2449388664262088499
+--- !u!4 &553905643721878925
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2449388664262088503}
+  m_GameObject: {fileID: 553905643721878928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.63, y: 2.4, z: -0.20937139}
+  m_LocalPosition: {x: 0.63, y: 6.94, z: -0.20937139}
   m_LocalScale: {x: 0.10355906, y: 0.10355906, z: 0.10355906}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2449388664262088498
+--- !u!212 &553905643721878924
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2449388664262088503}
+  m_GameObject: {fileID: 553905643721878928}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,14 +83,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2449388664262088496
+--- !u!95 &553905643721878927
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2449388664262088503}
+  m_GameObject: {fileID: 553905643721878928}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
@@ -101,13 +102,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4676522824140917914
+--- !u!114 &553905643721878926
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2449388664262088503}
+  m_GameObject: {fileID: 553905643721878928}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b01ba3000e8a5c042aa5924e96ca4978, type: 3}
@@ -115,17 +116,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_walkSpeed: 3
   m_gravity: 9.8
-  m_ammount: 0
+  m_ammount: 200
+  m_itemKind: 0
+  m_wasPickedup: 0
   m_pickUpClip: {fileID: 8300000, guid: 8d5c79a9026a12c4e8964c7bb174fa82, type: 3}
-  m_weponKind: 0
+  m_weponKind: 1
   m_audioSource: {fileID: 0}
---- !u!61 &2449388664262088492
+--- !u!61 &553905643721878929
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2449388664262088503}
+  m_GameObject: {fileID: 553905643721878928}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -145,3 +148,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 9.08}
   m_EdgeRadius: 0
+--- !u!50 &1781913073
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553905643721878928}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
