@@ -23,15 +23,15 @@ public class Marco : Player
 
   private void Update()
   {
-    if(m_ammoLeft <= 0)
+    if (m_ammoLeft <= 0)
     {
-      m_weapon = m_handgun;
+      equipWeapon(m_handgun);
     }
   }
 
   private void FixedUpdate()
   {
-    m_playerStateMachine.OnState(this); //Start's up the state machine with the idle state
+    m_playerStateMachine.OnState(this); //Starts up the state machine with the idle state
   }
 
   /// <summary>

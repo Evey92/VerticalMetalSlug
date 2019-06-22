@@ -27,6 +27,11 @@ public class Handgun : Weapon
     }
     m_bullet.init(m_bulletSprite, m_firePower);
     bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 700);
+
+    m_audioSource.PlayOneShot(m_shotSound);
   }
+
+  public AudioClip m_shotSound;
+  public AudioSource m_audioSource;
 
 }
