@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Floor
   - Weapon
+  - BGSource
+  - SFXSource
+  - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -19,9 +23,9 @@ TagManager:
   - Ammo
   - PlayerBullet
   - Player
-  - 
-  - 
-  - 
+  - Floor
+  - Ground
+  - Item
   - 
   - 
   - 
