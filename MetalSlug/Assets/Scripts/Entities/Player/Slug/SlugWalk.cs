@@ -11,8 +11,6 @@ public class SlugWalk : State<SlugTank>
   {
 
     Debug.Log("Entered Walk state");
-
-
   }
 
   public override void OnStatePreUpdate(SlugTank character)

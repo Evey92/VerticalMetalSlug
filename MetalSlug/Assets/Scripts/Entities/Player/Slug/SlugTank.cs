@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SlugTank : Player
 {
+  public Animator anim;
   private void Awake()
   {
 
@@ -13,11 +14,15 @@ public class SlugTank : Player
     FallSpeed = 29.4f;
     m_isFacingRight = true;
     m_canFire = true;
+    anim = this.GetComponentInChildren<Animator>();
   }
 
   private void FixedUpdate()
   {
     m_playerStateMachine.OnState(this);
+    anim.SetBool("isGrounded", m_isGrounded);
+    //anim.SetFloat("Speed", m_walkSpeed);
+    
   }
 
   /// <summary>

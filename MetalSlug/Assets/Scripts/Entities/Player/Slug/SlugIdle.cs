@@ -16,6 +16,7 @@ public class SlugIdle : State<SlugTank>
     Debug.Log("Entered Idle state");
     //Just to make sure we don't go through the floor
     character.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
+    
   }
 
   /// <summary>
@@ -31,6 +32,7 @@ public class SlugIdle : State<SlugTank>
     else if (Input.GetAxisRaw("Horizontal") != 0)
     {
       m_StateMachine.ToState(character.slugWalkState, character);
+      
     }
 
     if(character.GetComponent<Rigidbody2D>().velocity.y < 0)
