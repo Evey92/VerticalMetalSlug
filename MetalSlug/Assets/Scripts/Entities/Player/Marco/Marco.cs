@@ -9,17 +9,26 @@ public class Marco : Player
   {
 
     InitStateMachine();
-    m_grenadesLeft = m_maxGrenades;
-    m_torsoAnimator = m_torso.GetComponent<Animator>();
-    m_legsAnimator = m_Legs.GetComponent<Animator>();
-
+    if (m_torso)
+    {
+      m_torsoAnimator = m_torso.GetComponent<Animator>();
+    }
+    if (m_Legs)
+    {
+      m_legsAnimator = m_Legs.GetComponent<Animator>();
+    }
   }
 
+  private void Start()
+  {
+    m_UIManager.initUI(m_ammoLeft, m_grenadesLeft, m_lives, m_score);
+  }
   private void Update()
   {
     if (m_ammoLeft <= 0)
     {
       equipWeapon(m_handgun);
+      
     }
     
   }
@@ -117,21 +126,7 @@ public class Marco : Player
 
     m_playerStateMachine.Init(playeParachuteFallState, this);
   }
-
-  //public override void shootWeapon()
-  //{
-  //  int bursts = m_weapon.m_bursts;
-  //  float coolDown = m_weapon.m_weaponCooldown;
-  //  float coolDownTIme = 0.0f;
-  //  if (Time.time > m_weapon.getFireRate() + m_lastShot)
-  //  {
-
-  //    m_weapon.InvokeRepeating("Shoot", 1, m_weapon.m_bursts);
-  //    m_weapon.Shoot();
-  //    m_lastShot = Time.time;
-  //    m_ammoLeft -= m_weapon.m_ammoSpent;
-  //  }
-  //}
+ 
 
   public override void shootWeapon()
   {
@@ -140,6 +135,7 @@ public class Marco : Player
       m_weapon.Shoot();
       m_lastShot = Time.time;
       m_ammoLeft -= m_weapon.m_ammoSpent;
+      m_UIManager.setARMS(m_ammoLeft);
     }
   }
 
@@ -161,6 +157,8 @@ public class Marco : Player
         float vSpeed = (newGrenade.m_totalTime * g) / 2;
         newGrenade.GetComponent<Rigidbody2D>().velocity = new Vector3(m_weaponSlot.transform.right.x * newGrenade.m_hSpeed, vSpeed, 0);
         --m_grenadesLeft;
+        m_UIManager.setBombs(m_grenadesLeft);
+
         ++m_grenadesOnScreen;
       }
     }
@@ -184,6 +182,7 @@ public class Marco : Player
     if (m_weapon == weapon)
     {
       m_ammoLeft = m_weapon.m_ammo;
+      m_UIManager.setARMS(m_ammoLeft);
     }
     else
     {
@@ -191,8 +190,23 @@ public class Marco : Player
       m_weapon = weapon;
       m_weapon.gameObject.SetActive(true);
       m_ammoLeft = weapon.m_ammo;
+      m_torso = weapon.gameObject;
+      m_torsoAnimator = m_torso.GetComponent<Animator>();
+      m_UIManager.setARMS(m_ammoLeft);
+
     }
   }
+
+  public void Die()
+  {
+
+  }
+
+  public void Respawn()
+  {
+    m_isInvulnerable = true;
+  }
+
 
 
   protected override void OnCollisionEnter2D(Collision2D collision2D)
@@ -282,6 +296,7 @@ public class Marco : Player
   [Range(1.0f, 30.0f)]
   public float m_hFallSpeed = 0.0f;
 
+  public bool m_isInvulnerable = false;
   /// <summary>
   /// Reference to the handgun
   /// </summary>
@@ -297,8 +312,13 @@ public class Marco : Player
   /// </summary>
   public HeavyMachineGun m_heavyMachinePrefab;
 
+  /// <summary>
+  /// Prefab to create a new heavy machine gun
+  /// </summary>
+  public UIManager m_UIManager;
+
   //public FlameShot m_flameShotPrefab;
   //public RocketLauncher m_rocketLauncherPrefab;
-  
+
 
 }

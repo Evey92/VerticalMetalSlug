@@ -108,13 +108,13 @@ public abstract class Player : Character
   /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
   [SerializeField]
-  public float m_score= 0.0f;
+  public int m_score= 0;
 
   /// <summary>
   /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
   [SerializeField]
-  public float m_ammoLeft = 0.0f;
+  public int m_ammoLeft = 0;
 
  
 

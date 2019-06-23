@@ -5,30 +5,35 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-  // Start is called before the first frame update
-  void Start()
+  
+  public void initUI(int bulletsLeft, int bombsLeft, int livesLeft, int newScore)
   {
-    m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Marco>();   
+    m_ARMS.text = bulletsLeft.ToString();
+    m_BOMB.text = bombsLeft.ToString();
+    m_LIVES.text = livesLeft.ToString();
+    m_SCORE.text = newScore.ToString();
   }
 
-  // Update is called once per frame
-  void Update()
+  public void setARMS(int bulletsLeft)
   {
-        
+    m_ARMS.text = bulletsLeft.ToString();
   }
 
-  public void updateUI()
+  public void setBombs(int bombsLeft)
   {
-    m_ARMS.text = m_player.m_ammoLeft.ToString();
-    m_BOMB.text = m_player.m_grenadesLeft.ToString();
-    m_LIVES.text = m_player.m_lives.ToString();
-    m_SCORE.text = m_player.m_score.ToString();
+    m_BOMB.text = bombsLeft.ToString();
   }
 
-  /// <summary>
-  /// Reference to the player.
-  /// </summary>
-  Player m_player;
+  public void setLives(int livesLeft)
+  {
+    m_LIVES.text = livesLeft.ToString();
+  }
+
+  public void addScore(int newScore, Player player)
+  {
+    player.m_score += newScore;
+    m_SCORE.text = player.m_score.ToString();
+  }
 
   /// <summary>
   /// All the UI Text objects
@@ -36,7 +41,6 @@ public class UIManager : MonoBehaviour
   public Text m_ARMS;
   public Text m_BOMB;
   public Text m_LIVES;
-  public Text m_TIMER;
   public Text m_SCORE;
   
 

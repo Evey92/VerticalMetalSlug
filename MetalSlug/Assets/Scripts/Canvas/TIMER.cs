@@ -11,7 +11,7 @@ public class TIMER : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        nTiempo = TiempoLimite;
+        nTiempo = TiempoLimite*5;
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class TIMER : MonoBehaviour
         else {
             nTiempo -= Time.deltaTime;
             TiempoLimite = (int)nTiempo;
-            tiempo.text = TiempoLimite.ToString();
+            tiempo.text = (TiempoLimite/5).ToString();
         }
 
     }
