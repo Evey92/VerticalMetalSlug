@@ -28,7 +28,11 @@ public class Jet : Enemy
 
     if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
     {
-      Destroy(gameObject);
+      --m_HP;
+      if(m_HP <= 0)
+      {
+        Destroy(gameObject);
+      }
     }
   }
   #endregion

@@ -66,7 +66,6 @@ public class Prisoner : Entity
       m_droppedItem = true;
       Anim.PlayInFixedTime("prisoner_grateful");
       Anim.SetBool("HasGifted", true);
-      m_fleeSpeed = 10;
     }
   }
   #endregion
@@ -167,7 +166,7 @@ public class Prisoner : Entity
 
   public PrisonerState.E CapturedState { get { return m_prisonerState; } }
   public float WalkRange { get { return m_walkRange; } }
-  public float FleeSpeed { get { return m_fleeSpeed; } }
+  public float FleeSpeed { get { return m_fleeSpeed; } set { m_fleeSpeed = value; } }
   public bool StartRight { get { return m_startRight; } }
 #endregion
 
