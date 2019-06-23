@@ -377,68 +377,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &122286010 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3315330644984255805, guid: df2d0f59bf52c9d46b926251b99aa8c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1201016683}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &122286014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122286010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97e6ff4fa41ed0f42af8200870af06cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_explosion: {fileID: 1133540470}
-  m_expSource: {fileID: 1259461224}
-  m_damage: 1
-  m_maxDistance: 0
-  m_hSpeed: 3
-  m_fireRate: 3
-  sprite: {fileID: 0}
---- !u!70 &122286015
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122286010}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.11999999, y: 0.24999999}
-  m_Direction: 0
---- !u!50 &122286016
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122286010}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &230623473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,7 +2896,7 @@ PrefabInstance:
     - target: {fileID: 3315330643308786724, guid: df2d0f59bf52c9d46b926251b99aa8c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.39
+      value: 63.03
       objectReference: {fileID: 0}
     - target: {fileID: 3315330643308786724, guid: df2d0f59bf52c9d46b926251b99aa8c3,
         type: 3}
@@ -6094,6 +6032,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1175395946, guid: 6ed435778a1ed2743ba2ecab87c56fd1, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175395948, guid: 6ed435778a1ed2743ba2ecab87c56fd1, type: 3}
+      propertyPath: m_walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175395948, guid: 6ed435778a1ed2743ba2ecab87c56fd1, type: 3}
+      propertyPath: m_walkRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175395948, guid: 6ed435778a1ed2743ba2ecab87c56fd1, type: 3}
+      propertyPath: m_fleeSpeed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
