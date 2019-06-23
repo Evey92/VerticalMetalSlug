@@ -136,40 +136,40 @@ public class Rebel : Enemy
 #endregion
 
 #region Gizmos
-  protected override void OnDrawGizmos()
-  {
-    base.OnDrawGizmos();
-
-    Handles.color = Color.yellow;
-    Handles.DrawWireDisc(transform.position,
-      new Vector3(0, 0, 1),
-      m_playerDetectRadius);
-
-    Handles.color = Color.red;
-    Handles.DrawWireDisc(transform.position,
-      new Vector3(0, 0, 1),
-      m_threatRadius);
-
-    Gizmos.color = Color.blue;
-    if(m_isFacingRight)
-    {
-      Gizmos.DrawLine(new Vector3(transform.position.x - m_playerDetectRadius,
-        transform.position.y,
-        transform.position.z),
-        new Vector3(transform.position.x - m_playerDetectRadius - m_safeZone,
-        transform.position.y,
-        transform.position.z));
-    }
-    else
-    {
-      Gizmos.DrawLine(new Vector3(transform.position.x + m_playerDetectRadius,
-        transform.position.y,
-        transform.position.z),
-        new Vector3(transform.position.x + m_playerDetectRadius + m_safeZone,
-        transform.position.y,
-        transform.position.z));
-    }
-  }
+  //protected override void OnDrawGizmos()
+  //{
+  //  base.OnDrawGizmos();
+  //
+  //  Handles.color = Color.yellow;
+  //  Handles.DrawWireDisc(transform.position,
+  //    new Vector3(0, 0, 1),
+  //    m_playerDetectRadius);
+  //
+  //  Handles.color = Color.red;
+  //  Handles.DrawWireDisc(transform.position,
+  //    new Vector3(0, 0, 1),
+  //    m_threatRadius);
+  //
+  //  Gizmos.color = Color.blue;
+  //  if(m_isFacingRight)
+  //  {
+  //    Gizmos.DrawLine(new Vector3(transform.position.x - m_playerDetectRadius,
+  //      transform.position.y,
+  //      transform.position.z),
+  //      new Vector3(transform.position.x - m_playerDetectRadius - m_safeZone,
+  //      transform.position.y,
+  //      transform.position.z));
+  //  }
+  //  else
+  //  {
+  //    Gizmos.DrawLine(new Vector3(transform.position.x + m_playerDetectRadius,
+  //      transform.position.y,
+  //      transform.position.z),
+  //      new Vector3(transform.position.x + m_playerDetectRadius + m_safeZone,
+  //      transform.position.y,
+  //      transform.position.z));
+  //  }
+  //}
 #endregion
 
 #region Private Members

@@ -77,14 +77,14 @@ public class Jet : Enemy
   #endregion
 
   #region Gizmos
-  protected override void OnDrawGizmos()
-  {
-    base.OnDrawGizmos();
-    Handles.color = Color.yellow;
-    Handles.DrawWireDisc(transform.position,
-      new Vector3(0, 0, 1),
-      m_playerDetectRadius);
-  }
+  //protected override void OnDrawGizmos()
+  //{
+  //  base.OnDrawGizmos();
+  //  Handles.color = Color.yellow;
+  //  Handles.DrawWireDisc(transform.position,
+  //    new Vector3(0, 0, 1),
+  //    m_playerDetectRadius);
+  //}
   #endregion
 
   #region Private Members

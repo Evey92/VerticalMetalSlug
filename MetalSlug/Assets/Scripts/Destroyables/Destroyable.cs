@@ -199,32 +199,32 @@ public class Destroyable : MonoBehaviour
 }
 
 #region Custom Editor
-[CustomEditor(typeof(Destroyable))]
-public class DestroyableEditor : Editor
-{
-  int maxHP = 50;
-  public override void OnInspectorGUI()
-  {
-    base.OnInspectorGUI();
-    Destroyable destroyable = (Destroyable)target;
-
-    if (destroyable.Type == DestroyableType.E.kCrate)
-    {
-      destroyable.Drop = (DropType.E)EditorGUILayout.EnumPopup("Drop Type: ", destroyable.Drop);
-      if (destroyable.Drop == DropType.E.kWeapon)
-      {
-        destroyable.Weapon = (WeaponDrop.E)EditorGUILayout.EnumPopup("Weapon Drop: ", destroyable.Weapon);
-      }
-      if (destroyable.Drop == DropType.E.kItem)
-      {
-        destroyable.Item = (ItemDrop.E)EditorGUILayout.EnumPopup("Item Drop: ", destroyable.Item);
-      }
-    }
-    if (destroyable.Type == DestroyableType.E.kBuilding || destroyable.Type == DestroyableType.E.kExplosive)
-    {
-      maxHP = EditorGUILayout.IntField("Max HP: ", maxHP);
-      destroyable.HP = EditorGUILayout.IntSlider("HP: ", destroyable.HP, 1, maxHP);
-    }
-  }
-}
+//[CustomEditor(typeof(Destroyable))]
+//public class DestroyableEditor : Editor
+//{
+//  int maxHP = 50;
+//  public override void OnInspectorGUI()
+//  {
+//    base.OnInspectorGUI();
+//    Destroyable destroyable = (Destroyable)target;
+//
+//    if (destroyable.Type == DestroyableType.E.kCrate)
+//    {
+//      destroyable.Drop = (DropType.E)EditorGUILayout.EnumPopup("Drop Type: ", destroyable.Drop);
+//      if (destroyable.Drop == DropType.E.kWeapon)
+//      {
+//        destroyable.Weapon = (WeaponDrop.E)EditorGUILayout.EnumPopup("Weapon Drop: ", destroyable.Weapon);
+//      }
+//      if (destroyable.Drop == DropType.E.kItem)
+//      {
+//        destroyable.Item = (ItemDrop.E)EditorGUILayout.EnumPopup("Item Drop: ", destroyable.Item);
+//      }
+//    }
+//    if (destroyable.Type == DestroyableType.E.kBuilding || destroyable.Type == DestroyableType.E.kExplosive)
+//    {
+//      maxHP = EditorGUILayout.IntField("Max HP: ", maxHP);
+//      destroyable.HP = EditorGUILayout.IntSlider("HP: ", destroyable.HP, 1, maxHP);
+//    }
+//  }
+//}
 #endregion
