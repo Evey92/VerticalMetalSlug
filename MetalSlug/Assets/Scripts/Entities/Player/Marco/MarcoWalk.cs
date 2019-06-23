@@ -57,7 +57,7 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateExit(Marco character)
   {
-    character.m_torso.GetComponent<Animator>().SetBool("isWalking", false);
+    character.m_torsoAnimator.SetBool("isWalking", false);
     character.m_legsAnimator.SetBool("isWalking", false);
 
     character.m_isMoving = false;

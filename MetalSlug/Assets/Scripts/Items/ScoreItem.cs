@@ -21,7 +21,7 @@ public class ScoreItem : Item
   void Start()
   {
 
-    switch (m_itemKind)
+    switch (m_scoreItemKind)
     {
       case ScoreItemKind.E.Fish:
         m_ammount = 500;
@@ -56,13 +56,10 @@ public class ScoreItem : Item
 
   protected override void InitStateMachine()
   {
-    throw new NotImplementedException();
+    //
   }
 
-  public  void Fall()
-  {
-    throw new NotImplementedException();
-  }
+  
   [SerializeField]
-  ScoreItemKind.E m_itemKind;
+  ScoreItemKind.E m_scoreItemKind;
 }

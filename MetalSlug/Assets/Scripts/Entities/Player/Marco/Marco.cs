@@ -27,6 +27,7 @@ public class Marco : Player
     {
       equipWeapon(m_handgun);
     }
+    
   }
 
   private void FixedUpdate()
@@ -142,7 +143,6 @@ public class Marco : Player
   {
     if (Time.time > m_weapon.getFireRate() + m_lastShot)
     {
-      //m_torsoAnimator.SetTrigger("Shoot");
       m_weapon.Shoot();
       m_lastShot = Time.time;
       m_ammoLeft -= m_weapon.m_ammoSpent;

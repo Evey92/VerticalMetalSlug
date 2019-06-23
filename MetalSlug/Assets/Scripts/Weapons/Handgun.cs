@@ -10,6 +10,14 @@ public class Handgun : Weapon
     m_player = GameObject.FindGameObjectWithTag("Player");
   }
 
+  private void Update()
+  {
+    if(m_bulletsShot >= 10)
+    {
+      m_player.GetComponent<Marco>().m_torsoAnimator.SetTrigger("Reload");
+    }
+  }
+
   public override void Shoot()
   {
     Bullet bulletInstance;

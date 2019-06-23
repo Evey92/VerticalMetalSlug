@@ -111,6 +111,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: Reload
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -189,7 +195,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isknife
+    m_ConditionEvent: Knife
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 1107327614761603956}
   m_DstState: {fileID: 0}
@@ -572,11 +578,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: ammo
-    m_EventTreshold: 10
-  - m_ConditionMode: 4
-    m_ConditionEvent: speed
+  - m_ConditionMode: 1
+    m_ConditionEvent: Reload
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102538325099497480}
@@ -851,7 +854,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isShooting
+    m_ConditionEvent: Shoot
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 1107221108695005742}
   m_DstState: {fileID: 0}
@@ -1095,7 +1098,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isGranade
+    m_ConditionEvent: Grenade
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 1107521939477119856}
   m_DstState: {fileID: 0}
@@ -2079,10 +2082,10 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107465979885270458}
-    m_Position: {x: 228, y: 48, z: 0}
+    m_Position: {x: 216, y: 24, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107846313117132008}
-    m_Position: {x: 432, y: 48, z: 0}
+    m_Position: {x: 504, y: -84, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
@@ -2167,10 +2170,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102015378495410146}
-    m_Position: {x: 24, y: 144, z: 0}
+    m_Position: {x: 24, y: 168, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102609470841515568}
-    m_Position: {x: -228, y: 144, z: 0}
+    m_Position: {x: -204, y: 204, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102541140957227902}
     m_Position: {x: -24, y: 60, z: 0}
@@ -2194,14 +2197,6 @@ AnimatorStateMachine:
   - {fileID: 1101822851190413264}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 1107533575845695670}
-    second:
-    - {fileID: 1109780275807401690}
-    - {fileID: 1109132791283090924}
-    - {fileID: 1109327950340129086}
-    - {fileID: 1109782284011421864}
-    - {fileID: 1109242235693840740}
-    - {fileID: 1109271260859031060}
   - first: {fileID: 1107031986843676438}
     second:
     - {fileID: 1109764596204644570}
@@ -2216,6 +2211,14 @@ AnimatorStateMachine:
     - {fileID: 1109317825090979706}
     - {fileID: 1109434538117047812}
     - {fileID: 1109349992943412334}
+  - first: {fileID: 1107533575845695670}
+    second:
+    - {fileID: 1109780275807401690}
+    - {fileID: 1109132791283090924}
+    - {fileID: 1109327950340129086}
+    - {fileID: 1109782284011421864}
+    - {fileID: 1109242235693840740}
+    - {fileID: 1109271260859031060}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 468, y: 204, z: 0}
   m_EntryPosition: {x: 48, y: 228, z: 0}
@@ -2530,6 +2533,9 @@ AnimatorTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: ispoinitingup
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isJumping
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 1107465979885270458}
   m_DstState: {fileID: 0}
   m_Solo: 0
@@ -2752,7 +2758,7 @@ AnimatorTransition:
     m_ConditionEvent: ispoinitingup
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isShooting
+    m_ConditionEvent: Shoot
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102101701455367298}

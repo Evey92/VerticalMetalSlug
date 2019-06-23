@@ -29,6 +29,25 @@ public class MarcoJump : State<Marco>
 
     }
 
+    if (Input.GetAxisRaw("Vertical") > 0)
+    {
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_torsoAnimator.SetBool("ispoinitingup", true);
+
+    }
+    else if (Input.GetAxis("Vertical") == 0)
+    {
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_torsoAnimator.SetBool("ispoinitingup", false);
+
+    }
+    else if (Input.GetAxis("Vertical") < 0)
+    {
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, -90), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_torsoAnimator.SetBool("ispoinitingup", false);
+
+    }
+
     if (Input.GetButtonDown("Fire1"))
     {
       character.shootWeapon();
