@@ -1,0 +1,849 @@
+fileFormatVersion: 2
+guid: c31218b901f6e5643aad7c9c2b2a33cc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rebel_jet_aspas_0
+    21300002: Rebel_jet_aspas_1
+    21300004: Rebel_jet_aspas_2
+    21300006: Rebel_jet_aspas_3
+    21300008: Rebel_jet_aspas_4
+    21300010: Rebel_jet_aspas_5
+    21300012: Rebel_jet_aspas_6
+    21300014: Rebel_jet_aspas_7
+    21300016: Rebel_jet_aspas_8
+    21300018: Rebel_jet_aspas_9
+    21300020: Rebel_jet_aspas_10
+    21300022: Rebel_jet_aspas_11
+    21300024: Rebel_jet_aspas_12
+    21300026: Rebel_jet_aspas_13
+    21300028: Rebel_jet_aspas_14
+    21300030: Rebel_jet_aspas_15
+    21300032: Rebel_jet_aspas_16
+    21300034: Rebel_jet_aspas_17
+    21300036: Rebel_jet_aspas_18
+    21300038: Rebel_jet_aspas_19
+    21300040: Rebel_jet_aspas_20
+    21300042: Rebel_jet_aspas_21
+    21300044: Rebel_jet_aspas_22
+    21300046: Rebel_jet_aspas_23
+    21300048: Rebel_jet_aspas_24
+    21300050: Rebel_jet_aspas_25
+    21300052: Rebel_jet_aspas_26
+    21300054: Rebel_jet_aspas_27
+    21300056: Rebel_jet_aspas_28
+    21300058: Rebel_jet_aspas_29
+    21300060: Rebel_jet_aspas_30
+    21300062: Rebel_jet_aspas_31
+    21300064: Rebel_jet_aspas_32
+    21300066: Rebel_jet_aspas_33
+    21300068: Rebel_jet_aspas_34
+    21300070: Rebel_jet_aspas_35
+    21300072: Rebel_jet_aspas_36
+    21300074: Rebel_jet_aspas_37
+    21300076: Rebel_jet_aspas_38
+    21300078: Rebel_jet_aspas_39
+    21300080: Rebel_jet_aspas_40
+    21300082: Rebel_jet_aspas_41
+    21300084: Rebel_jet_aspas_42
+    21300086: Rebel_jet_aspas_43
+    21300088: Rebel_jet_aspas_44
+    21300090: Rebel_jet_aspas_45
+    21300092: Rebel_jet_aspas_46
+    21300094: Rebel_jet_aspas_47
+    21300096: Rebel_jet_aspas_48
+    21300098: Rebel_jet_aspas_49
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 163
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a394d2695bf9794d8c0a906ad245939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 163
+        width: 77
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2bb49343b1e3147bfc122bb134415d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 162
+        width: 68
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b968f4c934adcb4c8fa53d8d3d4fb0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 162
+        width: 59
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760210cf88c1c1c4099f81d8aa4edf0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 160
+        width: 77
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be8dd64672d13944ae5a6acaced9049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 140
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aab948e925c0d4e8c96bcdaefc2537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 138
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc76089bbea7954cae8c5331407ee61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 137
+        width: 79
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403e192384b48a54bbcfd5f106a95009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d36790b6d5b1344ab0764bb45dd2811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 134
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96430a16026d5b14b853e7e633b22503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 111
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e720f9a0c798d469398bb1ad9a3d0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd50d0afe59d2444590b4882eee27531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 110
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45dfc4cb86cfea4eb7d9a21ff7c5ed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 111
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95209072252d74e9eb371ba9b789a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 109
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d067315e353c458e22172d9d8f939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 90
+        width: 80
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1317a54a558e3f34391e8c1a81a5607d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 89
+        width: 68
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab0ee8fd41c9864495b58b97adc0d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_32
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 90
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd01f82969de6fb4a84b5f9d5d83d1c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_33
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 89
+        width: 75
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a97bea277b4a43b3c98c363173c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 88
+        width: 80
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68ca1a999afbf24c9ad46dd2c12f86c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 62
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6583bba9f0f3d50498730d7f96082774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_36
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b0b0281b019ed45b4c5d78d469e22f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 62
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77927905046b184da128fcfa8a946fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 61
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1fbe74871fbbd4c8f61d978422cf01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_39
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 64
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fadc85646d6524daa3a93e511a82d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a9ad85fcd232f4fb9298983e5f4041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 38
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ce22cc89f5874595f51fbdcbf8a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_42
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 40
+        width: 79
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec3d69e2e0108d42a1dfbda24439e1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 39
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8a40748aa7e54458cf22d255915a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_44
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 41
+        width: 74
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3733bca3fa82269428ae15f855e7e9b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c7cf4fcfbe3ee4882c3101cb597bac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b898d812b544a740865be09afbc8067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 7
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359b96836bfc6ad4f8bc60e4c5769219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 10
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adadd3504be58464b88c19c407865e7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel_jet_aspas_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 14
+        width: 77
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076b205193aea8846a0e71e2bd78788b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd887cec111268b44aa05fb0b9829ff7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
