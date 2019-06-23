@@ -9,7 +9,7 @@ public class MarcoFallState : State<Marco>
   public override void OnStateEnter(Marco character)
   {
     Debug.Log("Entered Fall state");
-    if(m_StateMachine.LastState == character.playerJumpState)
+    if(m_StateMachine.LastState == character.playerJumpState && Input.GetAxisRaw("Horizontal") != 0)
     {
       character.m_horizontalSpeed = Input.GetAxisRaw("Horizontal") * Time.deltaTime * character.m_hFallSpeed;
       character.GetComponent<Rigidbody2D>().AddForce(new Vector2(character.m_horizontalSpeed, 0), ForceMode2D.Impulse);

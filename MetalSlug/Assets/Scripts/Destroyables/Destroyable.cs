@@ -99,6 +99,7 @@ public class Destroyable : MonoBehaviour
           break;
       }
     }
+    Destroy(gameObject);
   }
   #endregion
 
@@ -108,6 +109,7 @@ public class Destroyable : MonoBehaviour
     switch (m_type)
     {
       case DestroyableType.E.kCrate:
+        GetComponent<Animator>().SetBool("Destroyed", true);
         Destroy(this);
         break;
       case DestroyableType.E.kExplosive:
@@ -123,7 +125,7 @@ public class Destroyable : MonoBehaviour
   #endregion
 
   #region Private Members
-
+    
   #endregion
 
   #region Editor Members

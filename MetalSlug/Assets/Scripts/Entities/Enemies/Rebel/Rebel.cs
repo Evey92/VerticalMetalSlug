@@ -131,7 +131,7 @@ public class Rebel : Enemy
 
   public void Die()
   {
-    Destroy(gameObject, 1.5f);
+    Destroy(gameObject, 1f);
   }
 #endregion
 
