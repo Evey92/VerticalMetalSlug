@@ -49,23 +49,26 @@ public class Prisoner : Entity
     m_StateMachine.OnState(this);
   }
 
+  /*protected override void OnCollisionEnter2D(Collision2D collision)
+  {
+    base.OnCollisionEnter2D(collision);
+  }*/
+
   protected override void OnCollisionEnter2D(Collision2D collision)
   {
     base.OnCollisionEnter2D(collision);
+    if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_isFree = true;
+    }
+    else if (collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
+    {
+      m_droppedItem = true;
+      Anim.PlayInFixedTime("prisoner_grateful");
+      Anim.SetBool("HasGifted", true);
+      m_fleeSpeed = 10;
+    }
   }
-
-  //protected override void OnTriggerEnter2D(Collider2D collision)
-  //{
-  //  base.OnTriggerEnter2D(collision);
-  //  if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
-  //  {
-  //    m_isFree = true;
-  //  }
-  //  else if(collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
-  //  {
-  //    m_droppedItem = true;
-  //  }
-  //}
   #endregion
 
   #region Methods
@@ -141,7 +144,7 @@ public class Prisoner : Entity
   [Range(5, 20)]
   private float m_walkRange = 10;
   [SerializeField]
-  [Range(10, 20)]
+  [Range(0, 20)]
   private float m_fleeSpeed = 10;
   [SerializeField]
   private bool m_startRight;

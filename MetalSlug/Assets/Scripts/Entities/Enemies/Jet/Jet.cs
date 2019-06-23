@@ -22,13 +22,13 @@ public class Jet : Enemy
     m_StateMachine.OnState(this);
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
+  protected override void OnCollisionEnter2D(Collision2D other)
   {
-    base.OnTriggerEnter2D(other);
+    base.OnCollisionEnter2D(other);
 
-    if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
+    if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
     {
-      //TODO: hacer que le haga daño al player
+      Destroy(gameObject);
     }
   }
   #endregion
@@ -47,7 +47,7 @@ public class Jet : Enemy
     jetshoot = new JetShooting(m_StateMachine);
     jetdie = new JetSDie(m_StateMachine);
 
-    m_StateMachine.Init(jetflying, this);
+    m_StateMachine.Init(jetwaiting, this);
   }
 
   public void Die()
@@ -60,7 +60,8 @@ public class Jet : Enemy
     float g = Physics.gravity.magnitude;
     JetBomb newbomb;
     newbomb = Instantiate(m_bomb, m_bomb.transform);
-    
+    newbomb.transform.Translate(newbomb.transform.position.x, g
+     , newbomb.transform.position.z);
     --m_ammo;
     ++m_bombsonscreen;
   }

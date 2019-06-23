@@ -42,6 +42,8 @@ public class JetFlying : State<Jet>
         if (jet.Ammo > 0 && jet.m_bombsonscreen < 4)
         {
           jet.JETShoot();
+          jet.JETShoot();
+          jet.JETShoot();
         }
       }
     }

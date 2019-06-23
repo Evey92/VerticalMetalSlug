@@ -21,7 +21,7 @@ public class PrisonerRescued : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-
+    
   }
 
   public override void OnStateExit(Prisoner prisoner)
