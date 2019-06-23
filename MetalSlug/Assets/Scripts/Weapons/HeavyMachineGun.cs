@@ -12,33 +12,30 @@ public class HeavyMachineGun : Weapon
 
   public override void Shoot()
   {
+    
     float shotRotation = 0;
-    float burstDelay = 0.0f;
-    float burstTimer = 0.0f;
-    float burstsLeft = m_bursts;
+
     if(!m_player.GetComponent<Marco>().IsFacingRight)
     {
       shotRotation = 180;
     }
+    
+    StartCoroutine(instantiateBullets(shotRotation));
+ 
+  }
 
-    while(burstsLeft > 0)
+  public IEnumerator instantiateBullets(float shotRotation)
+  {
+    for(int i = 0; i < m_bursts ; ++i)
     {
-      if (burstTimer <= burstDelay)
-      {
-        Vector3 spaunpos = new Vector3(m_bulletSpawn.transform.position.x + Random.insideUnitCircle.x * .25f, m_bulletSpawn.transform.position.y + Random.insideUnitCircle.y * .25f, m_bulletSpawn.transform.position.z);
-        Bullet bulletInstance;
-        bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
-        bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
+      Vector3 spaunpos = new Vector3(m_bulletSpawn.transform.position.x + Random.insideUnitCircle.x, m_bulletSpawn.transform.position.y + Random.insideUnitCircle.y * .45f, m_bulletSpawn.transform.position.z);
+      Bullet bulletInstance;
+      bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
+      bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
+      m_audioSource.PlayOneShot(m_shotSound);
+      yield return new WaitForSeconds(m_delay);
 
-        burstTimer = burstDelay;
-        --m_bursts;
-      }
-      else
-      {
-        burstTimer -= Time.fixedDeltaTime;
-      }
     }
-
   }
 
   public void spawnBullet(Vector3 Position, Quaternion rotation)
@@ -46,12 +43,11 @@ public class HeavyMachineGun : Weapon
     Instantiate(m_bullet, Position, rotation);
   }
 
-  [SerializeField]
-  int m_bursts = 2;
+  
   
   public float m_delay = 1;
-
-  public List<Transform> m_spawnPoints = new List<Transform>();
+  public AudioClip m_shotSound;
+  public AudioSource m_audioSource;
 
 
 

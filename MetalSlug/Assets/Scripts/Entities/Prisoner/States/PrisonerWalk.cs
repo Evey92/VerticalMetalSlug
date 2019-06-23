@@ -8,6 +8,9 @@ public class PrisonerWalk : State<Prisoner>
 
   public override void OnStateEnter(Prisoner prisoner)
   {
+    prisoner.Anim.SetBool("isfree", prisoner.IsFree);
+    prisoner.Anim.SetBool("isGrounded", prisoner.IsGrounded);
+    prisoner.Anim.SetBool("HasGifted", prisoner.DroppedItem);
     Debug.Log("Prisoner enter Walk");
   }
 
@@ -35,6 +38,7 @@ public class PrisonerWalk : State<Prisoner>
         if (prisoner.transform.position.x > prisoner.EndPosition)
         {
           prisoner.IsFacingRight = false;
+          prisoner.sprite.flipX = false;
         }
       }
       else
@@ -42,6 +46,7 @@ public class PrisonerWalk : State<Prisoner>
         if (prisoner.transform.position.x > prisoner.StartPosition)
         {
           prisoner.IsFacingRight = false;
+          prisoner.sprite.flipX = false;
         }
       }
     }
@@ -55,6 +60,7 @@ public class PrisonerWalk : State<Prisoner>
         if (prisoner.transform.position.x < prisoner.StartPosition)
         {
           prisoner.IsFacingRight = true;
+          prisoner.sprite.flipX = true;
         }
       }
       else
@@ -62,13 +68,11 @@ public class PrisonerWalk : State<Prisoner>
         if (prisoner.transform.position.x < prisoner.EndPosition)
         {
           prisoner.IsFacingRight = true;
+          prisoner.sprite.flipX = true;
         }
       }
     }
   }
 
-  public override void OnStateExit(Prisoner prisoner)
-  {
-
-  }
+ 
 }

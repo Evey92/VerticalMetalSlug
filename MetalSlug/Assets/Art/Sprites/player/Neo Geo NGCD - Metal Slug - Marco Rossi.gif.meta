@@ -341,28 +341,28 @@ TextureImporter:
     21300672: Neo Geo NGCD - Metal Slug - Marco Rossi_336
     21300674: Neo Geo NGCD - Metal Slug - Marco Rossi_337
     21300676: Neo Geo NGCD - Metal Slug - Marco Rossi_338
-    21300678: Neo Geo NGCD - Metal Slug - Marco Rossi_339
-    21300680: Neo Geo NGCD - Metal Slug - Marco Rossi_340
-    21300682: Neo Geo NGCD - Metal Slug - Marco Rossi_341
-    21300684: Neo Geo NGCD - Metal Slug - Marco Rossi_342
-    21300686: Neo Geo NGCD - Metal Slug - Marco Rossi_343
-    21300688: Neo Geo NGCD - Metal Slug - Marco Rossi_344
-    21300690: Neo Geo NGCD - Metal Slug - Marco Rossi_345
-    21300692: Neo Geo NGCD - Metal Slug - Marco Rossi_346
-    21300694: Neo Geo NGCD - Metal Slug - Marco Rossi_347
-    21300696: Neo Geo NGCD - Metal Slug - Marco Rossi_348
-    21300698: Neo Geo NGCD - Metal Slug - Marco Rossi_349
-    21300700: Neo Geo NGCD - Metal Slug - Marco Rossi_350
-    21300702: Neo Geo NGCD - Metal Slug - Marco Rossi_351
+    21300678: MarcoSpecialIdle_0
+    21300680: MarcoSpecialIdle_1
+    21300682: MarcoSpecialIdle_2
+    21300684: MarcoSpecialIdle_3
+    21300686: MarcoSpecialIdle_4
+    21300688: MarcoSpecialIdle_5
+    21300690: MarcoSpecialIdle_6
+    21300692: MarcoSpecialIdle_7
+    21300694: MarcoSpecialIdle_8
+    21300696: MarcoSpecialIdle_9
+    21300698: MarcoSpecialIdle_10
+    21300700: MarcoSpecialIdle_11
+    21300702: MarcoSpecialIdle_12
     21300704: Neo Geo NGCD - Metal Slug - Marco Rossi_352
     21300706: Neo Geo NGCD - Metal Slug - Marco Rossi_353
     21300708: Neo Geo NGCD - Metal Slug - Marco Rossi_354
-    21300710: Neo Geo NGCD - Metal Slug - Marco Rossi_355
-    21300712: Neo Geo NGCD - Metal Slug - Marco Rossi_356
-    21300714: Neo Geo NGCD - Metal Slug - Marco Rossi_357
-    21300716: Neo Geo NGCD - Metal Slug - Marco Rossi_358
-    21300718: Neo Geo NGCD - Metal Slug - Marco Rossi_359
-    21300720: Neo Geo NGCD - Metal Slug - Marco Rossi_360
+    21300710: MarcoSpecialGrenade_0
+    21300712: MarcoSpecialGrenade_1
+    21300714: MarcoSpecialGrenade_2
+    21300716: MarcoSpecialGrenade_3
+    21300718: MarcoSpecialGrenade_4
+    21300720: MarcoSpecialGrenade_5
     21300722: Neo Geo NGCD - Metal Slug - Marco Rossi_361
     21300724: Neo Geo NGCD - Metal Slug - Marco Rossi_362
     21300726: Neo Geo NGCD - Metal Slug - Marco Rossi_363
@@ -387,11 +387,11 @@ TextureImporter:
     21300764: Neo Geo NGCD - Metal Slug - Marco Rossi_382
     21300766: Neo Geo NGCD - Metal Slug - Marco Rossi_383
     21300768: Neo Geo NGCD - Metal Slug - Marco Rossi_384
-    21300770: Neo Geo NGCD - Metal Slug - Marco Rossi_385
-    21300772: Neo Geo NGCD - Metal Slug - Marco Rossi_386
+    21300770: MarcoSpecialShoot_0
+    21300772: MarcoSpecialShoot_1
     21300774: Neo Geo NGCD - Metal Slug - Marco Rossi_387
-    21300776: Neo Geo NGCD - Metal Slug - Marco Rossi_388
-    21300778: Neo Geo NGCD - Metal Slug - Marco Rossi_389
+    21300776: MarcoSpecialShoot_2
+    21300778: MarcoSpecialShoot_3
     21300780: Neo Geo NGCD - Metal Slug - Marco Rossi_390
     21300782: Neo Geo NGCD - Metal Slug - Marco Rossi_391
     21300784: Neo Geo NGCD - Metal Slug - Marco Rossi_392
@@ -2032,25 +2032,25 @@ TextureImporter:
     21304054: Neo Geo NGCD - Metal Slug - Marco Rossi_2027
     21304056: Neo Geo NGCD - Metal Slug - Marco Rossi_2028
     21304058: Neo Geo NGCD - Metal Slug - Marco Rossi_2029
-    21304060: Neo Geo NGCD - Metal Slug - Marco Rossi_2030
-    21304062: Neo Geo NGCD - Metal Slug - Marco Rossi_2031
-    21304064: Neo Geo NGCD - Metal Slug - Marco Rossi_2032
-    21304066: Neo Geo NGCD - Metal Slug - Marco Rossi_2033
-    21304068: Neo Geo NGCD - Metal Slug - Marco Rossi_2034
-    21304070: Neo Geo NGCD - Metal Slug - Marco Rossi_2035
-    21304072: Neo Geo NGCD - Metal Slug - Marco Rossi_2036
-    21304074: Neo Geo NGCD - Metal Slug - Marco Rossi_2037
-    21304076: Neo Geo NGCD - Metal Slug - Marco Rossi_2038
-    21304078: Neo Geo NGCD - Metal Slug - Marco Rossi_2039
-    21304080: Neo Geo NGCD - Metal Slug - Marco Rossi_2040
-    21304082: Neo Geo NGCD - Metal Slug - Marco Rossi_2041
-    21304084: Neo Geo NGCD - Metal Slug - Marco Rossi_2042
-    21304086: Neo Geo NGCD - Metal Slug - Marco Rossi_2043
-    21304088: Neo Geo NGCD - Metal Slug - Marco Rossi_2044
-    21304090: Neo Geo NGCD - Metal Slug - Marco Rossi_2045
-    21304092: Neo Geo NGCD - Metal Slug - Marco Rossi_2046
-    21304094: Neo Geo NGCD - Metal Slug - Marco Rossi_2047
-    21304096: Neo Geo NGCD - Metal Slug - Marco Rossi_2048
+    21304060: Marco_Die_0
+    21304062: Marco_Die_1
+    21304064: Marco_Die_2
+    21304066: Marco_Die_3
+    21304068: Marco_Die_4
+    21304070: Marco_Die_5
+    21304072: Marco_Die_6
+    21304074: Marco_Die_7
+    21304076: Marco_Die_8
+    21304078: Marco_Die_9
+    21304080: Marco_Die_10
+    21304082: Marco_Die_11
+    21304084: Marco_Die_12
+    21304086: Marco_Die_13
+    21304088: Marco_Die_15
+    21304090: Marco_Die_16
+    21304092: Marco_Die_17
+    21304094: Marco_Die_18
+    21304096: Marco_Die_19
     21304098: Neo Geo NGCD - Metal Slug - Marco Rossi_2049
     21304100: Neo Geo NGCD - Metal Slug - Marco Rossi_2050
     21304102: Neo Geo NGCD - Metal Slug - Marco Rossi_2051
@@ -9421,7 +9421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_339
+      name: MarcoSpecialIdle_0
       rect:
         serializedVersion: 2
         x: 397
@@ -9441,7 +9441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_340
+      name: MarcoSpecialIdle_1
       rect:
         serializedVersion: 2
         x: 437
@@ -9461,7 +9461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_341
+      name: MarcoSpecialIdle_2
       rect:
         serializedVersion: 2
         x: 478
@@ -9481,7 +9481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_342
+      name: MarcoSpecialIdle_3
       rect:
         serializedVersion: 2
         x: 521
@@ -9501,7 +9501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_343
+      name: MarcoSpecialIdle_4
       rect:
         serializedVersion: 2
         x: 561
@@ -9521,7 +9521,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_344
+      name: MarcoSpecialIdle_5
       rect:
         serializedVersion: 2
         x: 601
@@ -9541,7 +9541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_345
+      name: MarcoSpecialIdle_6
       rect:
         serializedVersion: 2
         x: 640
@@ -9561,7 +9561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_346
+      name: MarcoSpecialIdle_7
       rect:
         serializedVersion: 2
         x: 679
@@ -9581,7 +9581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_347
+      name: MarcoSpecialIdle_8
       rect:
         serializedVersion: 2
         x: 718
@@ -9601,7 +9601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_348
+      name: MarcoSpecialIdle_9
       rect:
         serializedVersion: 2
         x: 757
@@ -9621,7 +9621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_349
+      name: MarcoSpecialIdle_10
       rect:
         serializedVersion: 2
         x: 796
@@ -9641,7 +9641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_350
+      name: MarcoSpecialIdle_11
       rect:
         serializedVersion: 2
         x: 836
@@ -9661,7 +9661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_351
+      name: MarcoSpecialIdle_12
       rect:
         serializedVersion: 2
         x: 875
@@ -9741,7 +9741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_355
+      name: MarcoSpecialGrenade_0
       rect:
         serializedVersion: 2
         x: 1018
@@ -9761,7 +9761,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_356
+      name: MarcoSpecialGrenade_1
       rect:
         serializedVersion: 2
         x: 1059
@@ -9781,7 +9781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_357
+      name: MarcoSpecialGrenade_2
       rect:
         serializedVersion: 2
         x: 1102
@@ -9801,7 +9801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_358
+      name: MarcoSpecialGrenade_3
       rect:
         serializedVersion: 2
         x: 1144
@@ -9821,7 +9821,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_359
+      name: MarcoSpecialGrenade_4
       rect:
         serializedVersion: 2
         x: 1184
@@ -9841,7 +9841,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_360
+      name: MarcoSpecialGrenade_5
       rect:
         serializedVersion: 2
         x: 1225
@@ -10341,15 +10341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_385
+      name: MarcoSpecialShoot_0
       rect:
         serializedVersion: 2
         x: 1013
         y: 4359
         width: 60
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.33590087, y: 0.5242694}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10361,15 +10361,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_386
+      name: MarcoSpecialShoot_1
       rect:
         serializedVersion: 2
         x: 1076
         y: 4358
-        width: 36
+        width: 60
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.34481403, y: 0.48607495}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10401,15 +10401,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_388
+      name: MarcoSpecialShoot_2
       rect:
         serializedVersion: 2
         x: 1139
         y: 4358
         width: 60
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 27
+      alignment: 9
+      pivot: {x: 0.34481403, y: 0.48607495}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10421,15 +10421,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_389
+      name: MarcoSpecialShoot_3
       rect:
         serializedVersion: 2
         x: 1202
         y: 4359
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 60
+        height: 27
+      alignment: 9
+      pivot: {x: 0.34481403, y: 0.48607495}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -43241,7 +43241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2030
+      name: Marco_Die_0
       rect:
         serializedVersion: 2
         x: 104
@@ -43261,7 +43261,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2031
+      name: Marco_Die_1
       rect:
         serializedVersion: 2
         x: 135
@@ -43281,7 +43281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2032
+      name: Marco_Die_2
       rect:
         serializedVersion: 2
         x: 169
@@ -43301,7 +43301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2033
+      name: Marco_Die_3
       rect:
         serializedVersion: 2
         x: 203
@@ -43321,7 +43321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2034
+      name: Marco_Die_4
       rect:
         serializedVersion: 2
         x: 237
@@ -43341,7 +43341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2035
+      name: Marco_Die_5
       rect:
         serializedVersion: 2
         x: 271
@@ -43361,7 +43361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2036
+      name: Marco_Die_6
       rect:
         serializedVersion: 2
         x: 305
@@ -43381,7 +43381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2037
+      name: Marco_Die_7
       rect:
         serializedVersion: 2
         x: 339
@@ -43401,7 +43401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2038
+      name: Marco_Die_8
       rect:
         serializedVersion: 2
         x: 370
@@ -43421,7 +43421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2039
+      name: Marco_Die_9
       rect:
         serializedVersion: 2
         x: 400
@@ -43441,7 +43441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2040
+      name: Marco_Die_10
       rect:
         serializedVersion: 2
         x: 430
@@ -43461,7 +43461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2041
+      name: Marco_Die_11
       rect:
         serializedVersion: 2
         x: 458
@@ -43481,7 +43481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2042
+      name: Marco_Die_12
       rect:
         serializedVersion: 2
         x: 486
@@ -43501,7 +43501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2043
+      name: Marco_Die_13
       rect:
         serializedVersion: 2
         x: 510
@@ -43521,7 +43521,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2044
+      name: Marco_Die_15
       rect:
         serializedVersion: 2
         x: 536
@@ -43541,7 +43541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2045
+      name: Marco_Die_16
       rect:
         serializedVersion: 2
         x: 562
@@ -43561,7 +43561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2046
+      name: Marco_Die_17
       rect:
         serializedVersion: 2
         x: 592
@@ -43581,7 +43581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2047
+      name: Marco_Die_18
       rect:
         serializedVersion: 2
         x: 625
@@ -43601,7 +43601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug - Marco Rossi_2048
+      name: Marco_Die_19
       rect:
         serializedVersion: 2
         x: 662
@@ -57576,6 +57576,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: af8b37cf1c1befe4abd89edbf2ee1567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Marco Rossi_5
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 3984
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2585e6a34eef84a9ab499f9fb03490
       vertices: []
       indices: 
       edges: []

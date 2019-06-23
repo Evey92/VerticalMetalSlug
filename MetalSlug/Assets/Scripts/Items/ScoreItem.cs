@@ -21,7 +21,7 @@ public class ScoreItem : Item
   void Start()
   {
 
-    switch (m_itemKind)
+    switch (m_scoreItemKind)
     {
       case ScoreItemKind.E.Fish:
         m_ammount = 500;
@@ -44,25 +44,22 @@ public class ScoreItem : Item
     }
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
-  {
-    throw new NotImplementedException();
-  }
-
-  protected override void OnTriggerExit2D(Collider2D other)
-  {
-    throw new NotImplementedException();
-  }
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  throw new NotImplementedException();
+  //}
+  //
+  //protected override void OnTriggerExit2D(Collider2D other)
+  //{
+  //  throw new NotImplementedException();
+  //}
 
   protected override void InitStateMachine()
   {
-    throw new NotImplementedException();
+    //
   }
 
-  public override void Fall()
-  {
-    throw new NotImplementedException();
-  }
+  
   [SerializeField]
-  ScoreItemKind.E m_itemKind;
+  ScoreItemKind.E m_scoreItemKind;
 }

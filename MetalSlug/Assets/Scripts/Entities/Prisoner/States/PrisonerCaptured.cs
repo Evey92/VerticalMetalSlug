@@ -30,7 +30,9 @@ public class PrisonerCaptured : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-
+    prisoner.Anim.SetBool("HasGifted", prisoner.DroppedItem);
+    prisoner.Anim.SetBool("isfree", prisoner.IsFree);
+    prisoner.Anim.SetBool("isGrounded", prisoner.IsGrounded);
   }
 
   public override void OnStateExit(Prisoner prisoner)

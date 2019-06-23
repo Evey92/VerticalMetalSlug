@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 46fcdb7c7d820724c8dea912cb54bd14
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Marco_torso_HMachineGun_jump_0
+    21300002: Marco_torso_HMachineGun_jump_1
+    21300004: Marco_torso_HMachineGun_jump_2
+    21300006: Marco_torso_HMachineGun_jump_3
+    21300008: Marco_torso_HMachineGun_jump_4
+    21300010: Marco_torso_HMachineGun_jump_5
+    21300012: Marco_torso_HMachineGun_jump_6
+    21300014: Marco_torso_HMachineGun_jump_7
+    21300016: Marco_torso_HMachineGun_jump_8
+    21300018: Marco_torso_HMachineGun_jump_9
+    21300020: Marco_torso_HMachineGun_jump_10
+    21300022: Marco_torso_HMachineGun_jump_11
+    21300024: Marco_torso_HMachineGun_jump_12
+    21300026: Marco_torso_HMachineGun_jump_13
+    21300028: Marco_torso_HMachineGun_jump_14
+    21300030: Marco_torso_HMachineGun_jump_15
+    21300032: Marco_torso_HMachineGun_jump_16
+    21300034: Marco_torso_HMachineGun_jump_17
+    21300036: Marco_torso_HMachineGun_jump_18
+    21300038: Marco_torso_HMachineGun_jump_19
+    21300040: Marco_torso_HMachineGun_jump_20
+    21300042: Marco_torso_HMachineGun_jump_21
+    21300044: Marco_torso_HMachineGun_jump_22
+    21300046: Marco_torso_HMachineGun_jump_23
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd042d7ec1b634287bd8be1791cca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3c5dac5e1ae24428c9b59aa89ecdb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fdf9c4c0d091648b0bf1b4c617a1ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885c6a04197586c45a6125e8200563b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba733b3c2965b404ab029c54abfdd512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 4
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720cfb2d0c423448a60bd382219759f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 4
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb16ea14b878448a0fd9e698e70295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 4
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7342d7f08492dd4d8665873b1899782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 4
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae6366f7af8b3439653e87e9cc21a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec67f6a1ea7a2c5478b161466b232f9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 4
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f694ea904bd7a9f41af750276bd9efdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 4
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a720fadb52846404aaf34d1e0f6d571b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 4
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddea84943e096624d8dd173187838c90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 4
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66ce88a66d4a58468ae5887e8730bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_14
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 4
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcb624d43f573945995a4a5bc32c510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c98dff88825e814e941f0cbd5d0b0b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_16
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 4
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0103ec7155e981d4aa7d7caad027af85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_17
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 4
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1b28884a1c57f4e86305f8c73370b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_18
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 4
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cf105bac4b8de489229268dc14dbc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_19
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 4
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264907e0f55187540bddb5e799c2b0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 4
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d50aa797e9fb4429a24f67c59303e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_21
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 4
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d11b74c5a558e45a4a31684cf66fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_22
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 4
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fbdba6889f8504fbffedf0a18c2a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_HMachineGun_jump_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 4
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6866439f19948c948bf0753bda9075e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8a98f529ed73aee419cfd46ffca18df5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

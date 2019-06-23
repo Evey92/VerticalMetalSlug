@@ -18,7 +18,7 @@ public class Prisoner : Entity
   private void Awake()
   {
     InitStateMachine();
-
+    Anim.SetInteger("state", (int)m_prisonerState);
     m_startPosition = transform.position.x;
     if (m_startRight)
     {
@@ -45,11 +45,33 @@ public class Prisoner : Entity
 
   private void FixedUpdate()
   {
+
     m_StateMachine.OnState(this);
   }
-#endregion
 
-#region Methods
+  /*protected override void OnCollisionEnter2D(Collision2D collision)
+  {
+    base.OnCollisionEnter2D(collision);
+  }*/
+
+  protected override void OnCollisionEnter2D(Collision2D collision)
+  {
+    base.OnCollisionEnter2D(collision);
+    if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_isFree = true;
+    }
+    else if (collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
+    {
+      m_droppedItem = true;
+      Anim.PlayInFixedTime("prisoner_grateful");
+      Anim.SetBool("HasGifted", true);
+      m_fleeSpeed = 10;
+    }
+  }
+  #endregion
+
+  #region Methods
   /// <summary>
   /// 
   /// </summary>
@@ -122,18 +144,24 @@ public class Prisoner : Entity
   [Range(5, 20)]
   private float m_walkRange = 10;
   [SerializeField]
-  [Range(10, 20)]
+  [Range(0, 20)]
   private float m_fleeSpeed = 10;
   [SerializeField]
   private bool m_startRight;
-#endregion
+  [SerializeField]
+  private Animator m_anim;
+  [SerializeField]
+  private SpriteRenderer m_sprite;
+  #endregion
 
-#region Properties
+  #region Properties
   public float StartPosition { get { return m_startPosition; } }
   public float EndPosition { get { return m_endPosition; } }
   public bool IsPathSet { get { return m_isPathSet; } }
   public bool IsFree { get { return m_isFree; } }
   public bool DroppedItem { get { return m_droppedItem; } }
+  public Animator Anim { get { return m_anim; } }
+  public SpriteRenderer sprite { get { return m_sprite; } }
   // TODO: Add a boolean for whether the prisoner should start running right
   // TODO: Add a walk speed slider for the editor
 

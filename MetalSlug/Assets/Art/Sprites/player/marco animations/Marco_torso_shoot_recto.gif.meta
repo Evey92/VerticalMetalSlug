@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: 8903e78e6120d39488fc01eaaf459d53
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Marco_torso_shoot_recto_0
+    21300002: Marco_torso_shoot_recto_1
+    21300004: Marco_torso_shoot_recto_2
+    21300006: Marco_torso_shoot_recto_3
+    21300008: Marco_torso_shoot_recto_4
+    21300010: Marco_torso_shoot_recto_5
+    21300012: Marco_torso_shoot_recto_6
+    21300014: Marco_torso_shoot_recto_7
+    21300016: Marco_torso_shoot_recto_8
+    21300018: Marco_torso_shoot_recto_9
+    21300020: Marco_torso_shoot_recto_10
+    21300022: Marco_torso_shoot_recto_11
+    21300024: Marco_torso_shoot_recto_12
+    21300026: Marco_torso_shoot_recto_13
+    21300028: Marco_torso_shoot_recto_14
+    21300030: Marco_torso_shoot_recto_15
+    21300032: Marco_torso_shoot_recto_16
+    21300034: Marco_torso_shoot_recto_17
+    21300036: Marco_torso_shoot_recto_18
+    21300038: Marco_torso_shoot_recto_19
+    21300040: Marco_torso_shoot_recto_20
+    21300042: Marco_torso_shoot_recto_21
+    21300044: Marco_torso_shoot_recto_22
+    21300046: Marco_torso_shoot_recto_23
+    21300048: Marco_torso_shoot_recto_24
+    21300050: Marco_torso_shoot_recto_25
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 50
+        height: 23
+      alignment: 9
+      pivot: {x: 0.3, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d70079ddb7e28043801e3f7f2fb478c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 8
+        width: 51
+        height: 23
+      alignment: 9
+      pivot: {x: 0.3, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b801a640dbe37244eaa5e1ca19d091ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 8
+        width: 52
+        height: 23
+      alignment: 9
+      pivot: {x: 0.3, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640b0943a63378b4f964334c325c12f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 8
+        width: 37
+        height: 23
+      alignment: 9
+      pivot: {x: 0.385, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18363ac4241a090409282b39ae2121c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 8
+        width: 37
+        height: 25
+      alignment: 9
+      pivot: {x: 0.42, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b274da99ffc38f43991ef7c411fee5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 7
+        width: 37
+        height: 25
+      alignment: 9
+      pivot: {x: 0.41, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cd8065450154145876d0cb99196cef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 8
+        width: 37
+        height: 23
+      alignment: 9
+      pivot: {x: 0.42, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9fea5c3f9d8b44b882bda5175cd9e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_8
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 5
+        width: 34
+        height: 26
+      alignment: 9
+      pivot: {x: 0.44, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dfcc4a5bc7cf6499f28a30fd907c27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_9
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 4
+        width: 33
+        height: 27
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb19f8dc5fb07d4783a29f55dbcafea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 5
+        width: 32
+        height: 27
+      alignment: 9
+      pivot: {x: 0.3, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a3f23cd8380294197053286501bde0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 8
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a42e4d6662744688b508a87fdffbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 8
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005c5ce04455122469591110feef0b84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 8
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381c4a23d74aaf34a97c10cc5eeca8bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_15
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 8
+        width: 35
+        height: 23
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981acf147849dcb45b85c0c66ce58a4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 8
+        width: 36
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5d4a4fc911c1346b7ebcba5fe3c1c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 8
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d732a0a6fd9a547994f0a2819445c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_18
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 8
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5051e182d6fd1e843ba2b47b8591cb47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 5
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb9d1fa5a71c514babb59c6e893a87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_20
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 4
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df70f6fa2f7abf249bd4cf772ae26893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_21
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c98ce5f6656ec4e9a8908cc521a34c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_22
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 6
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe87ca1f6d5237d4a8639e24ba301eef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 6
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c20fc2419ba1ec43949ccd52540ef1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_24
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 7
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d830299e18f1b24c8da24a2b9d9f362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco_torso_shoot_recto_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 7
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.68, y: 0.265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d4c1135ac26f4296e74e52142378f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 35ad08a1c595de94f8a314110ac2f501
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

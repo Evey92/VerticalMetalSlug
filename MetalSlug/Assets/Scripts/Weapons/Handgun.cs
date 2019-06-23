@@ -10,9 +10,17 @@ public class Handgun : Weapon
     m_player = GameObject.FindGameObjectWithTag("Player");
   }
 
+  private void Update()
+  {
+    if(m_bulletsShot >= 10)
+    {
+      m_player.GetComponent<Marco>().m_torsoAnimator.SetTrigger("Reload");
+      m_bulletsShot = 0;
+    }
+  }
+
   public override void Shoot()
   {
-
     Bullet bulletInstance;
     if (m_player.GetComponent<Marco>().IsFacingRight)
     {
@@ -22,9 +30,10 @@ public class Handgun : Weapon
     {
       bulletInstance = Instantiate(m_bullet, m_bulletSpawn.transform.position, new Quaternion(0, 180, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
     }
-    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 500);
+    bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 50);
 
     m_audioSource.PlayOneShot(m_shotSound);
+    ++m_bulletsShot;
   }
 
   public AudioClip m_shotSound;

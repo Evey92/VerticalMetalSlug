@@ -14,15 +14,15 @@ public class RebelFall : State<Rebel>
 
   public override void OnStatePreUpdate(Rebel rebel)
   {
-    if(rebel.IsGrounded)
-    {
-      m_StateMachine.ToState(rebel.rebelRun, rebel);
-    }
-
     if (rebel.HP <= 0)
     {
       m_StateMachine.ToState(rebel.rebelDie, rebel);
     }
+
+    if (rebel.IsGrounded)
+    {
+      m_StateMachine.ToState(rebel.rebelRun, rebel);
+    }    
   }
 
   public override void OnStateUpdate(Rebel rebel)

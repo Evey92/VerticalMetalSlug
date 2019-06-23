@@ -9,6 +9,7 @@ public class MarcoDieState : State<Marco>
 
   public override void OnStateEnter(Marco character)
   {
+    
   }
   public override void OnStatePreUpdate(Marco character)
   {

@@ -9,6 +9,7 @@ public class PrisonerFalling : State<Prisoner>
 
   public override void OnStateEnter(Prisoner prisoner)
   {
+    prisoner.Anim.SetBool("isGrounded", prisoner.IsGrounded);
     Debug.Log("Prisoner enter Falling");
     prisoner.FallSpeed = 0.0f;
   }
@@ -23,8 +24,8 @@ public class PrisonerFalling : State<Prisoner>
 
   public override void OnStateUpdate(Prisoner prisoner)
   {
-    prisoner.FallSpeed += prisoner.Gravity * prisoner.Gravity * Time.fixedDeltaTime;
-    prisoner.transform.position = new Vector3(prisoner.transform.position.x,
+      prisoner.FallSpeed += prisoner.Gravity * prisoner.Gravity * Time.fixedDeltaTime;
+      prisoner.transform.position = new Vector3(prisoner.transform.position.x,
       prisoner.transform.position.y - (prisoner.FallSpeed * Time.fixedDeltaTime),
       prisoner.transform.position.z);
   }

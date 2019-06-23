@@ -30,17 +30,25 @@ public abstract class Player : Character
     //}
   }
 
-  protected void OnCollisionEnter2D(Collision2D collision)
-  {
-    if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
-    {
-      IsGrounded = true;
-    }
-  }
+  //protected void OnCollisionEnter2D(Collision2D collision)
+  //{
+  //  if (collision.gameObject.layer == (1 << LayerMask.NameToLayer("Ground")) && !IsGrounded)
+  //  {
+  //    IsGrounded = true;
+  //  }
+  //}
+  //
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  base.OnTriggerEnter2D(other);
+  //}
 
-  protected override void OnTriggerEnter2D(Collider2D other)
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
-    base.OnTriggerEnter2D(other);
+    base.OnCollisionEnter2D(collision2D);
+
+    
+
   }
 
 
@@ -82,6 +90,11 @@ public abstract class Player : Character
   public bool m_isSlug;
 
   /// <summary>
+  /// Used to check if Marco is moving
+  /// </summary>
+  public bool m_canKnife;
+
+  /// <summary>
   /// Multiplier to control the in air movement
   /// </summary>
   public float m_speedMultiplier;
@@ -95,13 +108,15 @@ public abstract class Player : Character
   /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
   [SerializeField]
-  public float m_score= 0.0f;
+  public int m_score= 0;
 
   /// <summary>
   /// Value to control how long it takes for the gun to interpolate from front to up and down 
   /// </summary>
   [SerializeField]
-  public float m_ammoLeft = 0.0f;
+  public int m_ammoLeft = 0;
+
+ 
 
   /// <summary>
   /// Used to track how many grenades are in Marco's inventory
