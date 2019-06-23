@@ -10,6 +10,11 @@ public class MarcoJump : State<Marco>
   public override void OnStateEnter(Marco character)
   {
     Debug.Log("Jumping");
+    character.m_torsoAnimator.SetBool("isGrounded", false);
+    character.m_legsAnimator.SetBool("isGrounded", false);
+    character.m_torsoAnimator.SetBool("isJumping", true);
+    character.m_legsAnimator.SetBool("isJumping", true);
+
     character.IsJumping = true;
     character.CalculateInitialJumpSpeed();
   }
@@ -53,6 +58,8 @@ public class MarcoJump : State<Marco>
 
   public override void OnStateExit(Marco character)
   {
+    character.m_torsoAnimator.SetBool("isJumping", false);
+    character.m_legsAnimator.SetBool("isJumping", false);
     character.IsJumping = false;
   }
 }

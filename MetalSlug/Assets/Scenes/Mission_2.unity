@@ -112,12 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &24558381 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9078133251637129491, guid: 41f54be1851426d4ea0a5e69f953b022,
-    type: 3}
-  m_PrefabInstance: {fileID: 1742592693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &244467549
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,18 +142,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &346636227 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9078133251316893961, guid: 41f54be1851426d4ea0a5e69f953b022,
-    type: 3}
-  m_PrefabInstance: {fileID: 1742592693}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &374173658 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1815973734653355258, guid: 41f54be1851426d4ea0a5e69f953b022,
-    type: 3}
-  m_PrefabInstance: {fileID: 1742592693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &428218025
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +676,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -782,6 +764,15 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553905643721878929, guid: 93d326fe50c528c4d911023600170c10,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781913073, guid: 93d326fe50c528c4d911023600170c10, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d326fe50c528c4d911023600170c10, type: 3}
@@ -945,88 +936,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
+    - target: {fileID: 3439908038357235303, guid: 41f54be1851426d4ea0a5e69f953b022,
         type: 3}
       propertyPath: m_audioSource
       value: 
       objectReference: {fileID: 1144161033}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_shotSound
-      value: 
-      objectReference: {fileID: 8300000, guid: eb8851c41befe4142afa5138abe68520, type: 3}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_firePower
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
+    - target: {fileID: 3439908038357235303, guid: 41f54be1851426d4ea0a5e69f953b022,
         type: 3}
       propertyPath: m_fireRate
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_ammo
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818733302697037899, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_bursts
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760356378295319578, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_spawnPoints.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_fireRate
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_spawnPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 374173658}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_spawnPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 346636227}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_spawnPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 24558381}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_bursts
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351108514171552292, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_weaponCooldown
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4351108514171552294, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8818733303684047913, guid: 41f54be1851426d4ea0a5e69f953b022,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8818733303684047913, guid: 41f54be1851426d4ea0a5e69f953b022, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41f54be1851426d4ea0a5e69f953b022, type: 3}
 --- !u!1 &1915094305
 GameObject:

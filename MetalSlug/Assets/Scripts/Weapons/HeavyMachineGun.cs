@@ -18,13 +18,11 @@ public class HeavyMachineGun : Weapon
     {
       shotRotation = 180;
     }
-
     
     Vector3 spaunpos = new Vector3(m_bulletSpawn.transform.position.x + Random.insideUnitCircle.x * .25f, m_bulletSpawn.transform.position.y + Random.insideUnitCircle.y * .25f, m_bulletSpawn.transform.position.z);
     Bullet bulletInstance;
     bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
     bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
-    ++m_bulletsShot;
   }
 
   public void spawnBullet(Vector3 Position, Quaternion rotation)

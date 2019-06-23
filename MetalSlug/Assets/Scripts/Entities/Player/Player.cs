@@ -46,6 +46,9 @@ public abstract class Player : Character
   protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
     base.OnCollisionEnter2D(collision2D);
+
+    
+
   }
 
 
@@ -87,6 +90,11 @@ public abstract class Player : Character
   public bool m_isSlug;
 
   /// <summary>
+  /// Used to check if Marco is moving
+  /// </summary>
+  public bool m_canKnife;
+
+  /// <summary>
   /// Multiplier to control the in air movement
   /// </summary>
   public float m_speedMultiplier;
@@ -107,6 +115,8 @@ public abstract class Player : Character
   /// </summary>
   [SerializeField]
   public float m_ammoLeft = 0.0f;
+
+ 
 
   /// <summary>
   /// Used to track how many grenades are in Marco's inventory

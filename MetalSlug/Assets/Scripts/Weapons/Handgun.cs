@@ -12,7 +12,6 @@ public class Handgun : Weapon
 
   public override void Shoot()
   {
-
     Bullet bulletInstance;
     if (m_player.GetComponent<Marco>().IsFacingRight)
     {

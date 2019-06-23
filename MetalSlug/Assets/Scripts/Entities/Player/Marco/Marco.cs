@@ -140,22 +140,12 @@ public class Marco : Player
 
   public override void shootWeapon()
   {
-    if (Time.time - m_lastShot > 1 / m_weapon.getFireRate() + m_lastShot )
+    if (Time.time > m_weapon.getFireRate() + m_lastShot)
     {
-      m_firing = true;   
-      m_weapon.InvokeRepeating("Shoot", 0, 0.3f);
+      //m_torsoAnimator.SetTrigger("Shoot");
+      m_weapon.Shoot();
       m_lastShot = Time.time;
-
-      while (m_firing)
-      {
-        if (m_weapon.m_bulletsShot >= m_weapon.m_bursts)
-        {
-          m_ammoLeft -= m_weapon.m_ammoSpent;
-          m_weapon.m_bulletsShot = 0;
-          CancelInvoke();
-          m_firing = false;
-        }
-      }
+      m_ammoLeft -= m_weapon.m_ammoSpent;
     }
   }
 
@@ -164,8 +154,10 @@ public class Marco : Player
   /// </summary>
   public override void throwBomb()
   {
+
     if (Time.time > 0.3f)
     {
+
       if (m_grenadesLeft > 0 && m_grenadesOnScreen < 2)
       {
         float g = Physics.gravity.magnitude;
@@ -178,6 +170,11 @@ public class Marco : Player
         ++m_grenadesOnScreen;
       }
     }
+  }
+
+  public void Knife()
+  {
+    m_knifeCollider.gameObject.SetActive(true);
   }
 
   public void parachuteFall()
@@ -203,21 +200,22 @@ public class Marco : Player
     }
   }
 
-  //protected override void OnTriggerEnter2D(Collider2D collision)
-  //{
-  //  base.OnTriggerEnter2D(collision);
-  //
-  //  if(collision.gameObject.tag == "Item")
-  //  {
-  //    WeaponItem nwWeapon = collision.gameObject.GetComponent<WeaponItem>();
-  //    collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
-  //    collision.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
-  //  }
-  //}
 
   protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
     base.OnCollisionEnter2D(collision2D);
+
+    if (collision2D.gameObject.tag == "Enemy")
+    {
+      m_canKnife = true;
+    }
+    else if (collision2D.gameObject.tag == "Item")
+    {
+      WeaponItem nwWeapon = collision2D.gameObject.GetComponent<WeaponItem>();
+      collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
+      collision2D.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
+
+    }
   }
 
   /// <summary>
@@ -251,6 +249,9 @@ public class Marco : Player
   /// The Animator from the legs GO that handles it's animations
   /// </summary>
   public Animator m_legsAnimator;
+
+  [SerializeField]
+  private Collider2D m_knifeCollider;
 
   /// <summary>
   /// The states for all the actions of the player to create the state machine

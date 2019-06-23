@@ -14,6 +14,9 @@ public class MarcoIdle : State<Marco>
   public override void OnStateEnter(Marco character)
   {
     Debug.Log("Entered Idle State");
+    character.m_torsoAnimator.SetBool("isGrounded", true);
+    character.m_legsAnimator.SetBool("isGrounded", true);
+
     //Just to make sure we don't go through the floor
     character.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
   }
@@ -41,14 +44,13 @@ public class MarcoIdle : State<Marco>
 
     if (Input.GetButtonDown("Fire1"))
     {
-      character.m_torsoAnimator.SetTrigger("Shooting");
+      character.m_torsoAnimator.SetTrigger("Grenade");
       character.shootWeapon();
-      character.shootWeapon();  
-
-
     }
+
     else if (Input.GetButtonDown("Fire2"))
     {
+      character.m_torsoAnimator.SetTrigger("Grenade");
       character.throwBomb();
     }
 

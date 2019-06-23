@@ -9,7 +9,8 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateEnter(Marco character)
   {
-    //character.walk();
+    character.m_torsoAnimator.SetBool("isWalking", true);
+    character.m_legsAnimator.SetBool("isWalking", true);
     character.m_isMoving = true;
   }
 
@@ -56,6 +57,9 @@ public class MarcoWalk : State<Marco>
 
   public override void OnStateExit(Marco character)
   {
+    character.m_torso.GetComponent<Animator>().SetBool("isWalking", false);
+    character.m_legsAnimator.SetBool("isWalking", false);
+
     character.m_isMoving = false;
 
   }
