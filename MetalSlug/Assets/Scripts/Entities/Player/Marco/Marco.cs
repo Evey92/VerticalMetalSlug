@@ -9,13 +9,7 @@ public class Marco : Player
   {
 
     InitStateMachine();
-    WalkSpeed = 3.4f;
-    m_speedMultiplier = 4.0f;
-    FallSpeed = 29.4f;
-    IsFacingRight = true;
-    m_canFire = true;
     m_grenadesLeft = m_maxGrenades;
-    m_isSlug = false;
     m_torsoAnimator = m_torso.GetComponent<Animator>();
     m_legsAnimator = m_Legs.GetComponent<Animator>();
 

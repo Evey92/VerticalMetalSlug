@@ -23,40 +23,47 @@ public class MarcoJump : State<Marco>
   {
     
 
-    if (character.JumpSpeed <= 0)
-    {
-      m_StateMachine.ToState(character.playerFallState, character);
-
-    }
+    
 
     if (Input.GetAxisRaw("Vertical") > 0)
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation);
-      character.m_torsoAnimator.SetBool("ispoinitingup", true);
+      character.m_torsoAnimator.SetBool("isPointing", true);
+      character.m_torsoAnimator.SetBool("isPointingUp", true);
 
     }
     else if (Input.GetAxis("Vertical") == 0)
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
-      character.m_torsoAnimator.SetBool("ispoinitingup", false);
+      character.m_torsoAnimator.SetBool("isPointing", false);
+      character.m_torsoAnimator.SetBool("isPointingUp", false);
+      character.m_torsoAnimator.SetBool("isPointingDown", false);
 
     }
     else if (Input.GetAxis("Vertical") < 0)
     {
       character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, -90), Time.fixedDeltaTime * character.m_guninterpolation);
-      character.m_torsoAnimator.SetBool("ispoinitingup", false);
+      character.m_torsoAnimator.SetBool("isPointing", true);
+      character.m_torsoAnimator.SetBool("isPointingDown", true);
 
     }
 
     if (Input.GetButtonDown("Fire1"))
     {
+      character.m_torsoAnimator.SetTrigger("Shoot");
+      character.m_torsoAnimator.SetBool("isShooting",true);
       character.shootWeapon();
     }
     else if (Input.GetButtonDown("Fire2"))
     {
+      character.m_torsoAnimator.SetTrigger("Grenade");
       character.throwBomb();
     }
-   
+    if (character.JumpSpeed <= 0)
+    {
+      m_StateMachine.ToState(character.playerFallState, character);
+
+    }
   }
 
   public override void OnStateUpdate(Marco character)
@@ -71,6 +78,7 @@ public class MarcoJump : State<Marco>
     }
     character.Jump();
     character.IsGrounded = false;
+    character.m_torsoAnimator.SetBool("isShooting", false);
 
 
   }

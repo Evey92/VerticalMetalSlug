@@ -15,6 +15,7 @@ public class Handgun : Weapon
     if(m_bulletsShot >= 10)
     {
       m_player.GetComponent<Marco>().m_torsoAnimator.SetTrigger("Reload");
+      m_bulletsShot = 0;
     }
   }
 
