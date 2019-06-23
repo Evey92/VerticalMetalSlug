@@ -10,10 +10,11 @@ public class Jet : Enemy
   protected override void Awake()
   {
     base.Awake();
-
     InitStateMachine();
-    m_HP = 10.0f;
+    m_HP = 100.0f;
   }
+
+  public GameObject newbomb;
 
   protected override void FixedUpdate()
   {
@@ -33,6 +34,11 @@ public class Jet : Enemy
       {
         Destroy(gameObject);
       }
+    }
+    if(newbomb.transform.position.y >= NearestPlayer.transform.position.y)
+    {
+      //Destroy(newbomb);
+      newbomb.GetComponentInChildren<ParticleSystem>().Play();
     }
   }
   #endregion
@@ -61,11 +67,9 @@ public class Jet : Enemy
 
   public void JETShoot()
   {
-    float g = Physics.gravity.magnitude;
-    JetBomb newbomb;
-    newbomb = Instantiate(m_bomb, m_bomb.transform);
-    newbomb.transform.Translate(newbomb.transform.position.x, g
-     , newbomb.transform.position.z);
+    newbomb = Instantiate(newbomb);
+    newbomb.transform.Translate(newbomb.transform.position.x, newbomb.transform.position.y - m_walkSpeed * Time.fixedDeltaTime,
+      newbomb.transform.position.z);
     --m_ammo;
     ++m_bombsonscreen;
   }
