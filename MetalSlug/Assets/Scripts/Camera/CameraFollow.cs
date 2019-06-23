@@ -7,9 +7,8 @@ public class CameraFollow : MonoBehaviour
 
   private void Awake()
   {
-    m_playerOffset = 1.2f;
-    m_camOffsetSpeed = 3.0f;
     m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+    m_thisCamera = GetComponent<Camera>();
   }
 
   void LateUpdate()
@@ -50,21 +49,24 @@ public class CameraFollow : MonoBehaviour
       }
     }
   }
+
+
+  /// <summary>
+  /// Reference to the camera to which this script is attached
+  /// </summary>
+  Camera m_thisCamera;
+
+  /// <summary>
+  /// A reference to the player's GO
+  /// </summary>
+  Player m_player;
+
   /// <summary>
   /// Variable so the camera is not completely centered on the player
   /// </summary>
   [SerializeField]
   float m_playerOffset;
 
-  /// <summary>
-  /// Reference to the camera to which this script is attached
-  /// </summary>
-  public Camera m_thisCamera;
-
-  /// <summary>
-  /// A reference to the player's GO
-  /// </summary>
-  public Player m_player;
 
   /// <summary>
   /// Variable to control how fast the camera moves when moving to offset

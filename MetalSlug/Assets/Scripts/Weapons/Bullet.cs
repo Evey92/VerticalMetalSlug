@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    
-  public void init(Sprite bullet, float damage)
+  private void Awake()
   {
-    GetComponent<SpriteRenderer>().sprite = bullet;
-    m_damage = damage;
-
-    Vector2 newSize = GetComponent<SpriteRenderer>().sprite.bounds.size;
-    GetComponent<CapsuleCollider2D>().size = newSize;
-    //GetComponent<CapsuleCollider2D>() = new Vector2(newSize.x/2, newSize.y/2);
+    Destroy(gameObject, 3.0f);
   }
-    
+      
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +29,11 @@ public class Bullet : MonoBehaviour
     }
 
   private void OnCollisionEnter2D(Collision2D collision)
+  {
+    Destroy(gameObject);
+  }
+
+  private void OnTriggerEnter2D(Collider2D collision)
   {
     Destroy(gameObject);
   }

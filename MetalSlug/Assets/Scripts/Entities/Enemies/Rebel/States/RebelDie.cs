@@ -9,7 +9,9 @@ public class RebelDie : State<Rebel>
   public override void OnStateEnter(Rebel rebel)
   {
     Debug.Log("Entered " + this.ToString() + " state.");
-
+    rebel.m_bloodSplatter.Play();
+    rebel.Anim.SetTrigger("Died");
+    rebel.GetComponent<AudioSource>().Play();
     rebel.Die();
   }
 

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Floor
   - Weapon
+  - BGSource
+  - SFXSource
+  - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -21,8 +25,8 @@ TagManager:
   - Player
   - Floor
   - Ground
-  - 
-  - 
+  - Item
+  - Enemy
   - 
   - 
   - 
@@ -42,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 2384095633
     locked: 0

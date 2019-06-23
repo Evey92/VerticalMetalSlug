@@ -12,7 +12,7 @@ namespace RebelInitialState
     kCrawl,
     kRun,
     kAmbush,
-
+    kThrow,
     kNum
   };
 }
@@ -23,7 +23,7 @@ public class Rebel : Enemy
   protected override void Awake()
   {
     base.Awake();
-
+    Anim.SetInteger("state", (int)m_initialState);
     InitStateMachine();
 
     m_HP = 1.0f;
@@ -54,15 +54,21 @@ public class Rebel : Enemy
     m_StateMachine.OnState(this);
   }
 
-  protected override void OnTriggerEnter2D(Collider2D other)
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
-    base.OnTriggerEnter2D(other);
-
-    if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    base.OnCollisionEnter2D(collision2D);
+    if (collision2D.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
     {
       m_HP = 0;
     }
   }
+
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  base.OnCollisionEnter2D(other);
+
+    
+  //}
   #endregion
 
   #region Methods
@@ -99,6 +105,9 @@ public class Rebel : Enemy
       case RebelInitialState.E.kAmbush:
         m_StateMachine.Init(rebelAmbush, this);
         break;
+      case RebelInitialState.E.kThrow:
+        m_StateMachine.Init(rebelThrow, this);
+        break;
       case RebelInitialState.E.kNum: // Should not really be set to this, but in case it is
         m_StateMachine.Init(rebelIdle, this);
         break;
@@ -108,9 +117,21 @@ public class Rebel : Enemy
     }
   }
 
+  public void throwBomb()
+  {
+
+    float g = Physics.gravity.magnitude;
+
+    Grenade newGrenade;
+    newGrenade = Instantiate(m_grenade, m_weaponSlot.transform.position, m_weaponSlot.transform.rotation);
+    float vSpeed = (newGrenade.m_totalTime * g) / 2;
+    newGrenade.GetComponent<Rigidbody2D>().velocity = new Vector3(m_weaponSlot.transform.right.x * newGrenade.m_hSpeed, vSpeed, 0);
+
+  }
+
   public void Die()
   {
-    Destroy(gameObject);
+    Destroy(gameObject, 1.5f);
   }
 #endregion
 
@@ -152,7 +173,7 @@ public class Rebel : Enemy
 #endregion
 
 #region Private Members
-
+  public bool m_afraid = false;
 #endregion
 
 #region Editor Members
@@ -161,6 +182,20 @@ public class Rebel : Enemy
   /// </summary>
   [SerializeField]
   protected RebelInitialState.E m_initialState;
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [SerializeField]
+  protected Grenade m_grenade;
+
+  /// <summary>
+  /// Reference to the weapon slot for weapon changing
+  /// </summary>
+  [SerializeField]
+  public GameObject m_weaponSlot;
+
+  public ParticleSystem m_bloodSplatter;
 
   /// <summary>
   /// 
@@ -224,13 +259,21 @@ public class Rebel : Enemy
   [SerializeField]
   [Range(0.5f, 2.0f)]
   protected float m_timeToTurn = 0.5f;
-#endregion
 
-#region Properties
+  [SerializeField]
+  protected Animator m_anim;
+  #endregion
+
+  #region Properties
   /// <summary>
   /// 
   /// </summary>
   public RebelInitialState.E InitialState { get { return m_initialState; } }
+
+  /// <summary>
+  ///
+  /// </summary>
+  public Animator Anim { get { return m_anim; } }
 
   /// <summary>
   /// 

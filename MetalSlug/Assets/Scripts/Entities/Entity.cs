@@ -4,48 +4,85 @@ using UnityEngine;
 
 public abstract class Entity : MonoBehaviour
 {
-#region Unity
-  protected virtual void OnTriggerEnter2D(Collider2D other)
+  #region Unity
+  //protected virtual void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  RaycastHit2D hit = Physics2D.Raycast(transform.position,
+  //    -transform.up,
+  //    Mathf.Infinity,
+  //    (1 << LayerMask.NameToLayer("Ground")));
+  //  if (hit.collider != null)
+  //  {
+  //    float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
+  //    if (hit.point.y > (transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)))
+  //    {
+  //      transform.position = new Vector3(transform.position.x,
+  //      hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
+  //      transform.position.z);
+  //      m_isGrounded = true;
+  //    }
+  //  }
+  //}
+  //
+  //protected virtual void OnTriggerStay2D(Collider2D other)
+  //{
+  //  RaycastHit2D hit = Physics2D.Raycast(transform.position,
+  //     -transform.up,
+  //     Mathf.Infinity,
+  //     (1 << LayerMask.NameToLayer("Ground")));
+  //  if (hit.collider != null)
+  //  {
+  //    float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
+  //    if (hit.point.y > (transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)))
+  //    {
+  //      transform.position = new Vector3(transform.position.x,
+  //        hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
+  //        transform.position.z);
+  //    }
+  //  }
+  //  else
+  //  {
+  //    m_isGrounded = false;
+  //  }
+  //}
+  //
+  //protected virtual void OnTriggerExit2D(Collider2D other)
+  //{
+  //  if (m_isGrounded && other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+  //  {
+  //    m_isGrounded = false;
+  //  }
+  //}
+
+  protected virtual void OnCollisionEnter2D(Collision2D collision2D)
   {
-    RaycastHit2D hit = Physics2D.Raycast(transform.position,
-      -transform.up,
-      Mathf.Infinity,
-      (1 << LayerMask.NameToLayer("Ground")));
-    if (hit.collider != null)
+    float colliderLeft = collision2D.transform.position.x -
+      collision2D.gameObject.GetComponent<Collider2D>().bounds.size.x / 2.0f;
+    float colliderRight = collision2D.transform.position.x +
+      collision2D.gameObject.GetComponent<Collider2D>().bounds.size.x / 2.0f;
+    if (collision2D.gameObject.layer == LayerMask.NameToLayer("Ground") &&
+      (transform.position.x > colliderLeft && transform.position.x < colliderRight))
     {
-      float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
-      transform.position = new Vector3(transform.position.x,
-        hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
-        transform.position.z);
       m_isGrounded = true;
     }
   }
 
-  protected virtual void OnTriggerStay2D(Collider2D other)
+  protected virtual void OnCollisionStay2D(Collision2D collision2D)
   {
-    RaycastHit2D hit = Physics2D.Raycast(transform.position,
-       -transform.up,
-       Mathf.Infinity,
-       (1 << LayerMask.NameToLayer("Ground")));
-    if (hit.collider != null)
-    {
-      float distance = Mathf.Abs((transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)) - hit.point.y);
-      if (hit.point.y > (transform.position.y - (GetComponent<Collider2D>().bounds.size.y / 2)))
-      {
-        transform.position = new Vector3(transform.position.x,
-          hit.point.y + (GetComponent<Collider2D>().bounds.size.y / 2),
-          transform.position.z);
-      }
-    }
-    else
+    float colliderLeft = collision2D.transform.position.x -
+      collision2D.gameObject.GetComponent<Collider2D>().bounds.size.x / 2.0f;
+    float colliderRight = collision2D.transform.position.x +
+      collision2D.gameObject.GetComponent<Collider2D>().bounds.size.x / 2.0f;
+    if (collision2D.gameObject.layer == LayerMask.NameToLayer("Ground") &&
+      (transform.position.x < colliderLeft || transform.position.x > colliderRight))
     {
       m_isGrounded = false;
     }
   }
 
-  protected virtual void OnTriggerExit2D(Collider2D other)
+  protected virtual void OnCollisionExit2D(Collision2D collision2D)
   {
-    if (m_isGrounded && other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+    if (collision2D.gameObject.layer == LayerMask.NameToLayer("Ground"))
     {
       m_isGrounded = false;
     }

@@ -13,7 +13,10 @@ public class MarcoIdle : State<Marco>
   /// <param name="character"></param>
   public override void OnStateEnter(Marco character)
   {
-    
+    Debug.Log("Entered Idle State");
+    character.m_torsoAnimator.SetBool("isGrounded", true);
+    character.m_legsAnimator.SetBool("isGrounded", true);
+
     //Just to make sure we don't go through the floor
     character.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
   }
@@ -41,24 +44,33 @@ public class MarcoIdle : State<Marco>
 
     if (Input.GetButtonDown("Fire1"))
     {
-      character.m_torsoAnimator.SetTrigger("Shooting");
+      character.m_torsoAnimator.SetBool("isShooting", true);
+      character.m_torsoAnimator.SetTrigger("Shoot");
       character.shootWeapon();
-      
-
     }
+
     else if (Input.GetButtonDown("Fire2"))
     {
+      character.m_torsoAnimator.SetTrigger("Grenade");
       character.throwBomb();
     }
 
     if(Input.GetAxisRaw("Vertical") > 0)
     {
-      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation); 
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 90), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_torsoAnimator.SetBool("isPointing", true);
+      character.m_torsoAnimator.SetBool("isPointingUp", true);
+
     }
-    else
+    else if(Input.GetAxis("Vertical") == 0)
     {
-      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.rotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_weapon.m_bulletSpawn.transform.localRotation = Quaternion.Lerp(character.m_weapon.m_bulletSpawn.transform.localRotation, Quaternion.Euler(0, 0, 0), Time.fixedDeltaTime * character.m_guninterpolation);
+      character.m_torsoAnimator.SetBool("isPointing", false);
+      character.m_torsoAnimator.SetBool("isPointingUp", false);
+      character.m_torsoAnimator.SetBool("isPointingDown", false);
+
     }
+
   }
 
   /// <summary>
@@ -67,12 +79,16 @@ public class MarcoIdle : State<Marco>
   /// <param name="character"></param>
   public override void OnStateUpdate(Marco character)
   {
-    
+    character.m_torsoAnimator.SetBool("isShooting", false);
+
   }
 
   /// <summary>
   /// Used to declare actions that will take place before exiting this state
   /// </summary>
   /// <param name="character"></param>
-  public override void OnStateExit(Marco character) { }
+  public override void OnStateExit(Marco character)
+  {
+
+  }
 }

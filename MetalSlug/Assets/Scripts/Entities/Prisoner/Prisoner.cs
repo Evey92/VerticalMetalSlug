@@ -49,18 +49,23 @@ public class Prisoner : Entity
     m_StateMachine.OnState(this);
   }
 
-  protected override void OnTriggerEnter2D(Collider2D collision)
+  protected override void OnCollisionEnter2D(Collision2D collision)
   {
-    base.OnTriggerEnter2D(collision);
-    if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
-    {
-      m_isFree = true;
-    }
-    else if(collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
-    {
-      m_droppedItem = true;
-    }
+    base.OnCollisionEnter2D(collision);
   }
+
+  //protected override void OnTriggerEnter2D(Collider2D collision)
+  //{
+  //  base.OnTriggerEnter2D(collision);
+  //  if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+  //  {
+  //    m_isFree = true;
+  //  }
+  //  else if(collision.gameObject.layer == LayerMask.NameToLayer("Player") && m_StateMachine.CurrentState == prisonerWalk)
+  //  {
+  //    m_droppedItem = true;
+  //  }
+  //}
   #endregion
 
   #region Methods

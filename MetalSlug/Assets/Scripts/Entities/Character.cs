@@ -5,27 +5,32 @@ using System;
 
 public abstract class Character : Entity
 {
-#region Unity
-  protected override void OnTriggerEnter2D(Collider2D other)
-  {
-    base.OnTriggerEnter2D(other);
-    if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
-    {
-      m_canJump = true;
-    }
-  }
+  #region Unity
+  //protected override void OnTriggerEnter2D(Collider2D other)
+  //{
+  //  base.OnTriggerEnter2D(other);
+  //  if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+  //  {
+  //    m_canJump = true;
+  //  }
+  //}
+  //
+  //protected override void OnTriggerExit2D(Collider2D other)
+  //{
+  //  base.OnTriggerExit2D(other);
+  //  if (other.gameObject.layer == 1 << LayerMask.NameToLayer("Ground"))
+  //  {
+  //    m_canJump = false;
+  //  }
+  //}
 
-  protected override void OnTriggerExit2D(Collider2D other)
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
   {
-    base.OnTriggerExit2D(other);
-    if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
-    {
-      m_canJump = false;
-    }
+    base.OnCollisionEnter2D(collision2D);
   }
-#endregion
+  #endregion
 
-#region Methods
+  #region Methods
   /// <summary>
   /// Used to calculate initial speed for jumping
   /// </summary>

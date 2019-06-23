@@ -9,21 +9,33 @@ public class Marco : Player
   {
 
     InitStateMachine();
-    WalkSpeed = 3.4f;
-    m_speedMultiplier = 4.0f;
-    FallSpeed = 29.4f;
-    IsFacingRight = true;
-    m_canFire = true;
-    m_grenadesLeft = 10;
-
-    m_torsoAnimator = m_torso.GetComponent<Animator>();
-
+    if (m_torso)
+    {
+      m_torsoAnimator = m_torso.GetComponent<Animator>();
+    }
+    if (m_Legs)
+    {
+      m_legsAnimator = m_Legs.GetComponent<Animator>();
+    }
   }
 
+  private void Start()
+  {
+    m_UIManager.initUI(m_ammoLeft, m_grenadesLeft, m_lives, m_score);
+  }
+  private void Update()
+  {
+    if (m_ammoLeft <= 0)
+    {
+      equipWeapon(m_handgun);
+      
+    }
+    
+  }
 
   private void FixedUpdate()
   {
-    m_playerStateMachine.OnState(this); //Start's up the state machine with the idle state
+    m_playerStateMachine.OnState(this); //Starts up the state machine with the idle state
   }
 
   /// <summary>
@@ -51,6 +63,56 @@ public class Marco : Player
   }
 
   /// <summary>
+  /// Function to pick up an item. 
+  /// </summary>
+  public override void collectItem(int m_ammount, ItemType.E itemType)
+  {
+    switch (itemType)
+    {
+      case ItemType.E.kGas:
+        m_score = m_ammount;
+        break;
+
+      case ItemType.E.kScore:
+        m_score = m_ammount;
+        break;
+
+      case ItemType.E.kBomb:
+
+        if (m_grenadesLeft + m_ammount < m_maxGrenades)
+        {
+          m_grenadesLeft += m_ammount;
+
+        }
+        else
+        {
+          m_grenadesLeft = m_maxGrenades;
+        }
+        break;
+    }
+  }
+
+  public override void collectWeapon(int m_ammount, WeaponItemKind.E itemType)
+  {
+    switch (itemType)
+    {
+      case WeaponItemKind.E.kHeavyMachine:
+        equipWeapon(m_heavyMachinePrefab);
+        break;
+
+      case WeaponItemKind.E.kFlameShot:
+        //Give score
+        break;
+
+      case WeaponItemKind.E.kRocketLaunch:
+        //GiveScore
+        break;
+    }
+  }
+
+
+
+  /// <summary>
   /// Used to initiate the player's state machine
   /// </summary>
   protected override void InitStateMachine()
@@ -64,16 +126,17 @@ public class Marco : Player
 
     m_playerStateMachine.Init(playeParachuteFallState, this);
   }
+ 
 
   public override void shootWeapon()
   {
-    
     if (Time.time > m_weapon.getFireRate() + m_lastShot)
     {
       m_weapon.Shoot();
       m_lastShot = Time.time;
+      m_ammoLeft -= m_weapon.m_ammoSpent;
+      m_UIManager.setARMS(m_ammoLeft);
     }
-    
   }
 
   /// <summary>
@@ -81,8 +144,10 @@ public class Marco : Player
   /// </summary>
   public override void throwBomb()
   {
+
     if (Time.time > 0.3f)
     {
+
       if (m_grenadesLeft > 0 && m_grenadesOnScreen < 2)
       {
         float g = Physics.gravity.magnitude;
@@ -92,9 +157,16 @@ public class Marco : Player
         float vSpeed = (newGrenade.m_totalTime * g) / 2;
         newGrenade.GetComponent<Rigidbody2D>().velocity = new Vector3(m_weaponSlot.transform.right.x * newGrenade.m_hSpeed, vSpeed, 0);
         --m_grenadesLeft;
+        m_UIManager.setBombs(m_grenadesLeft);
+
         ++m_grenadesOnScreen;
       }
     }
+  }
+
+  public void Knife()
+  {
+    m_knifeCollider.gameObject.SetActive(true);
   }
 
   public void parachuteFall()
@@ -103,6 +175,55 @@ public class Marco : Player
     transform.position = new Vector3(transform.position.x,
       transform.position.y - (m_fallSpeed * Time.fixedDeltaTime),
       transform.position.z);
+  }
+
+  public void equipWeapon(Weapon weapon)
+  {
+    if (m_weapon == weapon)
+    {
+      m_ammoLeft = m_weapon.m_ammo;
+      m_UIManager.setARMS(m_ammoLeft);
+    }
+    else
+    {
+      m_weapon.gameObject.SetActive(false);
+      m_weapon = weapon;
+      m_weapon.gameObject.SetActive(true);
+      m_ammoLeft = weapon.m_ammo;
+      m_torso = weapon.gameObject;
+      m_torsoAnimator = m_torso.GetComponent<Animator>();
+      m_UIManager.setARMS(m_ammoLeft);
+
+    }
+  }
+
+  public void Die()
+  {
+
+  }
+
+  public void Respawn()
+  {
+    m_isInvulnerable = true;
+  }
+
+
+
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
+  {
+    base.OnCollisionEnter2D(collision2D);
+
+    if (collision2D.gameObject.tag == "Enemy")
+    {
+      m_canKnife = true;
+    }
+    else if (collision2D.gameObject.tag == "Item")
+    {
+      WeaponItem nwWeapon = collision2D.gameObject.GetComponent<WeaponItem>();
+      collectWeapon(nwWeapon.m_ammount, nwWeapon.m_weponKind);
+      collision2D.gameObject.GetComponent<WeaponItem>().m_wasPickedup = true;
+
+    }
   }
 
   /// <summary>
@@ -137,6 +258,9 @@ public class Marco : Player
   /// </summary>
   public Animator m_legsAnimator;
 
+  [SerializeField]
+  private Collider2D m_knifeCollider;
+
   /// <summary>
   /// The states for all the actions of the player to create the state machine
   /// </summary>
@@ -164,5 +288,37 @@ public class Marco : Player
   [SerializeField]
   [Range(0.0f, 10.0f)]
   public float m_parachuteFallSpeed = 0.0f;
+
+  /// <summary>
+  /// Value to control how long it takes for the gun to interpolate from front to up and down 
+  /// </summary>
+  [SerializeField]
+  [Range(1.0f, 30.0f)]
+  public float m_hFallSpeed = 0.0f;
+
+  public bool m_isInvulnerable = false;
+  /// <summary>
+  /// Reference to the handgun
+  /// </summary>
+  public bool m_firing;
+
+  /// <summary>
+  /// Reference to the handgun
+  /// </summary>
+  public Handgun m_handgun;
+
+  /// <summary>
+  /// Prefab to create a new heavy machine gun
+  /// </summary>
+  public HeavyMachineGun m_heavyMachinePrefab;
+
+  /// <summary>
+  /// Prefab to create a new heavy machine gun
+  /// </summary>
+  public UIManager m_UIManager;
+
+  //public FlameShot m_flameShotPrefab;
+  //public RocketLauncher m_rocketLauncherPrefab;
+
 
 }

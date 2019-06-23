@@ -25,12 +25,6 @@ public class SlugTank : Player
     
   }
 
-  // Update is called once per frame
-  void Update()
-  {
-
-  }
-
   /// <summary>
   /// Used to initiate the player's state machine
   /// </summary>
@@ -65,6 +59,54 @@ public class SlugTank : Player
   {
     //Do Stuf
   }
+
+  public override void collectItem(int m_ammount, ItemType.E itemType)
+  {
+    switch (itemType)
+    {
+      case ItemType.E.kGas:
+        {
+          if (m_gasLeft >= m_maxGas)
+          {
+            m_score = m_ammount;
+          }
+          else
+          {
+            m_gasLeft += m_ammount;
+            if (m_gasLeft > m_maxGas)
+            {
+              m_gasLeft = m_maxGas;
+            }
+          }
+        }
+        break;
+
+      case ItemType.E.kScore:
+        m_score = m_ammount;
+        break;
+    }
+  }
+
+  public override void collectWeapon(int m_ammount, WeaponItemKind.E itemType)
+  {
+    switch (itemType)
+    {
+      case WeaponItemKind.E.kHeavyMachine:
+        {
+          //Give Score
+        }
+        break;
+
+      case WeaponItemKind.E.kFlameShot:
+        //Give score
+        break;
+
+      case WeaponItemKind.E.kRocketLaunch:
+        //GiveScore
+        break;
+    }
+  }
+
   private StateMachine<SlugTank> m_playerStateMachine;
 
 
@@ -75,4 +117,7 @@ public class SlugTank : Player
   public SlugWalk slugWalkState;
   public SlugJump slugJumpState;
   public SlugFallState slugFallState;
+
+  public float m_gasLeft = 100.0f;
+  public float m_maxGas = 100.0f;
 }
