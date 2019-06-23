@@ -16,7 +16,7 @@ public class JetWaiting : State<Jet>
 
   public override void OnStatePreUpdate(Jet jet)
   {
-    if (jet.NearestPlayer.transform.position.x == jet.PlayerDetectRadius)
+    if (Vector3.Distance(jet.transform.position,jet.NearestPlayer.transform.position) <= jet.PlayerDetectRadius)
     {
       m_StateMachine.ToState(jet.jetflying, jet);
     }
