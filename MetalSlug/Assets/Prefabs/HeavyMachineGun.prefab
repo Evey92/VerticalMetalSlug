@@ -1,65 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &505216548
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 505216549}
-  m_Layer: 0
-  m_Name: SpawnPoint2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &505216549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505216548}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4728282887116600582}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &755303998
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755303999}
-  m_Layer: 0
-  m_Name: SpawnPoint3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &755303999
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755303998}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4728282887116600582}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2057530312029934623
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,8 +61,6 @@ Transform:
   m_LocalScale: {x: 0.21219867, y: 0.21219867, z: 0.21219867}
   m_Children:
   - {fileID: 7264201081587553238}
-  - {fileID: 505216549}
-  - {fileID: 755303999}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -186,20 +124,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0cefd22b26194428baa8258ebe850a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_player: {fileID: 0}
-  m_bulletSpawn: {fileID: 2057530312029934623}
-  m_bullet: {fileID: 6752617237505744009, guid: b1c81f34fee38bc498bfc05d89974c41,
-    type: 3}
   m_firePower: 1
   m_fireRate: 0.02
   m_range: 0
   m_ammo: 200
+  m_bulletsShot: 0
   m_ammoSpent: 6
+  m_bursts: 2
+  m_weaponCooldown: 0
   m_bulletSprite: {fileID: 21300000, guid: ee054e96c9232da42b63383bca08c535, type: 3}
   m_weaponKind: 1
-  m_bursts: 2
-  m_spawnPoint2: {fileID: 505216548}
-  m_spawnPoint3: {fileID: 755303998}
+  m_player: {fileID: 0}
+  m_bulletSpawn: {fileID: 2057530312029934623}
+  m_bullet: {fileID: 6752617237505744009, guid: b1c81f34fee38bc498bfc05d89974c41,
+    type: 3}
+  m_delay: 1
+  m_shotSound: {fileID: 8300000, guid: eb8851c41befe4142afa5138abe68520, type: 3}
+  m_audioSource: {fileID: 0}
 --- !u!95 &4728282887116600587
 Animator:
   serializedVersion: 3

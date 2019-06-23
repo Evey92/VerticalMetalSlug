@@ -201,7 +201,6 @@ GameObject:
   - component: {fileID: 8818733303940771140}
   - component: {fileID: 5782869928041552452}
   - component: {fileID: 2221456232271934002}
-  - component: {fileID: 4216839839952243554}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -320,32 +319,6 @@ MonoBehaviour:
   m_handgun: {fileID: 3439908038357235303}
   m_heavyMachinePrefab: {fileID: 4351108514171552292}
   m_UIManager: {fileID: 0}
---- !u!61 &4216839839952243554
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8818733303940771161}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.7207935, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7966995, y: 1}
-  m_EdgeRadius: 0
 --- !u!1001 &1852664506709807922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -362,6 +335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977205717039105846, guid: cad3ff87aebda9f4e88e0557383d5aaf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3893641906443429205, guid: cad3ff87aebda9f4e88e0557383d5aaf,
         type: 3}
@@ -627,7 +605,7 @@ PrefabInstance:
     - target: {fileID: 4728282887116600586, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
@@ -668,12 +646,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_spawnPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 9078133251316893961}
+      objectReference: {fileID: 0}
     - target: {fileID: 4728282887116600584, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_spawnPoints.Array.data[2]
       value: 
-      objectReference: {fileID: 9078133251637129491}
+      objectReference: {fileID: 0}
     - target: {fileID: 7264201081587553238, guid: ed53ce7f8e441e94a90f28e82818e92e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -812,18 +790,6 @@ GameObject:
 --- !u!4 &1815973734653355258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7264201081587553238, guid: ed53ce7f8e441e94a90f28e82818e92e,
-    type: 3}
-  m_PrefabInstance: {fileID: 9078133251150395180}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9078133251316893961 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 505216549, guid: ed53ce7f8e441e94a90f28e82818e92e,
-    type: 3}
-  m_PrefabInstance: {fileID: 9078133251150395180}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9078133251637129491 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 755303999, guid: ed53ce7f8e441e94a90f28e82818e92e,
     type: 3}
   m_PrefabInstance: {fileID: 9078133251150395180}
   m_PrefabAsset: {fileID: 0}

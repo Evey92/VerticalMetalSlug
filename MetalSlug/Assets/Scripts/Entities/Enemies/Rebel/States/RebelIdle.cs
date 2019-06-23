@@ -13,21 +13,34 @@ public class RebelIdle : State<Rebel>
 
   public override void OnStatePreUpdate(Rebel rebel)
   {
+    if (rebel.HP <= 0)
+    {
+      m_StateMachine.ToState(rebel.rebelDie, rebel);
+    }
+
+    if(!rebel.IsGrounded)
+    {
+      m_StateMachine.ToState(rebel.rebelFall, rebel);
+    }
+
     // TOOD: Should actually go to Panic State and then either run or flee
     if (Vector3.Distance(rebel.transform.position, rebel.NearestPlayer.transform.position) <
      rebel.PlayerDetectRadius)
     {
       if (!rebel.IsFacingRight)
       {
-        rebel.IsFacingRight = true;
+        rebel.GetComponent<SpriteRenderer>().flipX = true;
+        //rebel.IsFacingRight = true; <---- Khé?
+      }
+      else
+      {
+        rebel.GetComponent<SpriteRenderer>().flipX = false;
+
       }
       m_StateMachine.ToState(rebel.rebelRun, rebel);
     }
 
-    if (rebel.HP <= 0)
-    {
-      m_StateMachine.ToState(rebel.rebelDie, rebel);
-    }
+    
   }
 
   public override void OnStateUpdate(Rebel rebel)

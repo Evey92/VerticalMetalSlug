@@ -54,14 +54,20 @@ public class Rebel : Enemy
     m_StateMachine.OnState(this);
   }
 
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
+  {
+    base.OnCollisionEnter2D(collision2D);
+    if (collision2D.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
+    {
+      m_HP = 0;
+    }
+  }
+
   //protected override void OnTriggerEnter2D(Collider2D other)
   //{
-  //  base.OnTriggerEnter2D(other);
-  //
-  //  if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
-  //  {
-  //    m_HP = 0;
-  //  }
+  //  base.OnCollisionEnter2D(other);
+
+    
   //}
   #endregion
 
@@ -125,7 +131,7 @@ public class Rebel : Enemy
 
   public void Die()
   {
-    Destroy(gameObject);
+    Destroy(gameObject, 1.5f);
   }
 #endregion
 
@@ -188,6 +194,8 @@ public class Rebel : Enemy
   /// </summary>
   [SerializeField]
   public GameObject m_weaponSlot;
+
+  public ParticleSystem m_bloodSplatter;
 
   /// <summary>
   /// 

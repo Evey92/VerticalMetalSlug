@@ -22,9 +22,15 @@ public abstract class Enemy : Character
   {
     SelectNearestPlayer();
   }
-#endregion
 
-#region Methods
+  protected override void OnCollisionEnter2D(Collision2D collision2D)
+  {
+    base.OnCollisionEnter2D(collision2D);
+  }
+
+  #endregion
+
+  #region Methods
   protected virtual void SelectNearestPlayer()
   {
     if (m_players.Length > 0)

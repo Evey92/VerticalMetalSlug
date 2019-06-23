@@ -32,6 +32,7 @@ public class HeavyMachineGun : Weapon
       Bullet bulletInstance;
       bulletInstance = Instantiate(m_bullet, spaunpos, new Quaternion(0, shotRotation, m_bulletSpawn.transform.rotation.z, m_bulletSpawn.transform.rotation.w));
       bulletInstance.GetComponent<Rigidbody2D>().AddForce(m_bulletSpawn.transform.right * 650);
+      m_audioSource.PlayOneShot(m_shotSound);
       yield return new WaitForSeconds(m_delay);
 
     }
@@ -45,8 +46,8 @@ public class HeavyMachineGun : Weapon
   
   
   public float m_delay = 1;
-
-  public List<Transform> m_spawnPoints = new List<Transform>();
+  public AudioClip m_shotSound;
+  public AudioSource m_audioSource;
 
 
 
