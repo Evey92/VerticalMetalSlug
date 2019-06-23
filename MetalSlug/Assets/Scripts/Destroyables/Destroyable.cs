@@ -68,6 +68,29 @@ public class Destroyable : MonoBehaviour
 
   protected virtual void OnDestroy()
   {
+    
+    Destroy(gameObject);
+  }
+  #endregion
+
+  #region Methods
+  protected virtual void ReceiveDamage(GameObject gameObject)
+  {
+    switch (m_type)
+    {
+      case DestroyableType.E.kCrate:
+        GetComponent<Animator>().SetBool("Destroyed", true);
+        Destroy(this);
+        break;
+      case DestroyableType.E.kExplosive:
+        // TODO: Take damage from source, like a bullet or a grenade
+        Destroy(this);
+        break;
+      case DestroyableType.E.kBuilding:
+        // TODO: If it's a helicopter destroy inmediatly, otherwise just take damage
+        Destroy(this);
+        break;
+    }
     if (m_type == DestroyableType.E.kCrate)
     {
       switch (m_drop)
@@ -98,28 +121,6 @@ public class Destroyable : MonoBehaviour
           }
           break;
       }
-    }
-    Destroy(gameObject);
-  }
-  #endregion
-
-  #region Methods
-  protected virtual void ReceiveDamage(GameObject gameObject)
-  {
-    switch (m_type)
-    {
-      case DestroyableType.E.kCrate:
-        GetComponent<Animator>().SetBool("Destroyed", true);
-        Destroy(this);
-        break;
-      case DestroyableType.E.kExplosive:
-        // TODO: Take damage from source, like a bullet or a grenade
-        Destroy(this);
-        break;
-      case DestroyableType.E.kBuilding:
-        // TODO: If it's a helicopter destroy inmediatly, otherwise just take damage
-        Destroy(this);
-        break;
     }
   }
   #endregion
